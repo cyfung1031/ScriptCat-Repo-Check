@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ScriptCat Branch Flow</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="toolbar" aria-label="Repository controls">
+        <div class="brand">
+          <span class="eyebrow">Git ancestry dashboard</span>
+          <h1>ScriptCat Branch Flow</h1>
+          <p>Compare the 1.3.x stable track with the 1.4.x beta track.</p>
+          <div class="branch-flow" aria-label="Default branch flow">
+            <span>main</span>
+            <b>-></b>
+            <span>release/v1.4</span>
+          </div>
+        </div>
+
+        <form id="controls" class="controls">
+          <label>
+            Repository
+            <input id="repo" name="repo" value="scriptscat/scriptcat" autocomplete="off" readonly />
+          </label>
+          <label>
+            Main branch
+            <input id="mainBranch" name="mainBranch" value="main" autocomplete="off" readonly />
+          </label>
+          <label>
+            Beta branch
+            <input id="releaseBranch" name="releaseBranch" value="release/v1.4" autocomplete="off" readonly />
+          </label>
+          <label>
+            Stable commits
+            <input id="mainLimit" name="mainLimit" type="number" min="20" max="400" step="20" value="160" readonly />
+          </label>
+          <label>
+            Beta stop marker
+            <input
+              id="betaStop"
+              name="betaStop"
+              value="Merge branch 'main' into release/v1.3"
+              autocomplete="off"
+              readonly
+            />
+          </label>
+          <button type="submit">Reload saved data</button>
+        </form>
+      </section>
+
+      <section class="summary" aria-label="Comparison summary">
+        <article class="tone-merged">
+          <span class="card-kicker">shared history</span>
+          <span class="metric" id="mergedCount">-</span>
+          <span class="label">stable commits also in beta</span>
+        </article>
+        <article class="tone-pending">
+          <span class="card-kicker">stable only</span>
+          <span class="metric danger" id="pendingCount">-</span>
+          <span class="label">stable commits not in beta</span>
+        </article>
+        <article class="tone-release">
+          <span class="card-kicker">beta only</span>
+          <span class="metric accent" id="releaseOnlyCount">-</span>
+          <span class="label">beta commits not in stable</span>
+        </article>
+        <article class="tone-base">
+          <span class="card-kicker">common ancestor</span>
+          <span class="metric" id="mergeBase">-</span>
+          <span class="label">merge base</span>
+        </article>
+      </section>
+
+      <section class="action-row" aria-label="Status and search">
+        <div class="status-card">
+          <span class="pulse"></span>
+          <div id="status" role="status">Ready.</div>
+        </div>
+        <label class="search">
+          Search commits
+          <input id="search" type="search" placeholder="message, author, sha" />
+        </label>
+      </section>
+
+      <section class="visual-panel" aria-label="Branch visualization">
+        <div class="panel-header">
+          <div>
+            <h2>Commit Lanes</h2>
+            <span>Newest commits appear first</span>
+          </div>
+          <div class="legend">
+            <span><i class="dot merged"></i> shared</span>
+            <span><i class="dot pending"></i> stable-only</span>
+            <span><i class="dot release"></i> beta-only</span>
+            <span><i class="dot previous"></i> previous beta</span>
+          </div>
+        </div>
+        <div id="graph" class="graph"></div>
+      </section>
+
+      <section class="lists" aria-label="Commit lists">
+        <article>
+          <header>
+            <h2>Main</h2>
+            <span id="mainSubtitle">Newest commits on main</span>
+          </header>
+          <div id="mainList" class="commit-list"></div>
+        </article>
+
+        <article>
+          <header>
+            <h2>Beta</h2>
+            <span id="releaseSubtitle">Newest commits on release/v1.4</span>
+          </header>
+          <div id="releaseList" class="commit-list"></div>
+        </article>
+      </section>
+    </main>
+
+    <template id="commitTemplate">
+      <a class="commit" target="_blank" rel="noreferrer">
+        <span class="state"></span>
+        <span class="commit-body">
+          <strong></strong>
+          <span class="meta"></span>
+        </span>
+        <span class="badge"></span>
+      </a>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>

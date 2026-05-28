@@ -1,0 +1,20 @@
+{
+  "generatedAt": null,
+  "source": {
+    "repo": "scriptscat/scriptcat",
+    "mainBranch": "main",
+    "releaseBranch": "release/v1.4",
+    "mainLimit": 160,
+    "betaStopMarker": "Merge branch 'main' into release/v1.3",
+    "betaMaxCommits": 900,
+    "previousContextLimit": 80
+  },
+  "mainCommits": [],
+  "betaCommits": [],
+  "pendingShas": [],
+  "betaOnlyShas": [],
+  "previousBetaShas": [],
+  "mergeBaseSha": "",
+  "betaStopFound": false,
+  "previousBetaBranch": "release/v1.3"
+}

@@ -1,0 +1,63 @@
+name: Update branch flow data
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: "Repository to compare"
+        required: false
+        default: "scriptscat/scriptcat"
+      main_branch:
+        description: "Stable branch"
+        required: false
+        default: "main"
+      release_branch:
+        description: "Beta branch"
+        required: false
+        default: "release/v1.4"
+      main_limit:
+        description: "Number of stable commits to include"
+        required: false
+        default: "160"
+      beta_stop_marker:
+        description: "Commit title fragment that starts previous-cycle context"
+        required: false
+        default: "Merge branch 'main' into release/v1.3"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-branch-flow-data
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch branch data
+        run: node scripts/update-branch-flow-data.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          TARGET_REPO: ${{ inputs.repo || 'scriptscat/scriptcat' }}
+          MAIN_BRANCH: ${{ inputs.main_branch || 'main' }}
+          RELEASE_BRANCH: ${{ inputs.release_branch || 'release/v1.4' }}
+          MAIN_LIMIT: ${{ inputs.main_limit || '160' }}
+          BETA_STOP_MARKER: ${{ inputs.beta_stop_marker || 'Merge branch ''main'' into release/v1.3' }}
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/branch-flow.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update branch flow data"
+          git push
