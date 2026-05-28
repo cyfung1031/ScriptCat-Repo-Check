@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T08:54:40.542Z",
+  "generatedAt": "2026-05-28T12:46:24.214Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -1292,6 +1292,62 @@
     }
   ],
   "betaCommits": [
+    {
+      "sha": "f8d832a54da961e25c7c751fe9b2c3a1e04117e5",
+      "shortSha": "f8d832a",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-05-28T10:15:29Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/f8d832a54da961e25c7c751fe9b2c3a1e04117e5"
+    },
+    {
+      "sha": "72fb47dc72d306824098437a1669ac54e9b5b608",
+      "shortSha": "72fb47d",
+      "title": "🐛 修正没有 search 造成的template 不匹配 (#1466)",
+      "author": "cyfung1031",
+      "date": "2026-05-25T01:51:44Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/72fb47dc72d306824098437a1669ac54e9b5b608"
+    },
+    {
+      "sha": "dd6791662cd7498ea43c52f9e5df7bbe6b3f720d",
+      "shortSha": "dd67916",
+      "title": "兼容 Firefox MV3 规格 (#1457)",
+      "author": "cyfung1031",
+      "date": "2026-05-24T04:50:12Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/dd6791662cd7498ea43c52f9e5df7bbe6b3f720d"
+    },
+    {
+      "sha": "33d0c0665cba8e1f6ca22df14f4bbe0bfb3939b3",
+      "shortSha": "33d0c06",
+      "title": "⚡️ 优化 E2E 测试执行效率，修复 `navigator.clipboard` 权限失败 (#1459)",
+      "author": "cyfung1031",
+      "date": "2026-05-24T04:32:27Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/33d0c0665cba8e1f6ca22df14f4bbe0bfb3939b3"
+    },
+    {
+      "sha": "763fe2c0c76c243382fd76ee93c28f9335a149a0",
+      "shortSha": "763fe2c",
+      "title": "🐛 新增 `protoBaseDescs` 修正TM半沙盒的祖先类别继承 (#1463)",
+      "author": "cyfung1031",
+      "date": "2026-05-24T04:31:28Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/763fe2c0c76c243382fd76ee93c28f9335a149a0"
+    },
+    {
+      "sha": "c8503ffb31c95166a3f8a7881c5bf7ec0c929271",
+      "shortSha": "c8503ff",
+      "title": "🐛 add missing sandbox test (#1464)",
+      "author": "cyfung1031",
+      "date": "2026-05-24T04:22:01Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/c8503ffb31c95166a3f8a7881c5bf7ec0c929271"
+    },
+    {
+      "sha": "90d138faa36afea9c58ccee152f8f9dc5855aa2b",
+      "shortSha": "90d138f",
+      "title": "🐛 修正 Editor 的 CSS 布局 (#1460)",
+      "author": "cyfung1031",
+      "date": "2026-05-24T04:00:39Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/90d138faa36afea9c58ccee152f8f9dc5855aa2b"
+    },
     {
       "sha": "57b9472f80c466ad0bdd226e76c69076456506fe",
       "shortSha": "57b9472",
@@ -2981,14 +3037,7 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/f92d50ff413174c32e97022aa6bb851a5ea48a5f"
     }
   ],
-  "pendingShas": [
-    "90d138faa36afea9c58ccee152f8f9dc5855aa2b",
-    "c8503ffb31c95166a3f8a7881c5bf7ec0c929271",
-    "763fe2c0c76c243382fd76ee93c28f9335a149a0",
-    "33d0c0665cba8e1f6ca22df14f4bbe0bfb3939b3",
-    "dd6791662cd7498ea43c52f9e5df7bbe6b3f720d",
-    "72fb47dc72d306824098437a1669ac54e9b5b608"
-  ],
+  "pendingShas": [],
   "betaOnlyShas": [
     "5f7f3e4c84f8c0fc06a773d6881283a610228ef2",
     "62d414e39896b8b6775504ca1c15b92967795ad2",
@@ -3042,7 +3091,8 @@
     "457ff27c23e6825f62b5770776ef4a7f38530565",
     "f578269ecdbe18858d3cdf42413e4464bff896c1",
     "dc7ad1224bbd20177691c4393e9cfbe1a0b4ae42",
-    "57b9472f80c466ad0bdd226e76c69076456506fe"
+    "57b9472f80c466ad0bdd226e76c69076456506fe",
+    "f8d832a54da961e25c7c751fe9b2c3a1e04117e5"
   ],
   "previousBetaShas": [
     "7214544902999a3a794fc403ce6ce2555c10eaec",
@@ -3127,7 +3177,7 @@
     "a3abaf0634249d238df21d40ed6211e9aff52b30",
     "f92d50ff413174c32e97022aa6bb851a5ea48a5f"
   ],
-  "mergeBaseSha": "bbbc751e751320009fd8d3701390a35028ac2b06",
+  "mergeBaseSha": "72fb47dc72d306824098437a1669ac54e9b5b608",
   "betaStopFound": true,
   "previousBetaBranch": "release/v1.3"
 }
