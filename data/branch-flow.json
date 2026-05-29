@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T12:29:09.645Z",
+  "generatedAt": "2026-05-29T16:54:57.151Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "7e428e97d9958f0b487cd62dd8a57bf226ae33b8",
+      "shortSha": "7e428e9",
+      "title": "兼容 Firefox MV3 规格 - pack.js (#1480)",
+      "author": "cyfung1031",
+      "date": "2026-05-29T13:46:30Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/7e428e97d9958f0b487cd62dd8a57bf226ae33b8"
+    },
     {
       "sha": "72fb47dc72d306824098437a1669ac54e9b5b608",
       "shortSha": "72fb47d",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-01-22T01:57:37Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/161e773720d0482c9f9d381ff0d3f115e7ccd920"
-    },
-    {
-      "sha": "7ad9aac9193eff1c596af88e7e052113278abbce",
-      "shortSha": "7ad9aac",
-      "title": "✨ 网盘解除绑定 (#1151)",
-      "author": "Renji Yuusei",
-      "date": "2026-01-21T06:25:49Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/7ad9aac9193eff1c596af88e7e052113278abbce"
     }
   ],
   "betaCommits": [
@@ -3037,7 +3037,9 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/f92d50ff413174c32e97022aa6bb851a5ea48a5f"
     }
   ],
-  "pendingShas": [],
+  "pendingShas": [
+    "7e428e97d9958f0b487cd62dd8a57bf226ae33b8"
+  ],
   "betaOnlyShas": [
     "5f7f3e4c84f8c0fc06a773d6881283a610228ef2",
     "62d414e39896b8b6775504ca1c15b92967795ad2",
