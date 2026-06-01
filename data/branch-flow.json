@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T23:34:45.225Z",
+  "generatedAt": "2026-06-01T05:18:38.999Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -1292,6 +1292,14 @@
     }
   ],
   "betaCommits": [
+    {
+      "sha": "502290287cbfffb26f3401b11bbbc74e4736c8c4",
+      "shortSha": "5022902",
+      "title": "🐛 fix connection cleanup (#1474)",
+      "author": "cyfung1031",
+      "date": "2026-06-01T03:08:11Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/502290287cbfffb26f3401b11bbbc74e4736c8c4"
+    },
     {
       "sha": "f8d832a54da961e25c7c751fe9b2c3a1e04117e5",
       "shortSha": "f8d832a",
@@ -3094,7 +3102,8 @@
     "f578269ecdbe18858d3cdf42413e4464bff896c1",
     "dc7ad1224bbd20177691c4393e9cfbe1a0b4ae42",
     "57b9472f80c466ad0bdd226e76c69076456506fe",
-    "f8d832a54da961e25c7c751fe9b2c3a1e04117e5"
+    "f8d832a54da961e25c7c751fe9b2c3a1e04117e5",
+    "502290287cbfffb26f3401b11bbbc74e4736c8c4"
   ],
   "previousBetaShas": [
     "7214544902999a3a794fc403ce6ce2555c10eaec",
