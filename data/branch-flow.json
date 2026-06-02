@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T11:44:23.321Z",
+  "generatedAt": "2026-06-02T16:56:56.938Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "b43823a1f55c0fd5e6f8675faac36b33776468ae",
+      "shortSha": "b43823a",
+      "title": "🐛 terminology / AI translation guardrails (#1468)",
+      "author": "cyfung1031",
+      "date": "2026-06-02T15:30:02Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/b43823a1f55c0fd5e6f8675faac36b33776468ae"
+    },
     {
       "sha": "7e428e97d9958f0b487cd62dd8a57bf226ae33b8",
       "shortSha": "7e428e9",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-01-22T02:18:21Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/5f42687af368a7c95a373b706372de7cf67523ab"
-    },
-    {
-      "sha": "161e773720d0482c9f9d381ff0d3f115e7ccd920",
-      "shortSha": "161e773",
-      "title": "Revert \"✨ 网盘解除绑定 (#1151)\"",
-      "author": "王一之",
-      "date": "2026-01-22T01:57:37Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/161e773720d0482c9f9d381ff0d3f115e7ccd920"
     }
   ],
   "betaCommits": [
@@ -3046,7 +3046,8 @@
     }
   ],
   "pendingShas": [
-    "7e428e97d9958f0b487cd62dd8a57bf226ae33b8"
+    "7e428e97d9958f0b487cd62dd8a57bf226ae33b8",
+    "b43823a1f55c0fd5e6f8675faac36b33776468ae"
   ],
   "betaOnlyShas": [
     "5f7f3e4c84f8c0fc06a773d6881283a610228ef2",
