@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T12:15:00.722Z",
+  "generatedAt": "2026-06-03T17:22:11.472Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "3d1cb79d70012db1a93cfd694e249720443dd498",
+      "shortSha": "3d1cb79",
+      "title": "📝 新增 AGENTS.md AI 编码代理指南及配套文档体系 (#1488)",
+      "author": "wangyizhi",
+      "date": "2026-06-03T15:23:11Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3d1cb79d70012db1a93cfd694e249720443dd498"
+    },
     {
       "sha": "b43823a1f55c0fd5e6f8675faac36b33776468ae",
       "shortSha": "b43823a",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-01-08T07:58:48Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/7ef7355632fc989fa1cad44fd2069ff840bbd8df"
-    },
-    {
-      "sha": "5f42687af368a7c95a373b706372de7cf67523ab",
-      "shortSha": "5f42687",
-      "title": "Merge branch 'main' into release/v1.3",
-      "author": "王一之",
-      "date": "2026-01-22T02:18:21Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/5f42687af368a7c95a373b706372de7cf67523ab"
     }
   ],
   "betaCommits": [
@@ -3047,7 +3047,8 @@
   ],
   "pendingShas": [
     "7e428e97d9958f0b487cd62dd8a57bf226ae33b8",
-    "b43823a1f55c0fd5e6f8675faac36b33776468ae"
+    "b43823a1f55c0fd5e6f8675faac36b33776468ae",
+    "3d1cb79d70012db1a93cfd694e249720443dd498"
   ],
   "betaOnlyShas": [
     "5f7f3e4c84f8c0fc06a773d6881283a610228ef2",
