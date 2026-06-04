@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T09:03:12.161Z",
+  "generatedAt": "2026-06-04T12:21:58.743Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -1293,12 +1293,44 @@
   ],
   "betaCommits": [
     {
+      "sha": "d9f57063d80c4baf97faba4d6f4fed9f7bd89164",
+      "shortSha": "d9f5706",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-06-04T09:30:52Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/d9f57063d80c4baf97faba4d6f4fed9f7bd89164"
+    },
+    {
+      "sha": "3d1cb79d70012db1a93cfd694e249720443dd498",
+      "shortSha": "3d1cb79",
+      "title": "📝 新增 AGENTS.md AI 编码代理指南及配套文档体系 (#1488)",
+      "author": "wangyizhi",
+      "date": "2026-06-03T15:23:11Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3d1cb79d70012db1a93cfd694e249720443dd498"
+    },
+    {
+      "sha": "b43823a1f55c0fd5e6f8675faac36b33776468ae",
+      "shortSha": "b43823a",
+      "title": "🐛 terminology / AI translation guardrails (#1468)",
+      "author": "cyfung1031",
+      "date": "2026-06-02T15:30:02Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/b43823a1f55c0fd5e6f8675faac36b33776468ae"
+    },
+    {
       "sha": "502290287cbfffb26f3401b11bbbc74e4736c8c4",
       "shortSha": "5022902",
       "title": "🐛 fix connection cleanup (#1474)",
       "author": "cyfung1031",
       "date": "2026-06-01T03:08:11Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/502290287cbfffb26f3401b11bbbc74e4736c8c4"
+    },
+    {
+      "sha": "7e428e97d9958f0b487cd62dd8a57bf226ae33b8",
+      "shortSha": "7e428e9",
+      "title": "兼容 Firefox MV3 规格 - pack.js (#1480)",
+      "author": "cyfung1031",
+      "date": "2026-05-29T13:46:30Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/7e428e97d9958f0b487cd62dd8a57bf226ae33b8"
     },
     {
       "sha": "f8d832a54da961e25c7c751fe9b2c3a1e04117e5",
@@ -3045,11 +3077,7 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/f92d50ff413174c32e97022aa6bb851a5ea48a5f"
     }
   ],
-  "pendingShas": [
-    "7e428e97d9958f0b487cd62dd8a57bf226ae33b8",
-    "b43823a1f55c0fd5e6f8675faac36b33776468ae",
-    "3d1cb79d70012db1a93cfd694e249720443dd498"
-  ],
+  "pendingShas": [],
   "betaOnlyShas": [
     "5f7f3e4c84f8c0fc06a773d6881283a610228ef2",
     "62d414e39896b8b6775504ca1c15b92967795ad2",
@@ -3105,7 +3133,8 @@
     "dc7ad1224bbd20177691c4393e9cfbe1a0b4ae42",
     "57b9472f80c466ad0bdd226e76c69076456506fe",
     "f8d832a54da961e25c7c751fe9b2c3a1e04117e5",
-    "502290287cbfffb26f3401b11bbbc74e4736c8c4"
+    "502290287cbfffb26f3401b11bbbc74e4736c8c4",
+    "d9f57063d80c4baf97faba4d6f4fed9f7bd89164"
   ],
   "previousBetaShas": [
     "7214544902999a3a794fc403ce6ce2555c10eaec",
@@ -3190,7 +3219,7 @@
     "a3abaf0634249d238df21d40ed6211e9aff52b30",
     "f92d50ff413174c32e97022aa6bb851a5ea48a5f"
   ],
-  "mergeBaseSha": "72fb47dc72d306824098437a1669ac54e9b5b608",
+  "mergeBaseSha": "3d1cb79d70012db1a93cfd694e249720443dd498",
   "betaStopFound": true,
   "previousBetaBranch": "release/v1.3"
 }
