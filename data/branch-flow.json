@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T23:39:14.134Z",
+  "generatedAt": "2026-06-05T04:49:26.516Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "e24163613e735956359fcb2e8fa3ad78d6d870b1",
+      "shortSha": "e241636",
+      "title": "✅ 修复 GM API e2e 外部请求依赖 (#1489)",
+      "author": "cyfung1031",
+      "date": "2026-06-05T03:50:33Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/e24163613e735956359fcb2e8fa3ad78d6d870b1"
+    },
     {
       "sha": "3d1cb79d70012db1a93cfd694e249720443dd498",
       "shortSha": "3d1cb79",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-01-22T05:34:15Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/be818dc29fdd60d632e1232be69069cf761e7539"
-    },
-    {
-      "sha": "7ef7355632fc989fa1cad44fd2069ff840bbd8df",
-      "shortSha": "7ef7355",
-      "title": "🐛 修复i18n前缀语言脚本名和描述展示 #1123",
-      "author": "王一之",
-      "date": "2026-01-08T07:58:48Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/7ef7355632fc989fa1cad44fd2069ff840bbd8df"
     }
   ],
   "betaCommits": [
@@ -3077,7 +3077,9 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/f92d50ff413174c32e97022aa6bb851a5ea48a5f"
     }
   ],
-  "pendingShas": [],
+  "pendingShas": [
+    "e24163613e735956359fcb2e8fa3ad78d6d870b1"
+  ],
   "betaOnlyShas": [
     "5f7f3e4c84f8c0fc06a773d6881283a610228ef2",
     "62d414e39896b8b6775504ca1c15b92967795ad2",
