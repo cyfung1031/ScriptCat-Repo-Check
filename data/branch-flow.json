@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T04:49:26.516Z",
+  "generatedAt": "2026-06-05T08:53:38.371Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "21944d7cc6e032acbf9d9e8c1df17eebb6dc0db2",
+      "shortSha": "21944d7",
+      "title": "✅ stabilize GM API CSP e2e",
+      "author": "王一之",
+      "date": "2026-06-05T07:27:24Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/21944d7cc6e032acbf9d9e8c1df17eebb6dc0db2"
+    },
+    {
+      "sha": "fdee1ceecc187cd14b1dd198fc9891792fc3f759",
+      "shortSha": "fdee1ce",
+      "title": "🐛 修复缺少站点访问权限时跨域请求异常的问题 (#1477)",
+      "author": "cyfung1031",
+      "date": "2026-06-05T07:07:57Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/fdee1ceecc187cd14b1dd198fc9891792fc3f759"
+    },
     {
       "sha": "e24163613e735956359fcb2e8fa3ad78d6d870b1",
       "shortSha": "e241636",
@@ -1273,22 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-01-25T06:05:01Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/1c44b680dab3a95a51eb73cf92531efd0a192dc9"
-    },
-    {
-      "sha": "c17f761807fb9b14aff09b9b08d19e4cbe72b8a5",
-      "shortSha": "c17f761",
-      "title": "🐛 修复弹出的更新窗口时间问题 (#1155)",
-      "author": "cyfung1031",
-      "date": "2026-01-23T03:32:56Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/c17f761807fb9b14aff09b9b08d19e4cbe72b8a5"
-    },
-    {
-      "sha": "be818dc29fdd60d632e1232be69069cf761e7539",
-      "shortSha": "be818dc",
-      "title": "🐛 修正按钮渲染逻辑，避免 render 阶段副作用，改用 JSX 条件渲染 & 修改 children (#1153)",
-      "author": "cyfung1031",
-      "date": "2026-01-22T05:34:15Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/be818dc29fdd60d632e1232be69069cf761e7539"
     }
   ],
   "betaCommits": [
@@ -3078,7 +3078,9 @@
     }
   ],
   "pendingShas": [
-    "e24163613e735956359fcb2e8fa3ad78d6d870b1"
+    "e24163613e735956359fcb2e8fa3ad78d6d870b1",
+    "fdee1ceecc187cd14b1dd198fc9891792fc3f759",
+    "21944d7cc6e032acbf9d9e8c1df17eebb6dc0db2"
   ],
   "betaOnlyShas": [
     "5f7f3e4c84f8c0fc06a773d6881283a610228ef2",
