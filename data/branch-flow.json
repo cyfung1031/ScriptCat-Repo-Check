@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T07:05:57.415Z",
+  "generatedAt": "2026-06-08T12:10:25.684Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "a3dcafc9c59e1b3bd4f0e4c70e2202eb51243c0d",
+      "shortSha": "a3dcafc",
+      "title": "update pnpm to 10.34.1 (#1493)",
+      "author": "cyfung1031",
+      "date": "2026-06-08T12:04:47Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/a3dcafc9c59e1b3bd4f0e4c70e2202eb51243c0d"
+    },
     {
       "sha": "21944d7cc6e032acbf9d9e8c1df17eebb6dc0db2",
       "shortSha": "21944d7",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-01-29T01:33:33Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/95567690d1bf77bfe8bedfd6a94c88949a77e115"
-    },
-    {
-      "sha": "1c44b680dab3a95a51eb73cf92531efd0a192dc9",
-      "shortSha": "1c44b68",
-      "title": "🐛 locales.ts 小修正 (#1154)",
-      "author": "cyfung1031",
-      "date": "2026-01-25T06:05:01Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/1c44b680dab3a95a51eb73cf92531efd0a192dc9"
     }
   ],
   "betaCommits": [
@@ -3080,7 +3080,8 @@
   "pendingShas": [
     "e24163613e735956359fcb2e8fa3ad78d6d870b1",
     "fdee1ceecc187cd14b1dd198fc9891792fc3f759",
-    "21944d7cc6e032acbf9d9e8c1df17eebb6dc0db2"
+    "21944d7cc6e032acbf9d9e8c1df17eebb6dc0db2",
+    "a3dcafc9c59e1b3bd4f0e4c70e2202eb51243c0d"
   ],
   "betaOnlyShas": [
     "5f7f3e4c84f8c0fc06a773d6881283a610228ef2",
