@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T06:43:54.463Z",
+  "generatedAt": "2026-06-10T11:05:13.229Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,30 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "e1fa7cae12c7eee12c59a5be86d9caff4dbe6623",
+      "shortSha": "e1fa7ca",
+      "title": "♻️ 使用 JSZipp 替换 jszip 处理 ZIP 文件 (#1479)",
+      "author": "cyfung1031",
+      "date": "2026-06-10T09:06:17Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/e1fa7cae12c7eee12c59a5be86d9caff4dbe6623"
+    },
+    {
+      "sha": "04fe8823a85d3078d02aa7e79df9735915393ce7",
+      "shortSha": "04fe882",
+      "title": "Security: Prototype pollution via untrusted YAML user-config keys (#1494)",
+      "author": "Quang Do",
+      "date": "2026-06-10T08:35:58Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/04fe8823a85d3078d02aa7e79df9735915393ce7"
+    },
+    {
+      "sha": "85b01b88e46a93ec47f07eee1ac8c05de03518a8",
+      "shortSha": "85b01b8",
+      "title": "🐛 Avoid White Background during initial load (#1498)",
+      "author": "cyfung1031",
+      "date": "2026-06-10T07:19:12Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/85b01b88e46a93ec47f07eee1ac8c05de03518a8"
+    },
     {
       "sha": "a3dcafc9c59e1b3bd4f0e4c70e2202eb51243c0d",
       "shortSha": "a3dcafc",
@@ -1265,33 +1289,17 @@
       "author": "cyfung1031",
       "date": "2026-01-31T16:00:57Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/18c4d8131102e173a38183f4a2c6e85651b5b3b0"
-    },
-    {
-      "sha": "da66ff70d25c3087cb8405289dc8b14df9c15f05",
-      "shortSha": "da66ff7",
-      "title": "🐛 兼容 TM `@match www.website.com/*` (#1165)",
-      "author": "cyfung1031",
-      "date": "2026-01-31T03:12:28Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/da66ff70d25c3087cb8405289dc8b14df9c15f05"
-    },
-    {
-      "sha": "f7c1c730cf39cae02a9e6f815e3113ea9d2a8a05",
-      "shortSha": "f7c1c73",
-      "title": "🐛 Edge最新144版本新增允许用户脚本 #1157",
-      "author": "王一之",
-      "date": "2026-01-31T02:47:04Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/f7c1c730cf39cae02a9e6f815e3113ea9d2a8a05"
-    },
-    {
-      "sha": "95567690d1bf77bfe8bedfd6a94c88949a77e115",
-      "shortSha": "9556769",
-      "title": "🐛 修正 FileSystemObserver 未能持续监听问题 (#1160)",
-      "author": "cyfung1031",
-      "date": "2026-01-29T01:33:33Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/95567690d1bf77bfe8bedfd6a94c88949a77e115"
     }
   ],
   "betaCommits": [
+    {
+      "sha": "809bf89d47ced7c039ab840afe3a440d09bd9dee",
+      "shortSha": "809bf89",
+      "title": "✨ 优化 Monaco quick fix 与用户脚本元数据提示 (#1461)",
+      "author": "cyfung1031",
+      "date": "2026-06-10T09:37:05Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/809bf89d47ced7c039ab840afe3a440d09bd9dee"
+    },
     {
       "sha": "d9f57063d80c4baf97faba4d6f4fed9f7bd89164",
       "shortSha": "d9f5706",
@@ -3081,7 +3089,10 @@
     "e24163613e735956359fcb2e8fa3ad78d6d870b1",
     "fdee1ceecc187cd14b1dd198fc9891792fc3f759",
     "21944d7cc6e032acbf9d9e8c1df17eebb6dc0db2",
-    "a3dcafc9c59e1b3bd4f0e4c70e2202eb51243c0d"
+    "a3dcafc9c59e1b3bd4f0e4c70e2202eb51243c0d",
+    "85b01b88e46a93ec47f07eee1ac8c05de03518a8",
+    "04fe8823a85d3078d02aa7e79df9735915393ce7",
+    "e1fa7cae12c7eee12c59a5be86d9caff4dbe6623"
   ],
   "betaOnlyShas": [
     "5f7f3e4c84f8c0fc06a773d6881283a610228ef2",
@@ -3139,7 +3150,8 @@
     "57b9472f80c466ad0bdd226e76c69076456506fe",
     "f8d832a54da961e25c7c751fe9b2c3a1e04117e5",
     "502290287cbfffb26f3401b11bbbc74e4736c8c4",
-    "d9f57063d80c4baf97faba4d6f4fed9f7bd89164"
+    "d9f57063d80c4baf97faba4d6f4fed9f7bd89164",
+    "809bf89d47ced7c039ab840afe3a440d09bd9dee"
   ],
   "previousBetaShas": [
     "7214544902999a3a794fc403ce6ce2555c10eaec",
