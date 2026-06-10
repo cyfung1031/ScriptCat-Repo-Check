@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T11:05:13.229Z",
+  "generatedAt": "2026-06-10T14:30:38.495Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -1293,12 +1293,84 @@
   ],
   "betaCommits": [
     {
+      "sha": "3dead664c7d987927b765167c9c244a048d6c8a4",
+      "shortSha": "3dead66",
+      "title": "♻️ 移除未使用 jszip 依赖",
+      "author": "王一之",
+      "date": "2026-06-10T11:09:59Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3dead664c7d987927b765167c9c244a048d6c8a4"
+    },
+    {
+      "sha": "46a05c5d2cd4e24ae3443067ab37da21602f4ecd",
+      "shortSha": "46a05c5",
+      "title": "🔀 Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-06-10T11:06:23Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/46a05c5d2cd4e24ae3443067ab37da21602f4ecd"
+    },
+    {
       "sha": "809bf89d47ced7c039ab840afe3a440d09bd9dee",
       "shortSha": "809bf89",
       "title": "✨ 优化 Monaco quick fix 与用户脚本元数据提示 (#1461)",
       "author": "cyfung1031",
       "date": "2026-06-10T09:37:05Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/809bf89d47ced7c039ab840afe3a440d09bd9dee"
+    },
+    {
+      "sha": "e1fa7cae12c7eee12c59a5be86d9caff4dbe6623",
+      "shortSha": "e1fa7ca",
+      "title": "♻️ 使用 JSZipp 替换 jszip 处理 ZIP 文件 (#1479)",
+      "author": "cyfung1031",
+      "date": "2026-06-10T09:06:17Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/e1fa7cae12c7eee12c59a5be86d9caff4dbe6623"
+    },
+    {
+      "sha": "04fe8823a85d3078d02aa7e79df9735915393ce7",
+      "shortSha": "04fe882",
+      "title": "Security: Prototype pollution via untrusted YAML user-config keys (#1494)",
+      "author": "Quang Do",
+      "date": "2026-06-10T08:35:58Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/04fe8823a85d3078d02aa7e79df9735915393ce7"
+    },
+    {
+      "sha": "85b01b88e46a93ec47f07eee1ac8c05de03518a8",
+      "shortSha": "85b01b8",
+      "title": "🐛 Avoid White Background during initial load (#1498)",
+      "author": "cyfung1031",
+      "date": "2026-06-10T07:19:12Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/85b01b88e46a93ec47f07eee1ac8c05de03518a8"
+    },
+    {
+      "sha": "a3dcafc9c59e1b3bd4f0e4c70e2202eb51243c0d",
+      "shortSha": "a3dcafc",
+      "title": "update pnpm to 10.34.1 (#1493)",
+      "author": "cyfung1031",
+      "date": "2026-06-08T12:04:47Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/a3dcafc9c59e1b3bd4f0e4c70e2202eb51243c0d"
+    },
+    {
+      "sha": "21944d7cc6e032acbf9d9e8c1df17eebb6dc0db2",
+      "shortSha": "21944d7",
+      "title": "✅ stabilize GM API CSP e2e",
+      "author": "王一之",
+      "date": "2026-06-05T07:27:24Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/21944d7cc6e032acbf9d9e8c1df17eebb6dc0db2"
+    },
+    {
+      "sha": "fdee1ceecc187cd14b1dd198fc9891792fc3f759",
+      "shortSha": "fdee1ce",
+      "title": "🐛 修复缺少站点访问权限时跨域请求异常的问题 (#1477)",
+      "author": "cyfung1031",
+      "date": "2026-06-05T07:07:57Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/fdee1ceecc187cd14b1dd198fc9891792fc3f759"
+    },
+    {
+      "sha": "e24163613e735956359fcb2e8fa3ad78d6d870b1",
+      "shortSha": "e241636",
+      "title": "✅ 修复 GM API e2e 外部请求依赖 (#1489)",
+      "author": "cyfung1031",
+      "date": "2026-06-05T03:50:33Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/e24163613e735956359fcb2e8fa3ad78d6d870b1"
     },
     {
       "sha": "d9f57063d80c4baf97faba4d6f4fed9f7bd89164",
@@ -3085,15 +3157,7 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/f92d50ff413174c32e97022aa6bb851a5ea48a5f"
     }
   ],
-  "pendingShas": [
-    "e24163613e735956359fcb2e8fa3ad78d6d870b1",
-    "fdee1ceecc187cd14b1dd198fc9891792fc3f759",
-    "21944d7cc6e032acbf9d9e8c1df17eebb6dc0db2",
-    "a3dcafc9c59e1b3bd4f0e4c70e2202eb51243c0d",
-    "85b01b88e46a93ec47f07eee1ac8c05de03518a8",
-    "04fe8823a85d3078d02aa7e79df9735915393ce7",
-    "e1fa7cae12c7eee12c59a5be86d9caff4dbe6623"
-  ],
+  "pendingShas": [],
   "betaOnlyShas": [
     "5f7f3e4c84f8c0fc06a773d6881283a610228ef2",
     "62d414e39896b8b6775504ca1c15b92967795ad2",
@@ -3151,7 +3215,9 @@
     "f8d832a54da961e25c7c751fe9b2c3a1e04117e5",
     "502290287cbfffb26f3401b11bbbc74e4736c8c4",
     "d9f57063d80c4baf97faba4d6f4fed9f7bd89164",
-    "809bf89d47ced7c039ab840afe3a440d09bd9dee"
+    "809bf89d47ced7c039ab840afe3a440d09bd9dee",
+    "46a05c5d2cd4e24ae3443067ab37da21602f4ecd",
+    "3dead664c7d987927b765167c9c244a048d6c8a4"
   ],
   "previousBetaShas": [
     "7214544902999a3a794fc403ce6ce2555c10eaec",
@@ -3236,7 +3302,7 @@
     "a3abaf0634249d238df21d40ed6211e9aff52b30",
     "f92d50ff413174c32e97022aa6bb851a5ea48a5f"
   ],
-  "mergeBaseSha": "3d1cb79d70012db1a93cfd694e249720443dd498",
+  "mergeBaseSha": "e1fa7cae12c7eee12c59a5be86d9caff4dbe6623",
   "betaStopFound": true,
   "previousBetaBranch": "release/v1.3"
 }
