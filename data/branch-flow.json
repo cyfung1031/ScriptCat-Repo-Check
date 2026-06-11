@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T01:41:54.835Z",
+  "generatedAt": "2026-06-11T07:08:33.598Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -1292,6 +1292,14 @@
     }
   ],
   "betaCommits": [
+    {
+      "sha": "9076794f41f7669938531d4f8b6eab89070259f9",
+      "shortSha": "9076794",
+      "title": "♻️ 脚本资源更新逻辑重构 ( updateResource 相关代码 ) 与 并发控制优化 (资源更新同步机制) 重构 (#1193)",
+      "author": "cyfung1031",
+      "date": "2026-06-11T07:07:18Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/9076794f41f7669938531d4f8b6eab89070259f9"
+    },
     {
       "sha": "3dead664c7d987927b765167c9c244a048d6c8a4",
       "shortSha": "3dead66",
@@ -3217,7 +3225,8 @@
     "d9f57063d80c4baf97faba4d6f4fed9f7bd89164",
     "809bf89d47ced7c039ab840afe3a440d09bd9dee",
     "46a05c5d2cd4e24ae3443067ab37da21602f4ecd",
-    "3dead664c7d987927b765167c9c244a048d6c8a4"
+    "3dead664c7d987927b765167c9c244a048d6c8a4",
+    "9076794f41f7669938531d4f8b6eab89070259f9"
   ],
   "previousBetaShas": [
     "7214544902999a3a794fc403ce6ce2555c10eaec",
