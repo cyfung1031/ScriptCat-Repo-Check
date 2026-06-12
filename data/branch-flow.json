@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T01:41:08.506Z",
+  "generatedAt": "2026-06-12T06:57:11.874Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "547816895ad162b94d731a69b8cbaee1f762a10a",
+      "shortSha": "5478168",
+      "title": "📄 update readme.md",
+      "author": "王一之",
+      "date": "2026-06-12T02:43:53Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/547816895ad162b94d731a69b8cbaee1f762a10a"
+    },
     {
       "sha": "e1fa7cae12c7eee12c59a5be86d9caff4dbe6623",
       "shortSha": "e1fa7ca",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-02-01T01:30:18Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/87e52f9846aaa23257ddab025473063ef724f95c"
-    },
-    {
-      "sha": "18c4d8131102e173a38183f4a2c6e85651b5b3b0",
-      "shortSha": "18c4d81",
-      "title": "♻️ 重构通讯机制：采用 storage.local 广播 + 符合 Firefox MV3 scripting 规范 + 不可追踪的动态同步 MessageFlag (#1067)",
-      "author": "cyfung1031",
-      "date": "2026-01-31T16:00:57Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/18c4d8131102e173a38183f4a2c6e85651b5b3b0"
     }
   ],
   "betaCommits": [
@@ -3165,7 +3165,9 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/f92d50ff413174c32e97022aa6bb851a5ea48a5f"
     }
   ],
-  "pendingShas": [],
+  "pendingShas": [
+    "547816895ad162b94d731a69b8cbaee1f762a10a"
+  ],
   "betaOnlyShas": [
     "5f7f3e4c84f8c0fc06a773d6881283a610228ef2",
     "62d414e39896b8b6775504ca1c15b92967795ad2",
