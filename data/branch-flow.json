@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T12:03:39.348Z",
+  "generatedAt": "2026-06-13T14:29:25.281Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "fa024d06c35a4e74e5e27785ba164f4fea60b1bf",
+      "shortSha": "fa024d0",
+      "title": "🐛 修复 Edge Android 移动端 popup 适配问题 (#686) (#1507)",
+      "author": "wangyizhi",
+      "date": "2026-06-13T14:19:31Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/fa024d06c35a4e74e5e27785ba164f4fea60b1bf"
+    },
     {
       "sha": "547816895ad162b94d731a69b8cbaee1f762a10a",
       "shortSha": "5478168",
@@ -1281,17 +1289,33 @@
       "author": "cyfung1031",
       "date": "2026-02-01T01:31:11Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/5f84ec58fb62ba66d79be6f1808a4b0a8cc4552a"
-    },
-    {
-      "sha": "87e52f9846aaa23257ddab025473063ef724f95c",
-      "shortSha": "87e52f9",
-      "title": "♻️ 自订类名修订：File -> FileInfo (#1174)",
-      "author": "cyfung1031",
-      "date": "2026-02-01T01:30:18Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/87e52f9846aaa23257ddab025473063ef724f95c"
     }
   ],
   "betaCommits": [
+    {
+      "sha": "13c5a69d640695d7b90b3c0ec0d4ed13b3beec4f",
+      "shortSha": "13c5a69",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-06-13T14:19:58Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/13c5a69d640695d7b90b3c0ec0d4ed13b3beec4f"
+    },
+    {
+      "sha": "fa024d06c35a4e74e5e27785ba164f4fea60b1bf",
+      "shortSha": "fa024d0",
+      "title": "🐛 修复 Edge Android 移动端 popup 适配问题 (#686) (#1507)",
+      "author": "wangyizhi",
+      "date": "2026-06-13T14:19:31Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/fa024d06c35a4e74e5e27785ba164f4fea60b1bf"
+    },
+    {
+      "sha": "547816895ad162b94d731a69b8cbaee1f762a10a",
+      "shortSha": "5478168",
+      "title": "📄 update readme.md",
+      "author": "王一之",
+      "date": "2026-06-12T02:43:53Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/547816895ad162b94d731a69b8cbaee1f762a10a"
+    },
     {
       "sha": "9076794f41f7669938531d4f8b6eab89070259f9",
       "shortSha": "9076794",
@@ -3165,9 +3189,7 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/f92d50ff413174c32e97022aa6bb851a5ea48a5f"
     }
   ],
-  "pendingShas": [
-    "547816895ad162b94d731a69b8cbaee1f762a10a"
-  ],
+  "pendingShas": [],
   "betaOnlyShas": [
     "5f7f3e4c84f8c0fc06a773d6881283a610228ef2",
     "62d414e39896b8b6775504ca1c15b92967795ad2",
@@ -3228,7 +3250,8 @@
     "809bf89d47ced7c039ab840afe3a440d09bd9dee",
     "46a05c5d2cd4e24ae3443067ab37da21602f4ecd",
     "3dead664c7d987927b765167c9c244a048d6c8a4",
-    "9076794f41f7669938531d4f8b6eab89070259f9"
+    "9076794f41f7669938531d4f8b6eab89070259f9",
+    "13c5a69d640695d7b90b3c0ec0d4ed13b3beec4f"
   ],
   "previousBetaShas": [
     "7214544902999a3a794fc403ce6ce2555c10eaec",
@@ -3313,7 +3336,7 @@
     "a3abaf0634249d238df21d40ed6211e9aff52b30",
     "f92d50ff413174c32e97022aa6bb851a5ea48a5f"
   ],
-  "mergeBaseSha": "e1fa7cae12c7eee12c59a5be86d9caff4dbe6623",
+  "mergeBaseSha": "fa024d06c35a4e74e5e27785ba164f4fea60b1bf",
   "betaStopFound": true,
   "previousBetaBranch": "release/v1.3"
 }
