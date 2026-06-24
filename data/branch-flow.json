@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T04:38:56.202Z",
+  "generatedAt": "2026-06-24T08:34:45.389Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -11,12 +11,44 @@
   },
   "mainCommits": [
     {
+      "sha": "b114a196561ac1ea5f0591bcd986ffab3d96db6b",
+      "shortSha": "b114a19",
+      "title": "Merge branch 'release/v1.4-agent'",
+      "author": "王一之",
+      "date": "2026-06-24T06:36:01Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/b114a196561ac1ea5f0591bcd986ffab3d96db6b"
+    },
+    {
       "sha": "6ab648c1cfffbc20114bcc8571c7c31ce8bb52bd",
       "shortSha": "6ab648c",
       "title": "📄 update readme.md",
       "author": "王一之",
       "date": "2026-06-24T02:47:21Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/6ab648c1cfffbc20114bcc8571c7c31ce8bb52bd"
+    },
+    {
+      "sha": "68c3717ac5b6f68fcc03a08785eab268b7ea5454",
+      "shortSha": "68c3717",
+      "title": "✅ 修复 backup-zip E2E 因开发者模式引导页竞态导致的偶发失败",
+      "author": "王一之",
+      "date": "2026-06-13T14:39:30Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/68c3717ac5b6f68fcc03a08785eab268b7ea5454"
+    },
+    {
+      "sha": "9f6faf1b1a10ed52eb3138c79654abd9f6eeb817",
+      "shortSha": "9f6faf1",
+      "title": "Merge branch 'release/v1.4' into release/v1.4-agent",
+      "author": "王一之",
+      "date": "2026-06-13T14:20:10Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/9f6faf1b1a10ed52eb3138c79654abd9f6eeb817"
+    },
+    {
+      "sha": "13c5a69d640695d7b90b3c0ec0d4ed13b3beec4f",
+      "shortSha": "13c5a69",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-06-13T14:19:58Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/13c5a69d640695d7b90b3c0ec0d4ed13b3beec4f"
     },
     {
       "sha": "fa024d06c35a4e74e5e27785ba164f4fea60b1bf",
@@ -27,12 +59,68 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/fa024d06c35a4e74e5e27785ba164f4fea60b1bf"
     },
     {
+      "sha": "238062ab1d16a013300b038e2b279164cb7b25c4",
+      "shortSha": "238062a",
+      "title": "✅ 新增 v1.4 关键改动的 E2E 覆盖",
+      "author": "王一之",
+      "date": "2026-06-12T13:03:12Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/238062ab1d16a013300b038e2b279164cb7b25c4"
+    },
+    {
       "sha": "547816895ad162b94d731a69b8cbaee1f762a10a",
       "shortSha": "5478168",
       "title": "📄 update readme.md",
       "author": "王一之",
       "date": "2026-06-12T02:43:53Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/547816895ad162b94d731a69b8cbaee1f762a10a"
+    },
+    {
+      "sha": "313e464e464928deec6029bcb5860195fb88fd46",
+      "shortSha": "313e464",
+      "title": "♻️ restore resource cache compatibility",
+      "author": "王一之",
+      "date": "2026-06-11T14:33:15Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/313e464e464928deec6029bcb5860195fb88fd46"
+    },
+    {
+      "sha": "0baf39cd5f556bb895cf0e4e3033bc536456d85a",
+      "shortSha": "0baf39c",
+      "title": "Merge branch 'release/v1.4' into release/v1.4-agent",
+      "author": "王一之",
+      "date": "2026-06-11T13:35:59Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/0baf39cd5f556bb895cf0e4e3033bc536456d85a"
+    },
+    {
+      "sha": "9076794f41f7669938531d4f8b6eab89070259f9",
+      "shortSha": "9076794",
+      "title": "♻️ 脚本资源更新逻辑重构 ( updateResource 相关代码 ) 与 并发控制优化 (资源更新同步机制) 重构 (#1193)",
+      "author": "cyfung1031",
+      "date": "2026-06-11T07:07:18Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/9076794f41f7669938531d4f8b6eab89070259f9"
+    },
+    {
+      "sha": "3dead664c7d987927b765167c9c244a048d6c8a4",
+      "shortSha": "3dead66",
+      "title": "♻️ 移除未使用 jszip 依赖",
+      "author": "王一之",
+      "date": "2026-06-10T11:09:59Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3dead664c7d987927b765167c9c244a048d6c8a4"
+    },
+    {
+      "sha": "46a05c5d2cd4e24ae3443067ab37da21602f4ecd",
+      "shortSha": "46a05c5",
+      "title": "🔀 Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-06-10T11:06:23Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/46a05c5d2cd4e24ae3443067ab37da21602f4ecd"
+    },
+    {
+      "sha": "809bf89d47ced7c039ab840afe3a440d09bd9dee",
+      "shortSha": "809bf89",
+      "title": "✨ 优化 Monaco quick fix 与用户脚本元数据提示 (#1461)",
+      "author": "cyfung1031",
+      "date": "2026-06-10T09:37:05Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/809bf89d47ced7c039ab840afe3a440d09bd9dee"
     },
     {
       "sha": "e1fa7cae12c7eee12c59a5be86d9caff4dbe6623",
@@ -91,6 +179,22 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/e24163613e735956359fcb2e8fa3ad78d6d870b1"
     },
     {
+      "sha": "2951bd66876d7e69cea942829dd4cede8a906155",
+      "shortSha": "2951bd6",
+      "title": "Merge branch 'release/v1.4' into release/v1.4-agent",
+      "author": "王一之",
+      "date": "2026-06-04T10:05:36Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/2951bd66876d7e69cea942829dd4cede8a906155"
+    },
+    {
+      "sha": "d9f57063d80c4baf97faba4d6f4fed9f7bd89164",
+      "shortSha": "d9f5706",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-06-04T09:30:52Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/d9f57063d80c4baf97faba4d6f4fed9f7bd89164"
+    },
+    {
       "sha": "3d1cb79d70012db1a93cfd694e249720443dd498",
       "shortSha": "3d1cb79",
       "title": "📝 新增 AGENTS.md AI 编码代理指南及配套文档体系 (#1488)",
@@ -107,12 +211,28 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/b43823a1f55c0fd5e6f8675faac36b33776468ae"
     },
     {
+      "sha": "502290287cbfffb26f3401b11bbbc74e4736c8c4",
+      "shortSha": "5022902",
+      "title": "🐛 fix connection cleanup (#1474)",
+      "author": "cyfung1031",
+      "date": "2026-06-01T03:08:11Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/502290287cbfffb26f3401b11bbbc74e4736c8c4"
+    },
+    {
       "sha": "7e428e97d9958f0b487cd62dd8a57bf226ae33b8",
       "shortSha": "7e428e9",
       "title": "兼容 Firefox MV3 规格 - pack.js (#1480)",
       "author": "cyfung1031",
       "date": "2026-05-29T13:46:30Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/7e428e97d9958f0b487cd62dd8a57bf226ae33b8"
+    },
+    {
+      "sha": "f8d832a54da961e25c7c751fe9b2c3a1e04117e5",
+      "shortSha": "f8d832a",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-05-28T10:15:29Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/f8d832a54da961e25c7c751fe9b2c3a1e04117e5"
     },
     {
       "sha": "72fb47dc72d306824098437a1669ac54e9b5b608",
@@ -163,6 +283,54 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/90d138faa36afea9c58ccee152f8f9dc5855aa2b"
     },
     {
+      "sha": "4bc216eb06eabb7a3511075550c167182bc3c6ba",
+      "shortSha": "4bc216e",
+      "title": "🔖 Release v1.4.0-beta.3",
+      "author": "王一之",
+      "date": "2026-05-19T07:05:19Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/4bc216eb06eabb7a3511075550c167182bc3c6ba"
+    },
+    {
+      "sha": "14fdf2b9691776d507a0965a9b2470e5d6d2eedc",
+      "shortSha": "14fdf2b",
+      "title": "test: stabilize e2e suite",
+      "author": "王一之",
+      "date": "2026-05-18T01:55:33Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/14fdf2b9691776d507a0965a9b2470e5d6d2eedc"
+    },
+    {
+      "sha": "5fdc8e3905a9c535a58854cbf758e41808908c9c",
+      "shortSha": "5fdc8e3",
+      "title": "🐛 修复 SkillScript 编译时缺失 isContextMenu 字段导致的类型错误",
+      "author": "王一之",
+      "date": "2026-05-17T03:34:25Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/5fdc8e3905a9c535a58854cbf758e41808908c9c"
+    },
+    {
+      "sha": "bc85f0b41e9b198a709f380f1fe55c3a9433cefa",
+      "shortSha": "bc85f0b",
+      "title": "Merge branch 'release/v1.4' into release/v1.4-agent",
+      "author": "王一之",
+      "date": "2026-05-17T03:19:07Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/bc85f0b41e9b198a709f380f1fe55c3a9433cefa"
+    },
+    {
+      "sha": "57b9472f80c466ad0bdd226e76c69076456506fe",
+      "shortSha": "57b9472",
+      "title": "🔥 删除重复的翻译key",
+      "author": "王一之",
+      "date": "2026-05-17T02:57:10Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/57b9472f80c466ad0bdd226e76c69076456506fe"
+    },
+    {
+      "sha": "dc7ad1224bbd20177691c4393e9cfbe1a0b4ae42",
+      "shortSha": "dc7ad12",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-05-17T02:56:47Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/dc7ad1224bbd20177691c4393e9cfbe1a0b4ae42"
+    },
+    {
       "sha": "bbbc751e751320009fd8d3701390a35028ac2b06",
       "shortSha": "bbbc751",
       "title": "🐛 在根布局建立滚轮事件边界，避免 ScriptCat 内部滚动触发浏览器 swipe 跳页 (#1431)",
@@ -185,6 +353,14 @@
       "author": "cyfung1031",
       "date": "2026-05-17T02:26:51Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/6ff70eb9fe97c630e62c735a29ea958c89d5e5fd"
+    },
+    {
+      "sha": "f578269ecdbe18858d3cdf42413e4464bff896c1",
+      "shortSha": "f578269",
+      "title": "🐛 修复 ScriptEditor toolbar 中编辑相关操作的交互问题 (#1417)",
+      "author": "cyfung1031",
+      "date": "2026-05-15T06:29:47Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/f578269ecdbe18858d3cdf42413e4464bff896c1"
     },
     {
       "sha": "1c10827b3203da71a363b2a1e4112d57b6d3a1f5",
@@ -235,6 +411,22 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/3f42d0d3a95bff2093918ec4a9f8fe8cda720073"
     },
     {
+      "sha": "457ff27c23e6825f62b5770776ef4a7f38530565",
+      "shortSha": "457ff27",
+      "title": "✨ Ctrl+Shift+F 格式化 (#1415)",
+      "author": "cyfung1031",
+      "date": "2026-05-10T10:11:57Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/457ff27c23e6825f62b5770776ef4a7f38530565"
+    },
+    {
+      "sha": "d5662a8487576f0f4a4617d2f6385b126a10566e",
+      "shortSha": "d5662a8",
+      "title": "♻️ 安装资源 转移至 `chrome.storage.local` 的 tempStorage. 代码部份放在 `OPFS/temp_install_codes` (#1318)",
+      "author": "cyfung1031",
+      "date": "2026-05-10T10:08:46Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/d5662a8487576f0f4a4617d2f6385b126a10566e"
+    },
+    {
       "sha": "6a8c166f5aebe61c17f324b1bc68c0162c992984",
       "shortSha": "6a8c166",
       "title": "🐛 `GM_xmlhttpRequest` msgConn 的 null 处理缺失 (#1433)",
@@ -249,6 +441,14 @@
       "author": "cyfung1031",
       "date": "2026-05-10T03:58:26Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/68beedb56a089b91ff434883fdc0b6e372606c6d"
+    },
+    {
+      "sha": "c884abfa91b6a93ab2579a79ef9042145a53e65f",
+      "shortSha": "c884abf",
+      "title": "🐛 ScriptEditor 列表动态更新 及 显示修正 (#1414)",
+      "author": "cyfung1031",
+      "date": "2026-05-10T03:47:57Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/c884abfa91b6a93ab2579a79ef9042145a53e65f"
     },
     {
       "sha": "fd30d42bfc1d63d27142ed62f5a79b182c396adc",
@@ -307,6 +507,14 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/9bf361a7dcb80bf49be57ee68dad997d24fb6bb8"
     },
     {
+      "sha": "aca786ba538a849a50deab4446284da87b14a5ea",
+      "shortSha": "aca786b",
+      "title": "🐛 不支持更新的就不要显示更新 (#1418)",
+      "author": "cyfung1031",
+      "date": "2026-05-09T02:06:13Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/aca786ba538a849a50deab4446284da87b14a5ea"
+    },
+    {
       "sha": "aa0595a9c47eec445db0b87d367c90040bb16cf9",
       "shortSha": "aa0595a",
       "title": "🐛 修复 i18n 缺失键引用 (#1422)",
@@ -329,6 +537,38 @@
       "author": "cyfung1031",
       "date": "2026-05-09T01:35:57Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/9f07a9e122742bfd8362cf0d0259454cf1d4208a"
+    },
+    {
+      "sha": "2461a0bb2a3e118b9c179fc096a5c358d6c1a7ef",
+      "shortSha": "2461a0b",
+      "title": "chore: bump version to 1.4.0-beta.2",
+      "author": "王一之",
+      "date": "2026-05-06T08:55:13Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/2461a0bb2a3e118b9c179fc096a5c358d6c1a7ef"
+    },
+    {
+      "sha": "e143c4a7dc086e5c2b6af3082800b7d03fd854a9",
+      "shortSha": "e143c4a",
+      "title": "🐛(agent) pass extension env to skill script runtime",
+      "author": "王一之",
+      "date": "2026-05-06T08:28:12Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/e143c4a7dc086e5c2b6af3082800b7d03fd854a9"
+    },
+    {
+      "sha": "60034f5b6b1cdffb45eda1572bf37387a128435e",
+      "shortSha": "60034f5",
+      "title": "Merge branch 'release/v1.4' into release/v1.4-agent",
+      "author": "王一之",
+      "date": "2026-05-06T08:16:50Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/60034f5b6b1cdffb45eda1572bf37387a128435e"
+    },
+    {
+      "sha": "b70537cdb8a0eceec685eb65a19355ecd5cdcaae",
+      "shortSha": "b70537c",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-05-06T08:13:21Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/b70537cdb8a0eceec685eb65a19355ecd5cdcaae"
     },
     {
       "sha": "9acb2f13438b7760367ac99d3d171cfb582e823a",
@@ -435,6 +675,14 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/ae55bc79b48fa2b2cbece65b8836b04534bf9423"
     },
     {
+      "sha": "f42baa4b823adafa7c5a10d1c581634c4553f180",
+      "shortSha": "f42baa4",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-04-28T03:45:04Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/f42baa4b823adafa7c5a10d1c581634c4553f180"
+    },
+    {
       "sha": "de882dc7dffc0f04dc3e9c159f2e6641a222942e",
       "shortSha": "de882dc",
       "title": "🐛 修正 localStorage mock (#1382)",
@@ -475,6 +723,22 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/a4a7f44047da9eb7d28448d26b07a0302ff8f597"
     },
     {
+      "sha": "11d149e1d4f7e04f7ad0c26ea89f8757fb43a5f6",
+      "shortSha": "11d149e",
+      "title": "🐛 新增 extensionEnv 处理 isIncognito (early-start & bgScript), userAgent (bgScript) 及 run-in (bgScript) (#1368)",
+      "author": "cyfung1031",
+      "date": "2026-04-27T03:32:15Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/11d149e1d4f7e04f7ad0c26ea89f8757fb43a5f6"
+    },
+    {
+      "sha": "81e11c07c8cd463d070e872383d4492d605f9702",
+      "shortSha": "81e11c0",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-04-27T02:18:28Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/81e11c07c8cd463d070e872383d4492d605f9702"
+    },
+    {
       "sha": "f617cceab90c62e6bcc6400eb394a4e83148a9df",
       "shortSha": "f617cce",
       "title": "🐛 修正语言切换信息 (#1380)",
@@ -499,12 +763,36 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/198a47e5212886734697718b8b692ea4b10487b3"
     },
     {
+      "sha": "87eac92c3d83737f12576df28132a9dc80ab5175",
+      "shortSha": "87eac92",
+      "title": "⚡️ 优化 获取脚本 的 多平台搜索引擎选择 (#1379)",
+      "author": "cyfung1031",
+      "date": "2026-04-26T15:20:31Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/87eac92c3d83737f12576df28132a9dc80ab5175"
+    },
+    {
+      "sha": "982f09eed437c66eda48badfdb406ff08f250591",
+      "shortSha": "982f09e",
+      "title": "🐛 优化日志显示UI (#1372)",
+      "author": "cyfung1031",
+      "date": "2026-04-25T04:35:04Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/982f09eed437c66eda48badfdb406ff08f250591"
+    },
+    {
       "sha": "144dc258795d0a2621ba4bf6721b4c7bc8a6fc9b",
       "shortSha": "144dc25",
       "title": "🐛 修正本机档案拖拉安装时错误设置origin问题 (#1371)",
       "author": "cyfung1031",
       "date": "2026-04-25T04:06:30Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/144dc258795d0a2621ba4bf6721b4c7bc8a6fc9b"
+    },
+    {
+      "sha": "6f97ba3c47e4e7e67da7647e7176f01a887a85da",
+      "shortSha": "6f97ba3",
+      "title": "⚡️ 强化 prompt 可靠性——结果验证、budget 语义、安全边界与认识论纪律 (#1354)",
+      "author": "cyfung1031",
+      "date": "2026-04-23T06:42:48Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/6f97ba3c47e4e7e67da7647e7176f01a887a85da"
     },
     {
       "sha": "f8e76e62413021efcc32b9698b15b7607c6b2993",
@@ -515,12 +803,60 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/f8e76e62413021efcc32b9698b15b7607c6b2993"
     },
     {
+      "sha": "89ccc8eebf2d1b224352de98c8c2872afaf74245",
+      "shortSha": "89ccc8e",
+      "title": "npm vulnerability fix for v1.4 agent (#1365)",
+      "author": "cyfung1031",
+      "date": "2026-04-23T06:08:53Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/89ccc8eebf2d1b224352de98c8c2872afaf74245"
+    },
+    {
+      "sha": "03cc6e3657ca1477b40a00b4f97ad94ce66b46e7",
+      "shortSha": "03cc6e3",
+      "title": "npm vulnerability fix for 1.4 (#1364)",
+      "author": "cyfung1031",
+      "date": "2026-04-23T03:51:27Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/03cc6e3657ca1477b40a00b4f97ad94ce66b46e7"
+    },
+    {
+      "sha": "6d2b36b5c3153ca2d11fb230473f6e2c3eaa738d",
+      "shortSha": "6d2b36b",
+      "title": "🐛 修复 Agent 流式 tool_call arguments 拼接错误及并行工具调用串扰问题 (#1355)",
+      "author": "cyfung1031",
+      "date": "2026-04-23T03:47:34Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/6d2b36b5c3153ca2d11fb230473f6e2c3eaa738d"
+    },
+    {
       "sha": "a62e87620a8f05dc910895446e2a8575a6774df5",
       "shortSha": "a62e876",
       "title": "✅ example/tests: `GM_registerMenuCommand` (#1366)",
       "author": "cyfung1031",
       "date": "2026-04-23T02:13:19Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/a62e87620a8f05dc910895446e2a8575a6774df5"
+    },
+    {
+      "sha": "b0a45f6136191e6402f881f1f1b2def6eeda6790",
+      "shortSha": "b0a45f6",
+      "title": "🐛 修复兼容 reasoning model (#1357)",
+      "author": "cyfung1031",
+      "date": "2026-04-22T17:00:34Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/b0a45f6136191e6402f881f1f1b2def6eeda6790"
+    },
+    {
+      "sha": "f5aa1eff4ce1a0d03bce6023fec93f58011ba718",
+      "shortSha": "f5aa1ef",
+      "title": "Merge branch 'release/v1.4' into release/v1.4-agent",
+      "author": "王一之",
+      "date": "2026-04-22T16:21:10Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/f5aa1eff4ce1a0d03bce6023fec93f58011ba718"
+    },
+    {
+      "sha": "d80107b760dbff513cbc2174c6678db671414721",
+      "shortSha": "d80107b",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-04-22T16:16:04Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/d80107b760dbff513cbc2174c6678db671414721"
     },
     {
       "sha": "dd3ac76dfb2796df22d65e00ec92962c10c0042a",
@@ -555,6 +891,14 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/89694a6f92f83cfee59c09c599351598ca114755"
     },
     {
+      "sha": "7bbd6d18edfe04c58bbe34bfe5da95be4d21ebc5",
+      "shortSha": "7bbd6d1",
+      "title": "🐛 修复 web_fetch/web_search 合约不一致",
+      "author": "王一之",
+      "date": "2026-04-08T05:58:25Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/7bbd6d18edfe04c58bbe34bfe5da95be4d21ebc5"
+    },
+    {
       "sha": "2447ce3d5c65a7ede9f8a5f9e00a707513598964",
       "shortSha": "2447ce3",
       "title": "🔧 pnpm cooldown: 不抓取一个月内最新版 （pnpm: 提升至 10.33.0 以使用 minimumReleaseAge 避免 supply chain 攻击） (#1341)",
@@ -571,12 +915,92 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/39aff8a9643026eb0efbf0563c5c0f79cef2a334"
     },
     {
+      "sha": "40e7eb0135d8b835dc0a0852841c048a56a35f20",
+      "shortSha": "40e7eb0",
+      "title": "Merge branch 'release/v1.4' into release/v1.4-agent",
+      "author": "王一之",
+      "date": "2026-04-07T14:24:25Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/40e7eb0135d8b835dc0a0852841c048a56a35f20"
+    },
+    {
+      "sha": "eccc1189847ff2fa0e4ff6801221e6d0cce98dad",
+      "shortSha": "eccc118",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-04-07T14:23:58Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/eccc1189847ff2fa0e4ff6801221e6d0cce98dad"
+    },
+    {
+      "sha": "6dbfaefff6c957385e0337e45032ece89374724d",
+      "shortSha": "6dbfaef",
+      "title": "♻️ 移除子代理 to 参数，Agent 管理页面添加文档链接 (#1337)",
+      "author": "wangyizhi",
+      "date": "2026-04-07T14:17:28Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/6dbfaefff6c957385e0337e45032ece89374724d"
+    },
+    {
+      "sha": "94b533dcd85a2e39c27d1b9af5c9e1f3e94af7ac",
+      "shortSha": "94b533d",
+      "title": "💥 脚本猫 AI Agent (#1324)",
+      "author": "wangyizhi",
+      "date": "2026-04-07T10:05:26Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/94b533dcd85a2e39c27d1b9af5c9e1f3e94af7ac"
+    },
+    {
+      "sha": "15c62d0803a6608ce35f52432e638f095c330d6d",
+      "shortSha": "15c62d0",
+      "title": "✨ 新增更多图标服务供应商 (#1333)",
+      "author": "cyfung1031",
+      "date": "2026-04-05T11:24:21Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/15c62d0803a6608ce35f52432e638f095c330d6d"
+    },
+    {
+      "sha": "65775cbdb8e2ad6d6d23e5e21029dfd3c403a81d",
+      "shortSha": "65775cb",
+      "title": "🔧 通用修复与基础设施改进 (#1328)",
+      "author": "wangyizhi",
+      "date": "2026-04-05T08:55:45Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/65775cbdb8e2ad6d6d23e5e21029dfd3c403a81d"
+    },
+    {
       "sha": "2f0e8d92ad9b0ee9ae2bada344a6f2a0d1ed3d42",
       "shortSha": "2f0e8d9",
       "title": "🐛 修复 nextTimeDisplay 避免cron表达式错误导致整个页面死掉 (#1327)",
       "author": "cyfung1031",
       "date": "2026-04-04T04:01:33Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/2f0e8d92ad9b0ee9ae2bada344a6f2a0d1ed3d42"
+    },
+    {
+      "sha": "3e975c0f4027ce575b7a23735eb44e1a05adb874",
+      "shortSha": "3e975c0",
+      "title": "pnpm install",
+      "author": "王一之",
+      "date": "2026-04-02T05:55:56Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3e975c0f4027ce575b7a23735eb44e1a05adb874"
+    },
+    {
+      "sha": "a16a407e95fe7dcae23e882383b48bb65d45ae22",
+      "shortSha": "a16a407",
+      "title": "🔖 v1.4.0-beta.1: 合并 git hooks，修复测试 LoggerCore mock",
+      "author": "王一之",
+      "date": "2026-04-02T05:40:20Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/a16a407e95fe7dcae23e882383b48bb65d45ae22"
+    },
+    {
+      "sha": "dc4decb783ac85402400d411809c2a846d430041",
+      "shortSha": "dc4decb",
+      "title": "Merge remote-tracking branch 'origin/main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-04-02T03:16:39Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/dc4decb783ac85402400d411809c2a846d430041"
+    },
+    {
+      "sha": "b0811a695ea2e413a8dbcf931c423ee7fb130897",
+      "shortSha": "b0811a6",
+      "title": "✨ 以 Navigation API 实现 TM 的 window.onurlchange (#1315)",
+      "author": "cyfung1031",
+      "date": "2026-04-02T01:45:04Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/b0811a695ea2e413a8dbcf931c423ee7fb130897"
     },
     {
       "sha": "4d74a56986660061a83cbf827b106ad65888ad5f",
@@ -587,12 +1011,44 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/4d74a56986660061a83cbf827b106ad65888ad5f"
     },
     {
+      "sha": "b3db76904a72ae87aa71fdaf6423e60af414613c",
+      "shortSha": "b3db769",
+      "title": "⚡️ 压缩 ts.worker.js 至 4MB 以通过 AMO 验证，修复 MV3 background permission 错误 (#1221)",
+      "author": "cyfung1031",
+      "date": "2026-03-29T12:18:03Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/b3db76904a72ae87aa71fdaf6423e60af414613c"
+    },
+    {
       "sha": "950d7f7677fee7ca21c5708249be73cb65ce1478",
       "shortSha": "950d7f7",
       "title": "yaml 2.8.1 -> 2.8.3 (#1314)",
       "author": "cyfung1031",
       "date": "2026-03-29T12:07:10Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/950d7f7677fee7ca21c5708249be73cb65ce1478"
+    },
+    {
+      "sha": "da16ddf4720daa8dfcf8f512f2f80343e7979ede",
+      "shortSha": "da16ddf",
+      "title": "⚡️ 更新 Subscribe 相关代码和追加注释 (#1198)",
+      "author": "cyfung1031",
+      "date": "2026-03-29T08:00:14Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/da16ddf4720daa8dfcf8f512f2f80343e7979ede"
+    },
+    {
+      "sha": "a3c258102ad1d43f9cd035201791f3fefb7d0d7e",
+      "shortSha": "a3c2581",
+      "title": "🐛 修正订阅脚本的静默更新与 connect 权限逻辑 (#1201)",
+      "author": "cyfung1031",
+      "date": "2026-03-29T07:34:02Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/a3c258102ad1d43f9cd035201791f3fefb7d0d7e"
+    },
+    {
+      "sha": "984560376dfdf4ba37b2578e3838dfcda39576e1",
+      "shortSha": "9845603",
+      "title": "📝 配合 ScriptCat 1.3.x 更新 `@crontab` 说明 (#1322)",
+      "author": "cyfung1031",
+      "date": "2026-03-29T05:18:38Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/984560376dfdf4ba37b2578e3838dfcda39576e1"
     },
     {
       "sha": "3a8c28e0c56b8d22d0a647ff515ec563a10a448a",
@@ -609,6 +1065,14 @@
       "author": "王一之",
       "date": "2026-03-28T12:02:46Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/d7c96a501e622aab08ec8e51d6c0c46bbcb87987"
+    },
+    {
+      "sha": "42312466c504f8d077426d2ed55a0f21c692a8f1",
+      "shortSha": "4231246",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "cyfung1031",
+      "date": "2026-03-27T23:59:22Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/42312466c504f8d077426d2ed55a0f21c692a8f1"
     },
     {
       "sha": "665d4e9247ac08a9264c5daf0d913715f8def4e2",
@@ -643,6 +1107,14 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/811f148fe8438fc34c25b5b861b35368e5eb97d4"
     },
     {
+      "sha": "df225ceb445bd43c02cf3426fcf9abd894539a9d",
+      "shortSha": "df225ce",
+      "title": "🐛 Editor: 修正 Ctrl-F Ctrl-H (#1312)",
+      "author": "cyfung1031",
+      "date": "2026-03-22T15:31:14Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/df225ceb445bd43c02cf3426fcf9abd894539a9d"
+    },
+    {
       "sha": "c5c35649fca01cfdf6be28b2448046583bc0b366",
       "shortSha": "c5c3564",
       "title": "🐛 设备相关配置改用 chrome.storage.local，避免跨设备同步 (#1309)",
@@ -657,6 +1129,38 @@
       "author": "cyfung1031",
       "date": "2026-03-22T03:19:51Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/98aa4948cc480d68c2b7a96d21b8afb69fbd6f9a"
+    },
+    {
+      "sha": "00e1f9cdc6171d4cfd62e6eb1abb1b3664fda36e",
+      "shortSha": "00e1f9c",
+      "title": "🐛 修复编辑器中 ESLint 修复功能失效的问题（globalCache.get(\"eslint-fix\") 为 undefined）- 修复 #1079 (#1184)",
+      "author": "cyfung1031",
+      "date": "2026-03-22T02:24:53Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/00e1f9cdc6171d4cfd62e6eb1abb1b3664fda36e"
+    },
+    {
+      "sha": "df6a5392f473140fc6181ecd3c54302ef7752fa8",
+      "shortSha": "df6a539",
+      "title": "✨ 脚本列表最后更新列添加检查更新图标 (#1304)",
+      "author": "wangyizhi",
+      "date": "2026-03-21T19:35:08Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/df6a5392f473140fc6181ecd3c54302ef7752fa8"
+    },
+    {
+      "sha": "c59c60345a94f901220d403e8ddd8ea39aec8797",
+      "shortSha": "c59c603",
+      "title": "✨ 编辑器添加编辑菜单（查找、替换、撤销等） (#1303)",
+      "author": "wangyizhi",
+      "date": "2026-03-21T19:34:35Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/c59c60345a94f901220d403e8ddd8ea39aec8797"
+    },
+    {
+      "sha": "d4ab8ba8f5c557819f91c69789ae577227e5d500",
+      "shortSha": "d4ab8ba",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "cyfung1031",
+      "date": "2026-03-21T19:21:43Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/d4ab8ba8f5c557819f91c69789ae577227e5d500"
     },
     {
       "sha": "b6b3a004bd3c85f7c04cd4a3640ed4f47c046d8c",
@@ -683,6 +1187,70 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/68aafbdb804d3daa22ce23da6a1f7181afddb888"
     },
     {
+      "sha": "d99004589e46a8c877d3b227387b1aad6df9a062",
+      "shortSha": "d990045",
+      "title": "♻️ Offscreen 与 ServiceWorker 通信统一走 postMessage 通道 (#1299)",
+      "author": "wangyizhi",
+      "date": "2026-03-21T13:44:41Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/d99004589e46a8c877d3b227387b1aad6df9a062"
+    },
+    {
+      "sha": "f9dd5eac95885edaad38e7e36d4562560dab9268",
+      "shortSha": "f9dd5ea",
+      "title": "✨ 获取脚本支持多平台搜索引擎选择 (#1295)",
+      "author": "wangyizhi",
+      "date": "2026-03-20T04:04:04Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/f9dd5eac95885edaad38e7e36d4562560dab9268"
+    },
+    {
+      "sha": "c01d29154d7e629650402c76fef30aadb74c9ae1",
+      "shortSha": "c01d291",
+      "title": "🐛 修复运行日志页面点击查询按钮不刷新时间的问题 (#1294)",
+      "author": "wangyizhi",
+      "date": "2026-03-20T04:03:53Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/c01d29154d7e629650402c76fef30aadb74c9ae1"
+    },
+    {
+      "sha": "8b4fd8874553cbbd557879e67e65c077b1ab29b2",
+      "shortSha": "8b4fd88",
+      "title": "Merge branch 'main' into release/v1.4",
+      "author": "王一之",
+      "date": "2026-03-17T09:15:02Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/8b4fd8874553cbbd557879e67e65c077b1ab29b2"
+    },
+    {
+      "sha": "b24ed2150ec34b93b832e9dd851060f926e413e9",
+      "shortSha": "b24ed21",
+      "title": "✨ 获取脚本支持多平台搜索引擎选择 (#1114)",
+      "author": "王一之",
+      "date": "2026-03-17T09:13:12Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/b24ed2150ec34b93b832e9dd851060f926e413e9"
+    },
+    {
+      "sha": "3d23db22203a23ca6725f59f18879cef2afd7acd",
+      "shortSha": "3d23db2",
+      "title": "♻️ VSCodeConnect 代码重构 (#1170)",
+      "author": "cyfung1031",
+      "date": "2026-03-17T07:15:20Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3d23db22203a23ca6725f59f18879cef2afd7acd"
+    },
+    {
+      "sha": "283c8d4115c1a3e62cd7c3086fef2d4151f9dcd7",
+      "shortSha": "283c8d4",
+      "title": "✨ 优化编辑冲突&脚本名称冲突 (#1223)",
+      "author": "cyfung1031",
+      "date": "2026-03-17T06:40:10Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/283c8d4115c1a3e62cd7c3086fef2d4151f9dcd7"
+    },
+    {
+      "sha": "202b693294b4c986c9e95192ae6aff575af9948d",
+      "shortSha": "202b693",
+      "title": "✨ 支持 `@unwrap` (#1213)",
+      "author": "cyfung1031",
+      "date": "2026-03-17T06:06:06Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/202b693294b4c986c9e95192ae6aff575af9948d"
+    },
+    {
       "sha": "30c36b9cc3c27935c22ab49893880f1fc6b04edf",
       "shortSha": "30c36b9",
       "title": "🐛 修复运行日志页面日期选择弹出框被容器裁剪的问题 (#1292)",
@@ -699,6 +1267,14 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/e08ceb386d4474790ec613c2532f7c52f345c2c7"
     },
     {
+      "sha": "a144ae31dbe31843f3cdcf041c528c675cc7a36f",
+      "shortSha": "a144ae3",
+      "title": "🐛 修复 ScriptEditor 脚本列表亮色显示有问题 (#1288)",
+      "author": "wangyizhi",
+      "date": "2026-03-17T02:32:30Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/a144ae31dbe31843f3cdcf041c528c675cc7a36f"
+    },
+    {
       "sha": "6c507f493ce427b050daced07c53fc67c6d7f6c8",
       "shortSha": "6c507f4",
       "title": "🐛 修复弹出框被遮挡的问题 (#1290)",
@@ -707,588 +1283,12 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/6c507f493ce427b050daced07c53fc67c6d7f6c8"
     },
     {
-      "sha": "056bfaba0b8b81f8a8b374b82779e4ec67dd7fb5",
-      "shortSha": "056bfab",
-      "title": "✅ additional test for responseType=document (#1262)",
+      "sha": "2e875bc7466836138a46657d53aeb4f96bd9562c",
+      "shortSha": "2e875bc",
+      "title": "⚡️ 优化 MessageConnect 的记忆管理及Cleanup机制 (#1248)",
       "author": "cyfung1031",
-      "date": "2026-03-16T07:58:56Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/056bfaba0b8b81f8a8b374b82779e4ec67dd7fb5"
-    },
-    {
-      "sha": "4347e77a5290cd1a821b2581f3140384e0b08af0",
-      "shortSha": "4347e77",
-      "title": "⚙️ 添加 pre-commit 钩子，提交前自动执行 lint-fix",
-      "author": "王一之",
-      "date": "2026-03-16T06:50:45Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/4347e77a5290cd1a821b2581f3140384e0b08af0"
-    },
-    {
-      "sha": "d2313201bf7f1d1a42f2cabce96d024205ac1d65",
-      "shortSha": "d231320",
-      "title": "⚙️ Add husky pre-push hook and fix e2e test code style",
-      "author": "王一之",
-      "date": "2026-03-16T06:05:23Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/d2313201bf7f1d1a42f2cabce96d024205ac1d65"
-    },
-    {
-      "sha": "ac40b998d2fe3bc2946dc49a7ada3664392d5809",
-      "shortSha": "ac40b99",
-      "title": "✅ 修复 e2e 测试 service worker 超时并优化等待策略",
-      "author": "王一之",
-      "date": "2026-03-13T15:16:05Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/ac40b998d2fe3bc2946dc49a7ada3664392d5809"
-    },
-    {
-      "sha": "5a9f3f7f93eb11091232cf3c82e1fe1d17e8b2e0",
-      "shortSha": "5a9f3f7",
-      "title": "⚙️ 优化 CI 流水线和测试配置",
-      "author": "王一之",
-      "date": "2026-03-13T12:37:26Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/5a9f3f7f93eb11091232cf3c82e1fe1d17e8b2e0"
-    },
-    {
-      "sha": "12578361b4e50ada03b8f8f8991dfa559a31382c",
-      "shortSha": "1257836",
-      "title": "🚑 修复其他扩展注入 chrome.runtime 导致环境误判的问题 #1280 (#1281)",
-      "author": "wangyizhi",
-      "date": "2026-03-13T09:20:47Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/12578361b4e50ada03b8f8f8991dfa559a31382c"
-    },
-    {
-      "sha": "5d5c3d93b6cc7f602b245946078daa87718b5a14",
-      "shortSha": "5d5c3d9",
-      "title": "✅ 添加 Playwright E2E 测试及 GM API 功能测试 (#1283)",
-      "author": "wangyizhi",
-      "date": "2026-03-12T07:49:24Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/5d5c3d93b6cc7f602b245946078daa87718b5a14"
-    },
-    {
-      "sha": "30bf7463ef8033927695627cb5640aada95cc969",
-      "shortSha": "30bf746",
-      "title": "📄 docs: update Chrome Web Store URLs to new domain (#1279)",
-      "author": "Michael Lip",
-      "date": "2026-03-07T07:54:14Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/30bf7463ef8033927695627cb5640aada95cc969"
-    },
-    {
-      "sha": "6c308f602870aac8c6e1aebd0570fa2a60cdb3f0",
-      "shortSha": "6c308f6",
-      "title": "🐛 修复与隐身窗口检查权限冲突导致反复重启的问题",
-      "author": "王一之",
-      "date": "2026-03-04T09:42:07Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/6c308f602870aac8c6e1aebd0570fa2a60cdb3f0"
-    },
-    {
-      "sha": "7214544902999a3a794fc403ce6ce2555c10eaec",
-      "shortSha": "7214544",
-      "title": "Merge branch 'main' into release/v1.3",
-      "author": "王一之",
-      "date": "2026-03-04T09:20:00Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/7214544902999a3a794fc403ce6ce2555c10eaec"
-    },
-    {
-      "sha": "7256d75f3ea0b67afbce470e4a2b82e0970aa451",
-      "shortSha": "7256d75",
-      "title": "fix #1274 (#1275)",
-      "author": "cyfung1031",
-      "date": "2026-03-04T05:51:30Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/7256d75f3ea0b67afbce470e4a2b82e0970aa451"
-    },
-    {
-      "sha": "1b70fcee0de97944b9d751e95f64fe6985c9130a",
-      "shortSha": "1b70fce",
-      "title": "🐛 修复 include *?* 表达式处理问题 #1271 (#1272)",
-      "author": "wangyizhi",
-      "date": "2026-03-04T05:50:49Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/1b70fcee0de97944b9d751e95f64fe6985c9130a"
-    },
-    {
-      "sha": "4617709085c2f52b8a600feba543e6aa35e858e6",
-      "shortSha": "4617709",
-      "title": "🔒 使用 DOMPurify 清理公告通知 HTML 内容 (#1274)",
-      "author": "wangyizhi",
-      "date": "2026-03-03T08:20:55Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/4617709085c2f52b8a600feba543e6aa35e858e6"
-    },
-    {
-      "sha": "b34f3ea48fb8508f8099be7ca10e182f4044c99e",
-      "shortSha": "b34f3ea",
-      "title": "🐛 修复 脚本设置-授权管理 控制无效的问题 (#1267)",
-      "author": "wangyizhi",
-      "date": "2026-03-02T07:43:22Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b34f3ea48fb8508f8099be7ca10e182f4044c99e"
-    },
-    {
-      "sha": "75180b7a924b1fe04efc55d024f50c6e6d5d37fe",
-      "shortSha": "75180b7",
-      "title": "🐛 修复点击更新日志通知打开页面问题 (#1266)",
-      "author": "wangyizhi",
-      "date": "2026-02-19T03:56:01Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/75180b7a924b1fe04efc55d024f50c6e6d5d37fe"
-    },
-    {
-      "sha": "b27971f5132c3f97e0db9685b2f0fe6e3e8402fe",
-      "shortSha": "b27971f",
-      "title": "Merge branch 'main' into release/v1.3",
-      "author": "王一之",
-      "date": "2026-02-18T10:36:43Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b27971f5132c3f97e0db9685b2f0fe6e3e8402fe"
-    },
-    {
-      "sha": "5f380d4fa15c2e61ad11901a7f7a679330c40f8b",
-      "shortSha": "5f380d4",
-      "title": "🐛 修正反注册未正确执行 (#1231)",
-      "author": "cyfung1031",
-      "date": "2026-02-18T10:34:57Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/5f380d4fa15c2e61ad11901a7f7a679330c40f8b"
-    },
-    {
-      "sha": "b8497df0173754f19ad575d591c5fb4655e2195e",
-      "shortSha": "b8497df",
-      "title": "🐛 修复 GM_addElement 问题，将操作放到content环境 (#1233)",
-      "author": "cyfung1031",
-      "date": "2026-02-18T10:22:57Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b8497df0173754f19ad575d591c5fb4655e2195e"
-    },
-    {
-      "sha": "2fa4778288c2125006fee56a4078960a79cf772e",
-      "shortSha": "2fa4778",
-      "title": "♻️ React State优化：Table column (#1247)",
-      "author": "cyfung1031",
-      "date": "2026-02-18T07:42:52Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/2fa4778288c2125006fee56a4078960a79cf772e"
-    },
-    {
-      "sha": "bc25491703362978bb225809ed66b703e7cfa3d7",
-      "shortSha": "bc25491",
-      "title": "🐛 重构 DraggableEntry 、修正卡片高度对齐 (#1245)",
-      "author": "cyfung1031",
-      "date": "2026-02-18T06:46:36Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/bc25491703362978bb225809ed66b703e7cfa3d7"
-    },
-    {
-      "sha": "0cf11512a4478221ea99fd3b0a09efdfcac6e69b",
-      "shortSha": "0cf1151",
-      "title": "✨ 增加 Amazon S3 存储 #1146 (#1189)",
-      "author": "wangyizhi",
-      "date": "2026-02-17T06:20:04Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/0cf11512a4478221ea99fd3b0a09efdfcac6e69b"
-    },
-    {
-      "sha": "f14b538b256b2753e60eb6a348cd9c131ace4ad4",
-      "shortSha": "f14b538",
-      "title": "🐛 修复弹出内容跟随屏幕滚动的问题 (#1263)",
-      "author": "cyfung1031",
-      "date": "2026-02-17T02:29:21Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/f14b538b256b2753e60eb6a348cd9c131ace4ad4"
-    },
-    {
-      "sha": "7dcef3914f00e321c5a9cb995a82d84d26731f3d",
-      "shortSha": "7dcef39",
-      "title": "🐛 修复弹出内容跟随屏幕滚动的问题 #1256 (#1259)",
-      "author": "cyfung1031",
-      "date": "2026-02-16T10:38:53Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/7dcef3914f00e321c5a9cb995a82d84d26731f3d"
-    },
-    {
-      "sha": "fbe3c113bedf8eb31a866fb7f650cde281b1fecb",
-      "shortSha": "fbe3c11",
-      "title": "🐛 修复内存泄漏和对象属性暴露及 TTP XML 解析退回至 null (#1242)",
-      "author": "cyfung1031",
-      "date": "2026-02-16T09:09:13Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/fbe3c113bedf8eb31a866fb7f650cde281b1fecb"
-    },
-    {
-      "sha": "7c5c9122112543d101431bc56753f20efcd8cf34",
-      "shortSha": "7c5c912",
-      "title": "✨ 调整隐藏编辑框侧边栏位置 #1185 (#1254)",
-      "author": "wangyizhi",
-      "date": "2026-02-16T08:03:43Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/7c5c9122112543d101431bc56753f20efcd8cf34"
-    },
-    {
-      "sha": "b5d1d3306ce3222e45e8fffbc43c1432627e0231",
-      "shortSha": "b5d1d33",
-      "title": "🐛 修复安装url提取问题 #1235 (#1260)",
-      "author": "cyfung1031",
-      "date": "2026-02-16T05:35:23Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b5d1d3306ce3222e45e8fffbc43c1432627e0231"
-    },
-    {
-      "sha": "1dff5663dfd0f6a8bd7bac0ca32b9b18528bba2e",
-      "shortSha": "1dff566",
-      "title": "🐛 修复脚本代码构建错误 (#1253)",
-      "author": "cyfung1031",
-      "date": "2026-02-15T07:33:24Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/1dff5663dfd0f6a8bd7bac0ca32b9b18528bba2e"
-    },
-    {
-      "sha": "43652e047071a75d6f1df2ad6e11bfd322e3335f",
-      "shortSha": "43652e0",
-      "title": "🐛 `GM_download` 添加 `conflictAction` 参数 (#1250)",
-      "author": "cyfung1031",
-      "date": "2026-02-15T06:21:10Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/43652e047071a75d6f1df2ad6e11bfd322e3335f"
-    },
-    {
-      "sha": "53a5415dfb8db6698005b43cf4f012bc9d2aa40b",
-      "shortSha": "53a5415",
-      "title": "🐛 修复安装链接解析失败问题 #1235 (#1238)",
-      "author": "cyfung1031",
-      "date": "2026-02-15T06:19:54Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/53a5415dfb8db6698005b43cf4f012bc9d2aa40b"
-    },
-    {
-      "sha": "511a986744629e67bcd31eea98c97852f6273df9",
-      "shortSha": "511a986",
-      "title": "♻️ 优化 prettyUrl 功能 (#1244)",
-      "author": "cyfung1031",
-      "date": "2026-02-15T05:53:43Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/511a986744629e67bcd31eea98c97852f6273df9"
-    },
-    {
-      "sha": "1fe8d207c5326772084e40b704818d1403c7891e",
-      "shortSha": "1fe8d20",
-      "title": "♻️ 优化注入代码 减少不必要的行数 (#1246)",
-      "author": "cyfung1031",
-      "date": "2026-02-15T04:38:32Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/1fe8d207c5326772084e40b704818d1403c7891e"
-    },
-    {
-      "sha": "524a47cd670762418b91a24e2b7d186095c92fee",
-      "shortSha": "524a47c",
-      "title": "🐛 修复拖拽组件导致触发focusin / focusout卡顿 #1224 (#1243)",
-      "author": "wangyizhi",
-      "date": "2026-02-14T10:54:17Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/524a47cd670762418b91a24e2b7d186095c92fee"
-    },
-    {
-      "sha": "3645f641e6564ec1bff55ef3e970a706d299d1bc",
-      "shortSha": "3645f64",
-      "title": "✨ 接受 @version 没有或空值 (#1216)",
-      "author": "cyfung1031",
-      "date": "2026-02-12T11:32:48Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/3645f641e6564ec1bff55ef3e970a706d299d1bc"
-    },
-    {
-      "sha": "d0061abe4ca2b48da297ea988386c2beb8c3fb20",
-      "shortSha": "d0061ab",
-      "title": "🐛 修正 installScript 中 subscribeUrl origin 关连部份 (#1218)",
-      "author": "cyfung1031",
-      "date": "2026-02-12T10:32:16Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/d0061abe4ca2b48da297ea988386c2beb8c3fb20"
-    },
-    {
-      "sha": "16cc899de63302810e0d3497380cf83f5e845e14",
-      "shortSha": "16cc899",
-      "title": "⬆️ 修复 npm packages vulnerabilities 问题 (#1227)",
-      "author": "cyfung1031",
-      "date": "2026-02-12T10:30:16Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/16cc899de63302810e0d3497380cf83f5e845e14"
-    },
-    {
-      "sha": "d39e0755223c147a16c8f5538d924e45b9d38dbd",
-      "shortSha": "d39e075",
-      "title": "✏️ 修正名字： scriptcat-content -> scriptcat-scripting (#1229)",
-      "author": "cyfung1031",
-      "date": "2026-02-12T09:32:20Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/d39e0755223c147a16c8f5538d924e45b9d38dbd"
-    },
-    {
-      "sha": "e63ce5a2595f860cdb3138321e256356936e0b22",
-      "shortSha": "e63ce5a",
-      "title": "🐛 修正 ScriptCard 动画问题 (#1234)",
-      "author": "cyfung1031",
-      "date": "2026-02-12T09:28:29Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/e63ce5a2595f860cdb3138321e256356936e0b22"
-    },
-    {
-      "sha": "4044a220c7811c122dd127613756cbc00b2c53f8",
-      "shortSha": "4044a22",
-      "title": "🐛 修正 hide_sidebar 至 show_main_sidebar & hide_main_sidebar (#1225)",
-      "author": "cyfung1031",
-      "date": "2026-02-12T09:15:10Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/4044a220c7811c122dd127613756cbc00b2c53f8"
-    },
-    {
-      "sha": "76d8230bb6c5da69405a5e0c5c6766f0b6bbc321",
-      "shortSha": "76d8230",
-      "title": "♻️ 改良代码 - subscribeMessage & HookManager (#1210)",
-      "author": "cyfung1031",
-      "date": "2026-02-12T09:03:27Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/76d8230bb6c5da69405a5e0c5c6766f0b6bbc321"
-    },
-    {
-      "sha": "d12232b49c3579e045864b2a08e1952a0dd6881b",
-      "shortSha": "d12232b",
-      "title": "♻️ 改良代码 - waitBody (#1215)",
-      "author": "cyfung1031",
-      "date": "2026-02-12T08:35:30Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/d12232b49c3579e045864b2a08e1952a0dd6881b"
-    },
-    {
-      "sha": "a45fc83a7ffd32479b1009b1993ebd8c830fe4cf",
-      "shortSha": "a45fc83",
-      "title": "♻️ 改良代码 - execScript (#1209)",
-      "author": "cyfung1031",
-      "date": "2026-02-12T08:26:10Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/a45fc83a7ffd32479b1009b1993ebd8c830fe4cf"
-    },
-    {
-      "sha": "d0f6c19a97c07f2aa1dad5882d628d61d9703bb8",
-      "shortSha": "d0f6c19",
-      "title": "♻️ 改良代码 - .load / .loadend (#1208)",
-      "author": "cyfung1031",
-      "date": "2026-02-12T08:25:40Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/d0f6c19a97c07f2aa1dad5882d628d61d9703bb8"
-    },
-    {
-      "sha": "b47f967641da3ddbe352e5dca2c50f3ef5aee03a",
-      "shortSha": "b47f967",
-      "title": "♻️ 改良代码 - 加 as const (#1207)",
-      "author": "cyfung1031",
-      "date": "2026-02-12T08:21:39Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b47f967641da3ddbe352e5dca2c50f3ef5aee03a"
-    },
-    {
-      "sha": "55a6e93eab3e01300362a5526ff2020b20cace77",
-      "shortSha": "55a6e93",
-      "title": "⚡️ 修正React重绘问题 （ScriptCard & ScriptTable） (#1182)",
-      "author": "cyfung1031",
-      "date": "2026-02-12T08:01:47Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/55a6e93eab3e01300362a5526ff2020b20cace77"
-    },
-    {
-      "sha": "7d18bde0a5231826adabfc80dcbd268e562a8e6f",
-      "shortSha": "7d18bde",
-      "title": "👷 集成react devtools",
-      "author": "王一之",
-      "date": "2026-02-12T04:41:03Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/7d18bde0a5231826adabfc80dcbd268e562a8e6f"
-    },
-    {
-      "sha": "1cc9be3c011f16581173dac9a49b88145587dd3f",
-      "shortSha": "1cc9be3",
-      "title": "⚡️优化Repo性能 (#1232)",
-      "author": "wangyizhi",
-      "date": "2026-02-11T12:59:59Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/1cc9be3c011f16581173dac9a49b88145587dd3f"
-    },
-    {
-      "sha": "d1161b7f187b0aa88ccfaba89f7cc467880f2aac",
-      "shortSha": "d1161b7",
-      "title": "⚡️ 修正React重绘问题 （Popup） (#1181)",
-      "author": "cyfung1031",
-      "date": "2026-02-08T00:54:06Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/d1161b7f187b0aa88ccfaba89f7cc467880f2aac"
-    },
-    {
-      "sha": "b76f253dc6d25036385e0c7e44ed8edbd370b3e8",
-      "shortSha": "b76f253",
-      "title": "🐛 修复外部扩展API无效的问题 (#1217)",
-      "author": "cyfung1031",
-      "date": "2026-02-07T12:02:40Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b76f253dc6d25036385e0c7e44ed8edbd370b3e8"
-    },
-    {
-      "sha": "932f88e0634436a55c527d6542a7c376683bb548",
-      "shortSha": "932f88e",
-      "title": "🐛 修复download文件名不支持文件夹的问题 (#1203)",
-      "author": "cyfung1031",
-      "date": "2026-02-07T08:38:09Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/932f88e0634436a55c527d6542a7c376683bb548"
-    },
-    {
-      "sha": "fc3c29148b09b74d9e2756e2b171917f8b410b0e",
-      "shortSha": "fc3c291",
-      "title": "♻️ 改良代码 - .bind & closure GC (#1211)",
-      "author": "cyfung1031",
-      "date": "2026-02-07T08:22:00Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/fc3c29148b09b74d9e2756e2b171917f8b410b0e"
-    },
-    {
-      "sha": "1f60c015d83d21f7e3671163053db196410e9efb",
-      "shortSha": "1f60c01",
-      "title": "Merge branch 'main' into release/v1.3",
-      "author": "王一之",
-      "date": "2026-02-07T06:36:54Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/1f60c015d83d21f7e3671163053db196410e9efb"
-    },
-    {
-      "sha": "7307705dcd69d4b48795b25fb43bd6ddb6b2dc47",
-      "shortSha": "7307705",
-      "title": "No Redux (#1206)",
-      "author": "cyfung1031",
-      "date": "2026-02-06T01:49:39Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/7307705dcd69d4b48795b25fb43bd6ddb6b2dc47"
-    },
-    {
-      "sha": "b06cf813b3a07f37426aa7850cc691b178405133",
-      "shortSha": "b06cf81",
-      "title": "🐛 修复grant问题 (#1199)",
-      "author": "wangyizhi",
-      "date": "2026-02-04T14:38:53Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b06cf813b3a07f37426aa7850cc691b178405133"
-    },
-    {
-      "sha": "ef3683ce42721d636a7662a7b813389e83972fd5",
-      "shortSha": "ef3683c",
-      "title": "♻️ 修改 9343f2d6e49aec78d208d0e3ba3d96ec2a4d5a1c (#1195)",
-      "author": "cyfung1031",
-      "date": "2026-02-04T01:07:49Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/ef3683ce42721d636a7662a7b813389e83972fd5"
-    },
-    {
-      "sha": "9343f2d6e49aec78d208d0e3ba3d96ec2a4d5a1c",
-      "shortSha": "9343f2d",
-      "title": "🐛 v1.3 修复GM_value问题 #1192",
-      "author": "王一之",
-      "date": "2026-02-03T17:23:52Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/9343f2d6e49aec78d208d0e3ba3d96ec2a4d5a1c"
-    },
-    {
-      "sha": "ac2faf964265a4e9900194eeafad039a5acfc5b2",
-      "shortSha": "ac2faf9",
-      "title": "🐛 升级为es2022并解决语法错误 #1186",
-      "author": "王一之",
-      "date": "2026-02-03T17:18:24Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/ac2faf964265a4e9900194eeafad039a5acfc5b2"
-    },
-    {
-      "sha": "84558e02b83e4aa3b7bb7324aa0bc1ee19f9c4b6",
-      "shortSha": "84558e0",
-      "title": "Merge branch 'main' into release/v1.3",
-      "author": "王一之",
-      "date": "2026-02-03T16:43:08Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/84558e02b83e4aa3b7bb7324aa0bc1ee19f9c4b6"
-    },
-    {
-      "sha": "265e122342366b166d3122cc8da485cb1295b924",
-      "shortSha": "265e122",
-      "title": "🐛 修复 1.2.5 structuredClone错误 (#1192)",
-      "author": "cyfung1031",
-      "date": "2026-02-03T16:11:53Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/265e122342366b166d3122cc8da485cb1295b924"
-    },
-    {
-      "sha": "0970c900e0786f0f0e0c7f0878f0571b24b50725",
-      "shortSha": "0970c90",
-      "title": "⬆️ 提升swc兼容内核版本 (#1186)",
-      "author": "cyfung1031",
-      "date": "2026-02-03T08:27:08Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/0970c900e0786f0f0e0c7f0878f0571b24b50725"
-    },
-    {
-      "sha": "18ddab5dd107c905f879bf2583a1477ddcbaf407",
-      "shortSha": "18ddab5",
-      "title": "🐛 修复合并代码遗漏的翻译问题 #1191",
-      "author": "王一之",
-      "date": "2026-02-03T08:19:37Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/18ddab5dd107c905f879bf2583a1477ddcbaf407"
-    },
-    {
-      "sha": "b68f98ec397041b111cb7bd6a5a4a9d3b23d2210",
-      "shortSha": "b68f98e",
-      "title": "🔥 package.json: drop pako (#1188)",
-      "author": "cyfung1031",
-      "date": "2026-02-03T00:27:10Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b68f98ec397041b111cb7bd6a5a4a9d3b23d2210"
-    },
-    {
-      "sha": "e10f9f7404d85fdcacba022a69b18154a5025522",
-      "shortSha": "e10f9f7",
-      "title": "🔖 Release v1.2.5",
-      "author": "王一之",
-      "date": "2026-02-02T08:51:25Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/e10f9f7404d85fdcacba022a69b18154a5025522"
-    },
-    {
-      "sha": "a759741aea4ae4b128648ff0f7622213798340a1",
-      "shortSha": "a759741",
-      "title": "♻️ Cron 相关修改：bug 修补、i18n、once 表达式增强、升级 cron 库 (#1126)",
-      "author": "cyfung1031",
-      "date": "2026-02-02T08:41:29Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/a759741aea4ae4b128648ff0f7622213798340a1"
-    },
-    {
-      "sha": "242701b345dd05694133717d95f34ba8d1113875",
-      "shortSha": "242701b",
-      "title": "Merge branch 'main' into release/v1.3",
-      "author": "王一之",
-      "date": "2026-02-02T08:28:06Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/242701b345dd05694133717d95f34ba8d1113875"
-    },
-    {
-      "sha": "5e91a31e02761ba8061e3de1f4d15fc1d964346c",
-      "shortSha": "5e91a31",
-      "title": "🐛 修复脚本同步删除问题 #1158",
-      "author": "王一之",
-      "date": "2026-02-02T02:22:53Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/5e91a31e02761ba8061e3de1f4d15fc1d964346c"
-    },
-    {
-      "sha": "32a9fe283bfe1529cdcb7dea06bece3dcba2c178",
-      "shortSha": "32a9fe2",
-      "title": "🐛 修正 content.js 没有 UserAgentData 问题 (#1183)",
-      "author": "cyfung1031",
-      "date": "2026-02-02T01:37:02Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/32a9fe283bfe1529cdcb7dea06bece3dcba2c178"
-    },
-    {
-      "sha": "cc2729d078acffd0410124afe2a8a9ddbcd7a348",
-      "shortSha": "cc2729d",
-      "title": "🐛 修正 GM API 异步声明，正确返回 Promise (#1169)",
-      "author": "cyfung1031",
-      "date": "2026-02-02T01:29:48Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/cc2729d078acffd0410124afe2a8a9ddbcd7a348"
-    },
-    {
-      "sha": "274e1893e184cdda62903c398ad36a6963e91d3c",
-      "shortSha": "274e189",
-      "title": "♻️ 代码调整 - ScriptClient (#1172)",
-      "author": "cyfung1031",
-      "date": "2026-02-01T11:22:19Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/274e1893e184cdda62903c398ad36a6963e91d3c"
-    },
-    {
-      "sha": "4544816edee736b4f3d79bb755a0c662c998cda4",
-      "shortSha": "4544816",
-      "title": "♻️ 代码调整 - Value相关的 类 & 变量名 (#1175)",
-      "author": "cyfung1031",
-      "date": "2026-02-01T11:21:09Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/4544816edee736b4f3d79bb755a0c662c998cda4"
-    },
-    {
-      "sha": "e2db5b92be550a0653f30cb3f41b3e93c59611fa",
-      "shortSha": "e2db5b9",
-      "title": "📝 Update README_ja.md (#1178)",
-      "author": "cyfung1031",
-      "date": "2026-02-01T11:18:19Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/e2db5b92be550a0653f30cb3f41b3e93c59611fa"
-    },
-    {
-      "sha": "38717675499d9db9864c6ddc23c50fb642f0d2fc",
-      "shortSha": "3871767",
-      "title": "🍱 [‎src/assets/images/] 图像处理 (#1177)",
-      "author": "cyfung1031",
-      "date": "2026-02-01T11:16:25Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/38717675499d9db9864c6ddc23c50fb642f0d2fc"
-    },
-    {
-      "sha": "5a3ffe6be2fce2c9aacd407278e88752bb2c1c08",
-      "shortSha": "5a3ffe6",
-      "title": "🍱 logo 128x128 (#1176)",
-      "author": "cyfung1031",
-      "date": "2026-02-01T11:13:27Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/5a3ffe6be2fce2c9aacd407278e88752bb2c1c08"
-    },
-    {
-      "sha": "f4ac909e08735e0c6b7523feeacf9252231ece8a",
-      "shortSha": "f4ac909",
-      "title": "♻️ 增强文本解码 (#1166)",
-      "author": "cyfung1031",
-      "date": "2026-02-01T01:46:42Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/f4ac909e08735e0c6b7523feeacf9252231ece8a"
+      "date": "2026-03-16T09:16:51Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/2e875bc7466836138a46657d53aeb4f96bd9562c"
     }
   ],
   "betaCommits": [
@@ -3190,71 +3190,32 @@
     }
   ],
   "pendingShas": [
-    "6ab648c1cfffbc20114bcc8571c7c31ce8bb52bd"
+    "94b533dcd85a2e39c27d1b9af5c9e1f3e94af7ac",
+    "6dbfaefff6c957385e0337e45032ece89374724d",
+    "40e7eb0135d8b835dc0a0852841c048a56a35f20",
+    "7bbd6d18edfe04c58bbe34bfe5da95be4d21ebc5",
+    "f5aa1eff4ce1a0d03bce6023fec93f58011ba718",
+    "b0a45f6136191e6402f881f1f1b2def6eeda6790",
+    "6d2b36b5c3153ca2d11fb230473f6e2c3eaa738d",
+    "89ccc8eebf2d1b224352de98c8c2872afaf74245",
+    "6f97ba3c47e4e7e67da7647e7176f01a887a85da",
+    "60034f5b6b1cdffb45eda1572bf37387a128435e",
+    "e143c4a7dc086e5c2b6af3082800b7d03fd854a9",
+    "2461a0bb2a3e118b9c179fc096a5c358d6c1a7ef",
+    "bc85f0b41e9b198a709f380f1fe55c3a9433cefa",
+    "5fdc8e3905a9c535a58854cbf758e41808908c9c",
+    "14fdf2b9691776d507a0965a9b2470e5d6d2eedc",
+    "4bc216eb06eabb7a3511075550c167182bc3c6ba",
+    "2951bd66876d7e69cea942829dd4cede8a906155",
+    "0baf39cd5f556bb895cf0e4e3033bc536456d85a",
+    "313e464e464928deec6029bcb5860195fb88fd46",
+    "238062ab1d16a013300b038e2b279164cb7b25c4",
+    "9f6faf1b1a10ed52eb3138c79654abd9f6eeb817",
+    "68c3717ac5b6f68fcc03a08785eab268b7ea5454",
+    "6ab648c1cfffbc20114bcc8571c7c31ce8bb52bd",
+    "b114a196561ac1ea5f0591bcd986ffab3d96db6b"
   ],
-  "betaOnlyShas": [
-    "5f7f3e4c84f8c0fc06a773d6881283a610228ef2",
-    "62d414e39896b8b6775504ca1c15b92967795ad2",
-    "847b776e9aa4a1b9e987043b60eb98c0a23ec03b",
-    "7b81b8c1ca65b325a924b5e222b1621cc0f7be7f",
-    "d45750f33d50db7614a42840b5e19d90f5e9d61b",
-    "6084f79bff5dd7a2e1679ba9c7bb837aa8ac73b7",
-    "530bdf6de8f0a9fa0fa6dfb02f9e0b98a029e765",
-    "50cd84502f10a7c2c400e4152237cde53838b1e8",
-    "2d2450478edb65b2b13b67e6b3e28fbb38b4c8a2",
-    "40c99fba770781f1601841fc26c73f09c07a58c4",
-    "2c07d6b8801d04760a4e24cf51be9a2f371fd6fa",
-    "2e875bc7466836138a46657d53aeb4f96bd9562c",
-    "a144ae31dbe31843f3cdcf041c528c675cc7a36f",
-    "202b693294b4c986c9e95192ae6aff575af9948d",
-    "283c8d4115c1a3e62cd7c3086fef2d4151f9dcd7",
-    "3d23db22203a23ca6725f59f18879cef2afd7acd",
-    "b24ed2150ec34b93b832e9dd851060f926e413e9",
-    "8b4fd8874553cbbd557879e67e65c077b1ab29b2",
-    "c01d29154d7e629650402c76fef30aadb74c9ae1",
-    "f9dd5eac95885edaad38e7e36d4562560dab9268",
-    "d99004589e46a8c877d3b227387b1aad6df9a062",
-    "d4ab8ba8f5c557819f91c69789ae577227e5d500",
-    "c59c60345a94f901220d403e8ddd8ea39aec8797",
-    "df6a5392f473140fc6181ecd3c54302ef7752fa8",
-    "00e1f9cdc6171d4cfd62e6eb1abb1b3664fda36e",
-    "df225ceb445bd43c02cf3426fcf9abd894539a9d",
-    "42312466c504f8d077426d2ed55a0f21c692a8f1",
-    "984560376dfdf4ba37b2578e3838dfcda39576e1",
-    "a3c258102ad1d43f9cd035201791f3fefb7d0d7e",
-    "da16ddf4720daa8dfcf8f512f2f80343e7979ede",
-    "b3db76904a72ae87aa71fdaf6423e60af414613c",
-    "b0811a695ea2e413a8dbcf931c423ee7fb130897",
-    "dc4decb783ac85402400d411809c2a846d430041",
-    "a16a407e95fe7dcae23e882383b48bb65d45ae22",
-    "3e975c0f4027ce575b7a23735eb44e1a05adb874",
-    "65775cbdb8e2ad6d6d23e5e21029dfd3c403a81d",
-    "15c62d0803a6608ce35f52432e638f095c330d6d",
-    "eccc1189847ff2fa0e4ff6801221e6d0cce98dad",
-    "d80107b760dbff513cbc2174c6678db671414721",
-    "03cc6e3657ca1477b40a00b4f97ad94ce66b46e7",
-    "982f09eed437c66eda48badfdb406ff08f250591",
-    "87eac92c3d83737f12576df28132a9dc80ab5175",
-    "81e11c07c8cd463d070e872383d4492d605f9702",
-    "11d149e1d4f7e04f7ad0c26ea89f8757fb43a5f6",
-    "f42baa4b823adafa7c5a10d1c581634c4553f180",
-    "b70537cdb8a0eceec685eb65a19355ecd5cdcaae",
-    "aca786ba538a849a50deab4446284da87b14a5ea",
-    "c884abfa91b6a93ab2579a79ef9042145a53e65f",
-    "d5662a8487576f0f4a4617d2f6385b126a10566e",
-    "457ff27c23e6825f62b5770776ef4a7f38530565",
-    "f578269ecdbe18858d3cdf42413e4464bff896c1",
-    "dc7ad1224bbd20177691c4393e9cfbe1a0b4ae42",
-    "57b9472f80c466ad0bdd226e76c69076456506fe",
-    "f8d832a54da961e25c7c751fe9b2c3a1e04117e5",
-    "502290287cbfffb26f3401b11bbbc74e4736c8c4",
-    "d9f57063d80c4baf97faba4d6f4fed9f7bd89164",
-    "809bf89d47ced7c039ab840afe3a440d09bd9dee",
-    "46a05c5d2cd4e24ae3443067ab37da21602f4ecd",
-    "3dead664c7d987927b765167c9c244a048d6c8a4",
-    "9076794f41f7669938531d4f8b6eab89070259f9",
-    "13c5a69d640695d7b90b3c0ec0d4ed13b3beec4f"
-  ],
+  "betaOnlyShas": [],
   "previousBetaShas": [
     "7214544902999a3a794fc403ce6ce2555c10eaec",
     "7256d75f3ea0b67afbce470e4a2b82e0970aa451",
@@ -3338,7 +3299,7 @@
     "a3abaf0634249d238df21d40ed6211e9aff52b30",
     "f92d50ff413174c32e97022aa6bb851a5ea48a5f"
   ],
-  "mergeBaseSha": "fa024d06c35a4e74e5e27785ba164f4fea60b1bf",
+  "mergeBaseSha": "13c5a69d640695d7b90b3c0ec0d4ed13b3beec4f",
   "betaStopFound": true,
   "previousBetaBranch": "release/v1.3"
 }
