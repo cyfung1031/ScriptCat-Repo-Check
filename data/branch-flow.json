@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T23:31:59.308Z",
+  "generatedAt": "2026-06-24T04:38:56.202Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "6ab648c1cfffbc20114bcc8571c7c31ce8bb52bd",
+      "shortSha": "6ab648c",
+      "title": "📄 update readme.md",
+      "author": "王一之",
+      "date": "2026-06-24T02:47:21Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/6ab648c1cfffbc20114bcc8571c7c31ce8bb52bd"
+    },
     {
       "sha": "fa024d06c35a4e74e5e27785ba164f4fea60b1bf",
       "shortSha": "fa024d0",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-02-01T01:46:42Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/f4ac909e08735e0c6b7523feeacf9252231ece8a"
-    },
-    {
-      "sha": "5f84ec58fb62ba66d79be6f1808a4b0a8cc4552a",
-      "shortSha": "5f84ec5",
-      "title": "♻️ 代码调整 (#1171)",
-      "author": "cyfung1031",
-      "date": "2026-02-01T01:31:11Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/5f84ec58fb62ba66d79be6f1808a4b0a8cc4552a"
     }
   ],
   "betaCommits": [
@@ -3189,7 +3189,9 @@
       "url": "https://github.com/scriptscat/scriptcat/commit/f92d50ff413174c32e97022aa6bb851a5ea48a5f"
     }
   ],
-  "pendingShas": [],
+  "pendingShas": [
+    "6ab648c1cfffbc20114bcc8571c7c31ce8bb52bd"
+  ],
   "betaOnlyShas": [
     "5f7f3e4c84f8c0fc06a773d6881283a610228ef2",
     "62d414e39896b8b6775504ca1c15b92967795ad2",
