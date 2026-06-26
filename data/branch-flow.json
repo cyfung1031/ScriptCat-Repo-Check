@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T01:31:35.117Z",
+  "generatedAt": "2026-06-26T06:30:26.481Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "2a83fd297f54448bc1b22ab2cf69b290eeca85f9",
+      "shortSha": "2a83fd2",
+      "title": "♻️ agent 默认开启，正式版打包经 SC_DISABLE_AGENT 屏蔽",
+      "author": "王一之",
+      "date": "2026-06-26T06:10:53Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/2a83fd297f54448bc1b22ab2cf69b290eeca85f9"
+    },
+    {
+      "sha": "fd222ac8dfb14dfcea426dfc1fe593c0b24165ee",
+      "shortSha": "fd222ac",
+      "title": "✨ 打包变量屏蔽正式版 agent 入口并移除 debugger 权限（bump 1.4.0） (#1518)",
+      "author": "wangyizhi",
+      "date": "2026-06-26T02:50:30Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/fd222ac8dfb14dfcea426dfc1fe593c0b24165ee"
+    },
     {
       "sha": "b114a196561ac1ea5f0591bcd986ffab3d96db6b",
       "shortSha": "b114a19",
@@ -1273,22 +1289,6 @@
       "author": "wangyizhi",
       "date": "2026-03-17T02:32:30Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/a144ae31dbe31843f3cdcf041c528c675cc7a36f"
-    },
-    {
-      "sha": "6c507f493ce427b050daced07c53fc67c6d7f6c8",
-      "shortSha": "6c507f4",
-      "title": "🐛 修复弹出框被遮挡的问题 (#1290)",
-      "author": "cyfung1031",
-      "date": "2026-03-17T01:58:41Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/6c507f493ce427b050daced07c53fc67c6d7f6c8"
-    },
-    {
-      "sha": "2e875bc7466836138a46657d53aeb4f96bd9562c",
-      "shortSha": "2e875bc",
-      "title": "⚡️ 优化 MessageConnect 的记忆管理及Cleanup机制 (#1248)",
-      "author": "cyfung1031",
-      "date": "2026-03-16T09:16:51Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/2e875bc7466836138a46657d53aeb4f96bd9562c"
     }
   ],
   "betaCommits": [
@@ -3213,7 +3213,9 @@
     "9f6faf1b1a10ed52eb3138c79654abd9f6eeb817",
     "68c3717ac5b6f68fcc03a08785eab268b7ea5454",
     "6ab648c1cfffbc20114bcc8571c7c31ce8bb52bd",
-    "b114a196561ac1ea5f0591bcd986ffab3d96db6b"
+    "b114a196561ac1ea5f0591bcd986ffab3d96db6b",
+    "fd222ac8dfb14dfcea426dfc1fe593c0b24165ee",
+    "2a83fd297f54448bc1b22ab2cf69b290eeca85f9"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
