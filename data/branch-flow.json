@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T01:26:15.802Z",
+  "generatedAt": "2026-07-02T06:11:23.850Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "4da711257322ee577bf93bdda30511e7a521c525",
+      "shortSha": "4da7112",
+      "title": "📝 优化 Issue 模板并添加 YAML 校验 (#1524)",
+      "author": "cyfung1031",
+      "date": "2026-07-02T02:29:54Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/4da711257322ee577bf93bdda30511e7a521c525"
+    },
+    {
+      "sha": "dd7bd25f11bfa8331764e12cc293bab2a8ee07eb",
+      "shortSha": "dd7bd25",
+      "title": "📄 update readme.md/document",
+      "author": "王一之",
+      "date": "2026-07-02T02:10:33Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/dd7bd25f11bfa8331764e12cc293bab2a8ee07eb"
+    },
     {
       "sha": "2a83fd297f54448bc1b22ab2cf69b290eeca85f9",
       "shortSha": "2a83fd2",
@@ -1273,22 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-03-17T03:52:56Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/30c36b9cc3c27935c22ab49893880f1fc6b04edf"
-    },
-    {
-      "sha": "e08ceb386d4474790ec613c2532f7c52f345c2c7",
-      "shortSha": "e08ceb3",
-      "title": "🐛 修复未绑定网盘时仍显示解绑按钮的问题 (#1291)",
-      "author": "wangyizhi",
-      "date": "2026-03-17T03:52:20Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/e08ceb386d4474790ec613c2532f7c52f345c2c7"
-    },
-    {
-      "sha": "a144ae31dbe31843f3cdcf041c528c675cc7a36f",
-      "shortSha": "a144ae3",
-      "title": "🐛 修复 ScriptEditor 脚本列表亮色显示有问题 (#1288)",
-      "author": "wangyizhi",
-      "date": "2026-03-17T02:32:30Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/a144ae31dbe31843f3cdcf041c528c675cc7a36f"
     }
   ],
   "betaCommits": [
@@ -3215,7 +3215,9 @@
     "6ab648c1cfffbc20114bcc8571c7c31ce8bb52bd",
     "b114a196561ac1ea5f0591bcd986ffab3d96db6b",
     "fd222ac8dfb14dfcea426dfc1fe593c0b24165ee",
-    "2a83fd297f54448bc1b22ab2cf69b290eeca85f9"
+    "2a83fd297f54448bc1b22ab2cf69b290eeca85f9",
+    "dd7bd25f11bfa8331764e12cc293bab2a8ee07eb",
+    "4da711257322ee577bf93bdda30511e7a521c525"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
