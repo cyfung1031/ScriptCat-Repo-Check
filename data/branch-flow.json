@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T01:10:46.909Z",
+  "generatedAt": "2026-07-05T05:09:43.149Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,38 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "2954d397a8908136fa2f8f2edc234ddb772e1097",
+      "shortSha": "2954d39",
+      "title": "♻️ 调整 `eslint-plugin-userscripts` 规则 (#1510)",
+      "author": "cyfung1031",
+      "date": "2026-07-05T03:27:46Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/2954d397a8908136fa2f8f2edc234ddb772e1097"
+    },
+    {
+      "sha": "da498632f5d32a9a082f1c6c761962cae49af4bc",
+      "shortSha": "da49863",
+      "title": "⚡️ 优化 TSX 单元测试执行性能 (#1532)",
+      "author": "cyfung1031",
+      "date": "2026-07-05T03:26:59Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/da498632f5d32a9a082f1c6c761962cae49af4bc"
+    },
+    {
+      "sha": "97ab6aa2156388c9cb1e1cbbaed10e8bbf662a1b",
+      "shortSha": "97ab6aa",
+      "title": "🐛 避免 cron 自动侦测无效时区导致定时任务相关异常 (#1531)",
+      "author": "cyfung1031",
+      "date": "2026-07-05T03:25:57Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/97ab6aa2156388c9cb1e1cbbaed10e8bbf662a1b"
+    },
+    {
+      "sha": "ab2fc51c7371683e9ccc3d76df2e0f96d7e18a76",
+      "shortSha": "ab2fc51",
+      "title": "✨ 扩展消息启用 structured_clone 序列化（Chromium 148+） (#1534)",
+      "author": "cyfung1031",
+      "date": "2026-07-05T03:07:39Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/ab2fc51c7371683e9ccc3d76df2e0f96d7e18a76"
+    },
     {
       "sha": "b20489efdcc2767fb428932732a83a0dce187b78",
       "shortSha": "b20489e",
@@ -1257,38 +1289,6 @@
       "author": "wangyizhi",
       "date": "2026-03-20T04:03:53Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/c01d29154d7e629650402c76fef30aadb74c9ae1"
-    },
-    {
-      "sha": "8b4fd8874553cbbd557879e67e65c077b1ab29b2",
-      "shortSha": "8b4fd88",
-      "title": "Merge branch 'main' into release/v1.4",
-      "author": "王一之",
-      "date": "2026-03-17T09:15:02Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/8b4fd8874553cbbd557879e67e65c077b1ab29b2"
-    },
-    {
-      "sha": "b24ed2150ec34b93b832e9dd851060f926e413e9",
-      "shortSha": "b24ed21",
-      "title": "✨ 获取脚本支持多平台搜索引擎选择 (#1114)",
-      "author": "王一之",
-      "date": "2026-03-17T09:13:12Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b24ed2150ec34b93b832e9dd851060f926e413e9"
-    },
-    {
-      "sha": "3d23db22203a23ca6725f59f18879cef2afd7acd",
-      "shortSha": "3d23db2",
-      "title": "♻️ VSCodeConnect 代码重构 (#1170)",
-      "author": "cyfung1031",
-      "date": "2026-03-17T07:15:20Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/3d23db22203a23ca6725f59f18879cef2afd7acd"
-    },
-    {
-      "sha": "283c8d4115c1a3e62cd7c3086fef2d4151f9dcd7",
-      "shortSha": "283c8d4",
-      "title": "✨ 优化编辑冲突&脚本名称冲突 (#1223)",
-      "author": "cyfung1031",
-      "date": "2026-03-17T06:40:10Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/283c8d4115c1a3e62cd7c3086fef2d4151f9dcd7"
     }
   ],
   "betaCommits": [
@@ -3373,7 +3373,11 @@
     "dd7bd25f11bfa8331764e12cc293bab2a8ee07eb",
     "4da711257322ee577bf93bdda30511e7a521c525",
     "0206e4a82169b46eb9a127a51b6cbff257b5a35b",
-    "b20489efdcc2767fb428932732a83a0dce187b78"
+    "b20489efdcc2767fb428932732a83a0dce187b78",
+    "ab2fc51c7371683e9ccc3d76df2e0f96d7e18a76",
+    "97ab6aa2156388c9cb1e1cbbaed10e8bbf662a1b",
+    "da498632f5d32a9a082f1c6c761962cae49af4bc",
+    "2954d397a8908136fa2f8f2edc234ddb772e1097"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
