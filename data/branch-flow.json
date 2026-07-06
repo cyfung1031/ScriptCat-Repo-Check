@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T04:41:41.381Z",
+  "generatedAt": "2026-07-06T09:11:26.929Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,30 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "62759840dec034d4596f05acc4fd6229d83f5b79",
+      "shortSha": "6275984",
+      "title": "✨ 为本地备份添加手动下载链接 (#1543)",
+      "author": "cyfung1031",
+      "date": "2026-07-06T07:42:13Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/62759840dec034d4596f05acc4fd6229d83f5b79"
+    },
+    {
+      "sha": "5f0ecb05546ff1e9b6f6aa3ac1dbef539bdc1860",
+      "shortSha": "5f0ecb0",
+      "title": "📄 更新翻译术语文档并补充土耳其语规范 (#1536)",
+      "author": "cyfung1031",
+      "date": "2026-07-06T06:45:41Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/5f0ecb05546ff1e9b6f6aa3ac1dbef539bdc1860"
+    },
+    {
+      "sha": "d7b3687433dbde225fd7343fd7fe6584707e6612",
+      "shortSha": "d7b3687",
+      "title": "✨ 编辑器标签栏「＋」支持选择新建脚本类型 (#1544)",
+      "author": "cyfung1031",
+      "date": "2026-07-06T06:20:30Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/d7b3687433dbde225fd7343fd7fe6584707e6612"
+    },
     {
       "sha": "2954d397a8908136fa2f8f2edc234ddb772e1097",
       "shortSha": "2954d39",
@@ -1265,30 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-03-21T16:27:23Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/68aafbdb804d3daa22ce23da6a1f7181afddb888"
-    },
-    {
-      "sha": "d99004589e46a8c877d3b227387b1aad6df9a062",
-      "shortSha": "d990045",
-      "title": "♻️ Offscreen 与 ServiceWorker 通信统一走 postMessage 通道 (#1299)",
-      "author": "wangyizhi",
-      "date": "2026-03-21T13:44:41Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/d99004589e46a8c877d3b227387b1aad6df9a062"
-    },
-    {
-      "sha": "f9dd5eac95885edaad38e7e36d4562560dab9268",
-      "shortSha": "f9dd5ea",
-      "title": "✨ 获取脚本支持多平台搜索引擎选择 (#1295)",
-      "author": "wangyizhi",
-      "date": "2026-03-20T04:04:04Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/f9dd5eac95885edaad38e7e36d4562560dab9268"
-    },
-    {
-      "sha": "c01d29154d7e629650402c76fef30aadb74c9ae1",
-      "shortSha": "c01d291",
-      "title": "🐛 修复运行日志页面点击查询按钮不刷新时间的问题 (#1294)",
-      "author": "wangyizhi",
-      "date": "2026-03-20T04:03:53Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/c01d29154d7e629650402c76fef30aadb74c9ae1"
     }
   ],
   "betaCommits": [
@@ -3377,7 +3377,10 @@
     "ab2fc51c7371683e9ccc3d76df2e0f96d7e18a76",
     "97ab6aa2156388c9cb1e1cbbaed10e8bbf662a1b",
     "da498632f5d32a9a082f1c6c761962cae49af4bc",
-    "2954d397a8908136fa2f8f2edc234ddb772e1097"
+    "2954d397a8908136fa2f8f2edc234ddb772e1097",
+    "d7b3687433dbde225fd7343fd7fe6584707e6612",
+    "5f0ecb05546ff1e9b6f6aa3ac1dbef539bdc1860",
+    "62759840dec034d4596f05acc4fd6229d83f5b79"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
