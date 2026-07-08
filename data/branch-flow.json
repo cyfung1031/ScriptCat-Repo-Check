@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T00:13:18.361Z",
+  "generatedAt": "2026-07-08T03:48:28.290Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,38 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "ca6bd5984809aed8d0369bf763b4a00902782e39",
+      "shortSha": "ca6bd59",
+      "title": "🐛 Make native GM_download honor @connect, like GM_xmlhttpRequest (#1506)",
+      "author": "DudeAint",
+      "date": "2026-07-08T03:40:27Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/ca6bd5984809aed8d0369bf763b4a00902782e39"
+    },
+    {
+      "sha": "58e75e9bbe11834f677a5a2a5e9e05c6edf1e4cf",
+      "shortSha": "58e75e9",
+      "title": "⚡️ 优化脚本加载缓存并修复 Popup 菜单残留 (#1511)",
+      "author": "cyfung1031",
+      "date": "2026-07-08T03:05:03Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/58e75e9bbe11834f677a5a2a5e9e05c6edf1e4cf"
+    },
+    {
+      "sha": "42bf5183c2b94e66ee3a63e417dab37acd9a9302",
+      "shortSha": "42bf518",
+      "title": "🐛 replace unavailable crontab demo API (#1542)",
+      "author": "cyfung1031",
+      "date": "2026-07-08T02:59:50Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/42bf5183c2b94e66ee3a63e417dab37acd9a9302"
+    },
+    {
+      "sha": "3439021996e363698f7a0d70b2a742e18a29d27e",
+      "shortSha": "3439021",
+      "title": "📝 重构文档，大文档拆分子目录 + 渐进式加载 (#1537)",
+      "author": "wangyizhi",
+      "date": "2026-07-08T02:58:07Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3439021996e363698f7a0d70b2a742e18a29d27e"
+    },
     {
       "sha": "62759840dec034d4596f05acc4fd6229d83f5b79",
       "shortSha": "6275984",
@@ -1257,38 +1289,6 @@
       "author": "wangyizhi",
       "date": "2026-03-21T19:34:35Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/c59c60345a94f901220d403e8ddd8ea39aec8797"
-    },
-    {
-      "sha": "d4ab8ba8f5c557819f91c69789ae577227e5d500",
-      "shortSha": "d4ab8ba",
-      "title": "Merge branch 'main' into release/v1.4",
-      "author": "cyfung1031",
-      "date": "2026-03-21T19:21:43Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/d4ab8ba8f5c557819f91c69789ae577227e5d500"
-    },
-    {
-      "sha": "b6b3a004bd3c85f7c04cd4a3640ed4f47c046d8c",
-      "shortSha": "b6b3a00",
-      "title": "🐛 修复代码编辑框提示问题 (#1301)",
-      "author": "cyfung1031",
-      "date": "2026-03-21T18:08:16Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b6b3a004bd3c85f7c04cd4a3640ed4f47c046d8c"
-    },
-    {
-      "sha": "b09ba0977fa9d9adc9fb4731c03d4ad1e647a37a",
-      "shortSha": "b09ba09",
-      "title": "⬆️ NPM vulnerability fix (#1302)",
-      "author": "cyfung1031",
-      "date": "2026-03-21T17:52:09Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b09ba0977fa9d9adc9fb4731c03d4ad1e647a37a"
-    },
-    {
-      "sha": "68aafbdb804d3daa22ce23da6a1f7181afddb888",
-      "shortSha": "68aafbd",
-      "title": "✨ add sleazyfork to ExternalWhitelist (#1300)",
-      "author": "cyfung1031",
-      "date": "2026-03-21T16:27:23Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/68aafbdb804d3daa22ce23da6a1f7181afddb888"
     }
   ],
   "betaCommits": [
@@ -3380,7 +3380,11 @@
     "2954d397a8908136fa2f8f2edc234ddb772e1097",
     "d7b3687433dbde225fd7343fd7fe6584707e6612",
     "5f0ecb05546ff1e9b6f6aa3ac1dbef539bdc1860",
-    "62759840dec034d4596f05acc4fd6229d83f5b79"
+    "62759840dec034d4596f05acc4fd6229d83f5b79",
+    "3439021996e363698f7a0d70b2a742e18a29d27e",
+    "42bf5183c2b94e66ee3a63e417dab37acd9a9302",
+    "58e75e9bbe11834f677a5a2a5e9e05c6edf1e4cf",
+    "ca6bd5984809aed8d0369bf763b4a00902782e39"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
