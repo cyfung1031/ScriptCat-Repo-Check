@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T06:39:51.612Z",
+  "generatedAt": "2026-07-08T09:38:56.096Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "868545c097078542ad092b887a6f410ef4dad112",
+      "shortSha": "868545c",
+      "title": "✨ 预发布(beta)版本更新后也自动打开更新日志页",
+      "author": "王一之",
+      "date": "2026-07-08T07:01:36Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/868545c097078542ad092b887a6f410ef4dad112"
+    },
+    {
+      "sha": "01d0457fb4ec8e2a1bf0c1cceb7d0a896803a90f",
+      "shortSha": "01d0457",
+      "title": "🔧 将 .codex 加入 .gitignore",
+      "author": "王一之",
+      "date": "2026-07-08T06:54:38Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/01d0457fb4ec8e2a1bf0c1cceb7d0a896803a90f"
+    },
     {
       "sha": "ca6bd5984809aed8d0369bf763b4a00902782e39",
       "shortSha": "ca6bd59",
@@ -1273,22 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-03-22T02:24:53Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/00e1f9cdc6171d4cfd62e6eb1abb1b3664fda36e"
-    },
-    {
-      "sha": "df6a5392f473140fc6181ecd3c54302ef7752fa8",
-      "shortSha": "df6a539",
-      "title": "✨ 脚本列表最后更新列添加检查更新图标 (#1304)",
-      "author": "wangyizhi",
-      "date": "2026-03-21T19:35:08Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/df6a5392f473140fc6181ecd3c54302ef7752fa8"
-    },
-    {
-      "sha": "c59c60345a94f901220d403e8ddd8ea39aec8797",
-      "shortSha": "c59c603",
-      "title": "✨ 编辑器添加编辑菜单（查找、替换、撤销等） (#1303)",
-      "author": "wangyizhi",
-      "date": "2026-03-21T19:34:35Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/c59c60345a94f901220d403e8ddd8ea39aec8797"
     }
   ],
   "betaCommits": [
@@ -3384,7 +3384,9 @@
     "3439021996e363698f7a0d70b2a742e18a29d27e",
     "42bf5183c2b94e66ee3a63e417dab37acd9a9302",
     "58e75e9bbe11834f677a5a2a5e9e05c6edf1e4cf",
-    "ca6bd5984809aed8d0369bf763b4a00902782e39"
+    "ca6bd5984809aed8d0369bf763b4a00902782e39",
+    "01d0457fb4ec8e2a1bf0c1cceb7d0a896803a90f",
+    "868545c097078542ad092b887a6f410ef4dad112"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
