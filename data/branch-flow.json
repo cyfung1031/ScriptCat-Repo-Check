@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T01:03:20.397Z",
+  "generatedAt": "2026-07-09T05:08:28.826Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "9a65cd7343e63f42752cbe2cc422245b6adf74e9",
+      "shortSha": "9a65cd7",
+      "title": "🐛 修复编辑器激活标签页关闭按钮被隐藏 (close #1556)",
+      "author": "王一之",
+      "date": "2026-07-09T02:01:43Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/9a65cd7343e63f42752cbe2cc422245b6adf74e9"
+    },
+    {
+      "sha": "b5fc2adb6a20b08d7e8cd955456fbc29faf63b35",
+      "shortSha": "b5fc2ad",
+      "title": "📝 优化商店描述与 README 标语提升「用户脚本」可发现性 (#1553)",
+      "author": "wangyizhi",
+      "date": "2026-07-09T01:50:40Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/b5fc2adb6a20b08d7e8cd955456fbc29faf63b35"
+    },
     {
       "sha": "868545c097078542ad092b887a6f410ef4dad112",
       "shortSha": "868545c",
@@ -1273,22 +1289,6 @@
       "author": "wangyizhi",
       "date": "2026-03-22T06:12:35Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/c5c35649fca01cfdf6be28b2448046583bc0b366"
-    },
-    {
-      "sha": "98aa4948cc480d68c2b7a96d21b8afb69fbd6f9a",
-      "shortSha": "98aa494",
-      "title": "📝 简化&改良 pr template (#1307)",
-      "author": "cyfung1031",
-      "date": "2026-03-22T03:19:51Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/98aa4948cc480d68c2b7a96d21b8afb69fbd6f9a"
-    },
-    {
-      "sha": "00e1f9cdc6171d4cfd62e6eb1abb1b3664fda36e",
-      "shortSha": "00e1f9c",
-      "title": "🐛 修复编辑器中 ESLint 修复功能失效的问题（globalCache.get(\"eslint-fix\") 为 undefined）- 修复 #1079 (#1184)",
-      "author": "cyfung1031",
-      "date": "2026-03-22T02:24:53Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/00e1f9cdc6171d4cfd62e6eb1abb1b3664fda36e"
     }
   ],
   "betaCommits": [
@@ -3386,7 +3386,9 @@
     "58e75e9bbe11834f677a5a2a5e9e05c6edf1e4cf",
     "ca6bd5984809aed8d0369bf763b4a00902782e39",
     "01d0457fb4ec8e2a1bf0c1cceb7d0a896803a90f",
-    "868545c097078542ad092b887a6f410ef4dad112"
+    "868545c097078542ad092b887a6f410ef4dad112",
+    "b5fc2adb6a20b08d7e8cd955456fbc29faf63b35",
+    "9a65cd7343e63f42752cbe2cc422245b6adf74e9"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
