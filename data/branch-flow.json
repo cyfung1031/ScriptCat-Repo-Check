@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T00:12:27.939Z",
+  "generatedAt": "2026-07-13T04:02:34.981Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "1905379ac4a8d0a34ba3c1157e2102d8604de569",
+      "shortSha": "1905379",
+      "title": "⬆️ 升级 TypeScript 至 6.0.3 (#1567)",
+      "author": "cyfung1031",
+      "date": "2026-07-13T02:10:15Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/1905379ac4a8d0a34ba3c1157e2102d8604de569"
+    },
     {
       "sha": "9a65cd7343e63f42752cbe2cc422245b6adf74e9",
       "shortSha": "9a65cd7",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-03-22T15:31:14Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/df225ceb445bd43c02cf3426fcf9abd894539a9d"
-    },
-    {
-      "sha": "c5c35649fca01cfdf6be28b2448046583bc0b366",
-      "shortSha": "c5c3564",
-      "title": "🐛 设备相关配置改用 chrome.storage.local，避免跨设备同步 (#1309)",
-      "author": "wangyizhi",
-      "date": "2026-03-22T06:12:35Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/c5c35649fca01cfdf6be28b2448046583bc0b366"
     }
   ],
   "betaCommits": [
@@ -3388,7 +3388,8 @@
     "01d0457fb4ec8e2a1bf0c1cceb7d0a896803a90f",
     "868545c097078542ad092b887a6f410ef4dad112",
     "b5fc2adb6a20b08d7e8cd955456fbc29faf63b35",
-    "9a65cd7343e63f42752cbe2cc422245b6adf74e9"
+    "9a65cd7343e63f42752cbe2cc422245b6adf74e9",
+    "1905379ac4a8d0a34ba3c1157e2102d8604de569"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
