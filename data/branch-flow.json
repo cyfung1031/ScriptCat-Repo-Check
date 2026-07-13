@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T07:42:04.876Z",
+  "generatedAt": "2026-07-13T11:30:47.906Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "cc0b3cb87af9d2bf4b62ae1c48cc259251cc8b0b",
+      "shortSha": "cc0b3cb",
+      "title": "fix(dep): [DEP0040] DeprecationWarning: The `punycode` module is deprecated. (#1574)",
+      "author": "cyfung1031",
+      "date": "2026-07-13T09:31:34Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/cc0b3cb87af9d2bf4b62ae1c48cc259251cc8b0b"
+    },
+    {
+      "sha": "ce808da097e0415548a0de7b74149024333caa52",
+      "shortSha": "ce808da",
+      "title": "🔧 升级 GitHub Actions 并使用 Corepack 配置 pnpm (#1575)",
+      "author": "cyfung1031",
+      "date": "2026-07-13T08:40:55Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/ce808da097e0415548a0de7b74149024333caa52"
+    },
     {
       "sha": "7b9c3a42b041199d02ac09bf1b2a210e24b69e66",
       "shortSha": "7b9c3a4",
@@ -1273,22 +1289,6 @@
       "author": "wangyizhi",
       "date": "2026-03-27T03:05:11Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/7d9510dc9db8e50ad1592e047e4f1b492bb66f57"
-    },
-    {
-      "sha": "180d0a99d9f7bf98f4c09290b403ac11d7d27aa3",
-      "shortSha": "180d0a9",
-      "title": "🐛 正确显示格式化错误 (#1310)",
-      "author": "cyfung1031",
-      "date": "2026-03-27T01:45:28Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/180d0a99d9f7bf98f4c09290b403ac11d7d27aa3"
-    },
-    {
-      "sha": "811f148fe8438fc34c25b5b861b35368e5eb97d4",
-      "shortSha": "811f148",
-      "title": "♻️ development_debugging -> development_tool (#1311)",
-      "author": "cyfung1031",
-      "date": "2026-03-22T15:33:48Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/811f148fe8438fc34c25b5b861b35368e5eb97d4"
     }
   ],
   "betaCommits": [
@@ -3390,7 +3390,9 @@
     "b5fc2adb6a20b08d7e8cd955456fbc29faf63b35",
     "9a65cd7343e63f42752cbe2cc422245b6adf74e9",
     "1905379ac4a8d0a34ba3c1157e2102d8604de569",
-    "7b9c3a42b041199d02ac09bf1b2a210e24b69e66"
+    "7b9c3a42b041199d02ac09bf1b2a210e24b69e66",
+    "ce808da097e0415548a0de7b74149024333caa52",
+    "cc0b3cb87af9d2bf4b62ae1c48cc259251cc8b0b"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
