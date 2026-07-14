@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T00:10:30.417Z",
+  "generatedAt": "2026-07-14T03:38:12.552Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "6c02b0a147bb29970b1d64c2593a0a7f5d662336",
+      "shortSha": "6c02b0a",
+      "title": "🌐 Turkish Language (#1557)",
+      "author": "azizaktas",
+      "date": "2026-07-14T03:10:30Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/6c02b0a147bb29970b1d64c2593a0a7f5d662336"
+    },
     {
       "sha": "cc0b3cb87af9d2bf4b62ae1c48cc259251cc8b0b",
       "shortSha": "cc0b3cb",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-03-27T09:22:37Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/665d4e9247ac08a9264c5daf0d913715f8def4e2"
-    },
-    {
-      "sha": "7d9510dc9db8e50ad1592e047e4f1b492bb66f57",
-      "shortSha": "7d9510d",
-      "title": "🐛 针对 WebDAV 修复 cookies 认证冲突 及 authType 支持 (#1308)",
-      "author": "wangyizhi",
-      "date": "2026-03-27T03:05:11Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/7d9510dc9db8e50ad1592e047e4f1b492bb66f57"
     }
   ],
   "betaCommits": [
@@ -3392,7 +3392,8 @@
     "1905379ac4a8d0a34ba3c1157e2102d8604de569",
     "7b9c3a42b041199d02ac09bf1b2a210e24b69e66",
     "ce808da097e0415548a0de7b74149024333caa52",
-    "cc0b3cb87af9d2bf4b62ae1c48cc259251cc8b0b"
+    "cc0b3cb87af9d2bf4b62ae1c48cc259251cc8b0b",
+    "6c02b0a147bb29970b1d64c2593a0a7f5d662336"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
