@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T14:15:28.876Z",
+  "generatedAt": "2026-07-14T15:51:23.601Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "e6a7aeb2c69fd93aef2701fdfa751911b9416339",
+      "shortSha": "e6a7aeb",
+      "title": "⚡ e2e: 分片 CI 并复用预配置 Profile，降低 Chromium 启动开销 (#1569)",
+      "author": "cyfung1031",
+      "date": "2026-07-14T15:46:45Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/e6a7aeb2c69fd93aef2701fdfa751911b9416339"
+    },
     {
       "sha": "6c02b0a147bb29970b1d64c2593a0a7f5d662336",
       "shortSha": "6c02b0a",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-03-27T23:59:22Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/42312466c504f8d077426d2ed55a0f21c692a8f1"
-    },
-    {
-      "sha": "665d4e9247ac08a9264c5daf0d913715f8def4e2",
-      "shortSha": "665d4e9",
-      "title": "🐛 删除 fetchScriptBody 的 Accept，避免触发 Error 406 (#1306)",
-      "author": "cyfung1031",
-      "date": "2026-03-27T09:22:37Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/665d4e9247ac08a9264c5daf0d913715f8def4e2"
     }
   ],
   "betaCommits": [
@@ -3393,7 +3393,8 @@
     "7b9c3a42b041199d02ac09bf1b2a210e24b69e66",
     "ce808da097e0415548a0de7b74149024333caa52",
     "cc0b3cb87af9d2bf4b62ae1c48cc259251cc8b0b",
-    "6c02b0a147bb29970b1d64c2593a0a7f5d662336"
+    "6c02b0a147bb29970b1d64c2593a0a7f5d662336",
+    "e6a7aeb2c69fd93aef2701fdfa751911b9416339"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
