@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T14:25:29.410Z",
+  "generatedAt": "2026-07-16T16:43:23.299Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "182b2c9961f886854ed466cb4c2defd1898870db",
+      "shortSha": "182b2c9",
+      "title": "🐛 修复开发环境 debug 日志持久化 (#1592)",
+      "author": "wangyizhi",
+      "date": "2026-07-16T14:44:03Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/182b2c9961f886854ed466cb4c2defd1898870db"
+    },
     {
       "sha": "5a1c26591283f074ee0abc0e18c3be583eb56d0e",
       "shortSha": "5a1c265",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-03-29T12:07:10Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/950d7f7677fee7ca21c5708249be73cb65ce1478"
-    },
-    {
-      "sha": "da16ddf4720daa8dfcf8f512f2f80343e7979ede",
-      "shortSha": "da16ddf",
-      "title": "⚡️ 更新 Subscribe 相关代码和追加注释 (#1198)",
-      "author": "cyfung1031",
-      "date": "2026-03-29T08:00:14Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/da16ddf4720daa8dfcf8f512f2f80343e7979ede"
     }
   ],
   "betaCommits": [
@@ -3399,7 +3399,8 @@
     "48e96351e9bbbeefae4275d53aa5b076fc71f79b",
     "6c9639b824c2f30eafdaa0527250224d14c5e8ce",
     "be4b70843e55086b0c92eda1e3ade76bd210d4c2",
-    "5a1c26591283f074ee0abc0e18c3be583eb56d0e"
+    "5a1c26591283f074ee0abc0e18c3be583eb56d0e",
+    "182b2c9961f886854ed466cb4c2defd1898870db"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
