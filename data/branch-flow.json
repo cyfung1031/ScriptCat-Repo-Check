@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T06:33:04.816Z",
+  "generatedAt": "2026-07-16T09:30:57.143Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "550c0b178989f8c1287bec4270b339cf8fbdee26",
+      "shortSha": "550c0b1",
+      "title": "🐛 selfMetadata 支持空覆盖:修复匹配/排除/标签/运行时机「删除即复活」 (#1579)",
+      "author": "wangyizhi",
+      "date": "2026-07-16T08:14:06Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/550c0b178989f8c1287bec4270b339cf8fbdee26"
+    },
     {
       "sha": "e6a7aeb2c69fd93aef2701fdfa751911b9416339",
       "shortSha": "e6a7aeb",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-03-28T12:02:46Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/d7c96a501e622aab08ec8e51d6c0c46bbcb87987"
-    },
-    {
-      "sha": "42312466c504f8d077426d2ed55a0f21c692a8f1",
-      "shortSha": "4231246",
-      "title": "Merge branch 'main' into release/v1.4",
-      "author": "cyfung1031",
-      "date": "2026-03-27T23:59:22Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/42312466c504f8d077426d2ed55a0f21c692a8f1"
     }
   ],
   "betaCommits": [
@@ -3394,7 +3394,8 @@
     "ce808da097e0415548a0de7b74149024333caa52",
     "cc0b3cb87af9d2bf4b62ae1c48cc259251cc8b0b",
     "6c02b0a147bb29970b1d64c2593a0a7f5d662336",
-    "e6a7aeb2c69fd93aef2701fdfa751911b9416339"
+    "e6a7aeb2c69fd93aef2701fdfa751911b9416339",
+    "550c0b178989f8c1287bec4270b339cf8fbdee26"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
