@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T11:54:54.557Z",
+  "generatedAt": "2026-07-16T14:25:29.410Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "5a1c26591283f074ee0abc0e18c3be583eb56d0e",
+      "shortSha": "5a1c265",
+      "title": "⬆️ 升级依赖并修复 pnpm audit 安全警告 (#1576)",
+      "author": "cyfung1031",
+      "date": "2026-07-16T12:01:25Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/5a1c26591283f074ee0abc0e18c3be583eb56d0e"
+    },
     {
       "sha": "be4b70843e55086b0c92eda1e3ade76bd210d4c2",
       "shortSha": "be4b708",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-03-29T08:00:14Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/da16ddf4720daa8dfcf8f512f2f80343e7979ede"
-    },
-    {
-      "sha": "a3c258102ad1d43f9cd035201791f3fefb7d0d7e",
-      "shortSha": "a3c2581",
-      "title": "🐛 修正订阅脚本的静默更新与 connect 权限逻辑 (#1201)",
-      "author": "cyfung1031",
-      "date": "2026-03-29T07:34:02Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/a3c258102ad1d43f9cd035201791f3fefb7d0d7e"
     }
   ],
   "betaCommits": [
@@ -3398,7 +3398,8 @@
     "550c0b178989f8c1287bec4270b339cf8fbdee26",
     "48e96351e9bbbeefae4275d53aa5b076fc71f79b",
     "6c9639b824c2f30eafdaa0527250224d14c5e8ce",
-    "be4b70843e55086b0c92eda1e3ade76bd210d4c2"
+    "be4b70843e55086b0c92eda1e3ade76bd210d4c2",
+    "5a1c26591283f074ee0abc0e18c3be583eb56d0e"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
