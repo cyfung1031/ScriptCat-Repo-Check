@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T09:30:57.143Z",
+  "generatedAt": "2026-07-16T11:54:54.557Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,30 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "be4b70843e55086b0c92eda1e3ade76bd210d4c2",
+      "shortSha": "be4b708",
+      "title": "🐛 修复 window.focus 窗口聚焦并加强 windowId 校验 (#1577)",
+      "author": "cyfung1031",
+      "date": "2026-07-16T11:21:37Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/be4b70843e55086b0c92eda1e3ade76bd210d4c2"
+    },
+    {
+      "sha": "6c9639b824c2f30eafdaa0527250224d14c5e8ce",
+      "shortSha": "6c9639b",
+      "title": "💄 增加 popup 紧凑布局选项 (#1551)",
+      "author": "cyfung1031",
+      "date": "2026-07-16T10:59:36Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/6c9639b824c2f30eafdaa0527250224d14c5e8ce"
+    },
+    {
+      "sha": "48e96351e9bbbeefae4275d53aa5b076fc71f79b",
+      "shortSha": "48e9635",
+      "title": " ✨ 增加脚本回收站功能 (#1585)",
+      "author": "wangyizhi",
+      "date": "2026-07-16T09:56:45Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/48e96351e9bbbeefae4275d53aa5b076fc71f79b"
+    },
     {
       "sha": "550c0b178989f8c1287bec4270b339cf8fbdee26",
       "shortSha": "550c0b1",
@@ -1265,30 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-03-29T07:34:02Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/a3c258102ad1d43f9cd035201791f3fefb7d0d7e"
-    },
-    {
-      "sha": "984560376dfdf4ba37b2578e3838dfcda39576e1",
-      "shortSha": "9845603",
-      "title": "📝 配合 ScriptCat 1.3.x 更新 `@crontab` 说明 (#1322)",
-      "author": "cyfung1031",
-      "date": "2026-03-29T05:18:38Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/984560376dfdf4ba37b2578e3838dfcda39576e1"
-    },
-    {
-      "sha": "3a8c28e0c56b8d22d0a647ff515ec563a10a448a",
-      "shortSha": "3a8c28e",
-      "title": "📝 配合 ScriptCat 1.3.x 更新 @crontab 例子 (#1323)",
-      "author": "cyfung1031",
-      "date": "2026-03-29T05:17:40Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/3a8c28e0c56b8d22d0a647ff515ec563a10a448a"
-    },
-    {
-      "sha": "d7c96a501e622aab08ec8e51d6c0c46bbcb87987",
-      "shortSha": "d7c96a5",
-      "title": "🔖 bump version to 1.3.2",
-      "author": "王一之",
-      "date": "2026-03-28T12:02:46Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/d7c96a501e622aab08ec8e51d6c0c46bbcb87987"
     }
   ],
   "betaCommits": [
@@ -3395,7 +3395,10 @@
     "cc0b3cb87af9d2bf4b62ae1c48cc259251cc8b0b",
     "6c02b0a147bb29970b1d64c2593a0a7f5d662336",
     "e6a7aeb2c69fd93aef2701fdfa751911b9416339",
-    "550c0b178989f8c1287bec4270b339cf8fbdee26"
+    "550c0b178989f8c1287bec4270b339cf8fbdee26",
+    "48e96351e9bbbeefae4275d53aa5b076fc71f79b",
+    "6c9639b824c2f30eafdaa0527250224d14c5e8ce",
+    "be4b70843e55086b0c92eda1e3ade76bd210d4c2"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
