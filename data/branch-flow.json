@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T06:29:23.789Z",
+  "generatedAt": "2026-07-17T09:22:23.984Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "f0d297c7e5d4a0e762749309c5a805b98be70242",
+      "shortSha": "f0d297c",
+      "title": "🐛 修复日志定时清理失效 (#1599)",
+      "author": "wangyizhi",
+      "date": "2026-07-17T08:11:24Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/f0d297c7e5d4a0e762749309c5a805b98be70242"
+    },
     {
       "sha": "182b2c9961f886854ed466cb4c2defd1898870db",
       "shortSha": "182b2c9",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-03-29T12:18:03Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/b3db76904a72ae87aa71fdaf6423e60af414613c"
-    },
-    {
-      "sha": "950d7f7677fee7ca21c5708249be73cb65ce1478",
-      "shortSha": "950d7f7",
-      "title": "yaml 2.8.1 -> 2.8.3 (#1314)",
-      "author": "cyfung1031",
-      "date": "2026-03-29T12:07:10Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/950d7f7677fee7ca21c5708249be73cb65ce1478"
     }
   ],
   "betaCommits": [
@@ -3400,7 +3400,8 @@
     "6c9639b824c2f30eafdaa0527250224d14c5e8ce",
     "be4b70843e55086b0c92eda1e3ade76bd210d4c2",
     "5a1c26591283f074ee0abc0e18c3be583eb56d0e",
-    "182b2c9961f886854ed466cb4c2defd1898870db"
+    "182b2c9961f886854ed466cb4c2defd1898870db",
+    "f0d297c7e5d4a0e762749309c5a805b98be70242"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
