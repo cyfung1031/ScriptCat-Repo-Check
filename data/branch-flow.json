@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T11:42:33.474Z",
+  "generatedAt": "2026-07-17T14:05:02.993Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "7dc4a9296b26bfa021e772b194004a33955d1fc6",
+      "shortSha": "7dc4a92",
+      "title": "📄 明确代理创建 PR 的描述规范 (#1601)",
+      "author": "cyfung1031",
+      "date": "2026-07-17T12:37:38Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/7dc4a9296b26bfa021e772b194004a33955d1fc6"
+    },
     {
       "sha": "2f4ac7b53908772e4104fa2117d5f9c8d193afbf",
       "shortSha": "2f4ac7b",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-04-02T03:16:39Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/dc4decb783ac85402400d411809c2a846d430041"
-    },
-    {
-      "sha": "b0811a695ea2e413a8dbcf931c423ee7fb130897",
-      "shortSha": "b0811a6",
-      "title": "✨ 以 Navigation API 实现 TM 的 window.onurlchange (#1315)",
-      "author": "cyfung1031",
-      "date": "2026-04-02T01:45:04Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b0811a695ea2e413a8dbcf931c423ee7fb130897"
     }
   ],
   "betaCommits": [
@@ -3403,7 +3403,8 @@
     "182b2c9961f886854ed466cb4c2defd1898870db",
     "f0d297c7e5d4a0e762749309c5a805b98be70242",
     "fc9ae99b4af76439777aa73c39d5329e109ef53a",
-    "2f4ac7b53908772e4104fa2117d5f9c8d193afbf"
+    "2f4ac7b53908772e4104fa2117d5f9c8d193afbf",
+    "7dc4a9296b26bfa021e772b194004a33955d1fc6"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
