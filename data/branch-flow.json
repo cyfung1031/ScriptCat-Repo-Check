@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T15:43:29.009Z",
+  "generatedAt": "2026-07-17T17:32:39.247Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "83f32cca2d64ee744a505eec2351cfc0b7d1f909",
+      "shortSha": "83f32cc",
+      "title": "🌐 Brazilian Portuguese/pt-BR Translation (#1587)",
+      "author": "Lucas",
+      "date": "2026-07-17T17:23:49Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/83f32cca2d64ee744a505eec2351cfc0b7d1f909"
+    },
     {
       "sha": "7dc4a9296b26bfa021e772b194004a33955d1fc6",
       "shortSha": "7dc4a92",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-04-02T05:40:20Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/a16a407e95fe7dcae23e882383b48bb65d45ae22"
-    },
-    {
-      "sha": "dc4decb783ac85402400d411809c2a846d430041",
-      "shortSha": "dc4decb",
-      "title": "Merge remote-tracking branch 'origin/main' into release/v1.4",
-      "author": "王一之",
-      "date": "2026-04-02T03:16:39Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/dc4decb783ac85402400d411809c2a846d430041"
     }
   ],
   "betaCommits": [
@@ -3404,7 +3404,8 @@
     "f0d297c7e5d4a0e762749309c5a805b98be70242",
     "fc9ae99b4af76439777aa73c39d5329e109ef53a",
     "2f4ac7b53908772e4104fa2117d5f9c8d193afbf",
-    "7dc4a9296b26bfa021e772b194004a33955d1fc6"
+    "7dc4a9296b26bfa021e772b194004a33955d1fc6",
+    "83f32cca2d64ee744a505eec2351cfc0b7d1f909"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
