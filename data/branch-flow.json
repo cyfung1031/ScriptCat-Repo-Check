@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T09:22:23.984Z",
+  "generatedAt": "2026-07-17T11:42:33.474Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "2f4ac7b53908772e4104fa2117d5f9c8d193afbf",
+      "shortSha": "2f4ac7b",
+      "title": "🐛 修复 async_queue 压力测试在 CI 争抢下的超时误报 (#1600)",
+      "author": "cyfung1031",
+      "date": "2026-07-17T11:13:47Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/2f4ac7b53908772e4104fa2117d5f9c8d193afbf"
+    },
+    {
+      "sha": "fc9ae99b4af76439777aa73c39d5329e109ef53a",
+      "shortSha": "fc9ae99",
+      "title": "🐛 Fix cloud sync state consistency and provider-safe conflict handling (#1504)",
+      "author": "cyfung1031",
+      "date": "2026-07-17T11:13:14Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/fc9ae99b4af76439777aa73c39d5329e109ef53a"
+    },
     {
       "sha": "f0d297c7e5d4a0e762749309c5a805b98be70242",
       "shortSha": "f0d297c",
@@ -1273,22 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-02T01:45:04Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/b0811a695ea2e413a8dbcf931c423ee7fb130897"
-    },
-    {
-      "sha": "4d74a56986660061a83cbf827b106ad65888ad5f",
-      "shortSha": "4d74a56",
-      "title": "🐛 对齐 PR#1319, 防止参数类型出错 (#1320)",
-      "author": "cyfung1031",
-      "date": "2026-04-01T09:42:07Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/4d74a56986660061a83cbf827b106ad65888ad5f"
-    },
-    {
-      "sha": "b3db76904a72ae87aa71fdaf6423e60af414613c",
-      "shortSha": "b3db769",
-      "title": "⚡️ 压缩 ts.worker.js 至 4MB 以通过 AMO 验证，修复 MV3 background permission 错误 (#1221)",
-      "author": "cyfung1031",
-      "date": "2026-03-29T12:18:03Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b3db76904a72ae87aa71fdaf6423e60af414613c"
     }
   ],
   "betaCommits": [
@@ -3401,7 +3401,9 @@
     "be4b70843e55086b0c92eda1e3ade76bd210d4c2",
     "5a1c26591283f074ee0abc0e18c3be583eb56d0e",
     "182b2c9961f886854ed466cb4c2defd1898870db",
-    "f0d297c7e5d4a0e762749309c5a805b98be70242"
+    "f0d297c7e5d4a0e762749309c5a805b98be70242",
+    "fc9ae99b4af76439777aa73c39d5329e109ef53a",
+    "2f4ac7b53908772e4104fa2117d5f9c8d193afbf"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
