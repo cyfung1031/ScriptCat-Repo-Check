@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T17:18:27.329Z",
+  "generatedAt": "2026-07-18T19:34:13.269Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "44f57948fd9ef1c4e2808ea77ee4c3e6e710a367",
+      "shortSha": "44f5794",
+      "title": "📄 提升 PR 描述规范的可见度，防止代理默认回退到通用模板 (#1610)",
+      "author": "cyfung1031",
+      "date": "2026-07-18T18:07:58Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/44f57948fd9ef1c4e2808ea77ee4c3e6e710a367"
+    },
+    {
+      "sha": "82546b12b7d8104c36e528a510b7ad423a3e0531",
+      "shortSha": "82546b1",
+      "title": "🌐 Cover chrome.i18n messages.json and Monaco editor langs for pt-BR / tr-TR (#1605)",
+      "author": "wangyizhi",
+      "date": "2026-07-18T17:32:22Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/82546b12b7d8104c36e528a510b7ad423a3e0531"
+    },
     {
       "sha": "83f32cca2d64ee744a505eec2351cfc0b7d1f909",
       "shortSha": "83f32cc",
@@ -1273,22 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-04T04:01:33Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/2f0e8d92ad9b0ee9ae2bada344a6f2a0d1ed3d42"
-    },
-    {
-      "sha": "3e975c0f4027ce575b7a23735eb44e1a05adb874",
-      "shortSha": "3e975c0",
-      "title": "pnpm install",
-      "author": "王一之",
-      "date": "2026-04-02T05:55:56Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/3e975c0f4027ce575b7a23735eb44e1a05adb874"
-    },
-    {
-      "sha": "a16a407e95fe7dcae23e882383b48bb65d45ae22",
-      "shortSha": "a16a407",
-      "title": "🔖 v1.4.0-beta.1: 合并 git hooks，修复测试 LoggerCore mock",
-      "author": "王一之",
-      "date": "2026-04-02T05:40:20Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/a16a407e95fe7dcae23e882383b48bb65d45ae22"
     }
   ],
   "betaCommits": [
@@ -3405,7 +3405,9 @@
     "fc9ae99b4af76439777aa73c39d5329e109ef53a",
     "2f4ac7b53908772e4104fa2117d5f9c8d193afbf",
     "7dc4a9296b26bfa021e772b194004a33955d1fc6",
-    "83f32cca2d64ee744a505eec2351cfc0b7d1f909"
+    "83f32cca2d64ee744a505eec2351cfc0b7d1f909",
+    "82546b12b7d8104c36e528a510b7ad423a3e0531",
+    "44f57948fd9ef1c4e2808ea77ee4c3e6e710a367"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
