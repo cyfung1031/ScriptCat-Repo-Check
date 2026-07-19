@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T00:12:01.359Z",
+  "generatedAt": "2026-07-19T03:57:45.972Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "05ee6bd00e0dec98be6a300ac09cc258edce2cc7",
+      "shortSha": "05ee6bd",
+      "title": "🐛 修复保存脚本改名后浏览器标签页标题未同步更新 (#1607)",
+      "author": "cyfung1031",
+      "date": "2026-07-19T00:20:06Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/05ee6bd00e0dec98be6a300ac09cc258edce2cc7"
+    },
     {
       "sha": "44f57948fd9ef1c4e2808ea77ee4c3e6e710a367",
       "shortSha": "44f5794",
@@ -1281,14 +1289,6 @@
       "author": "wangyizhi",
       "date": "2026-04-05T08:55:45Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/65775cbdb8e2ad6d6d23e5e21029dfd3c403a81d"
-    },
-    {
-      "sha": "2f0e8d92ad9b0ee9ae2bada344a6f2a0d1ed3d42",
-      "shortSha": "2f0e8d9",
-      "title": "🐛 修复 nextTimeDisplay 避免cron表达式错误导致整个页面死掉 (#1327)",
-      "author": "cyfung1031",
-      "date": "2026-04-04T04:01:33Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/2f0e8d92ad9b0ee9ae2bada344a6f2a0d1ed3d42"
     }
   ],
   "betaCommits": [
@@ -3407,7 +3407,8 @@
     "7dc4a9296b26bfa021e772b194004a33955d1fc6",
     "83f32cca2d64ee744a505eec2351cfc0b7d1f909",
     "82546b12b7d8104c36e528a510b7ad423a3e0531",
-    "44f57948fd9ef1c4e2808ea77ee4c3e6e710a367"
+    "44f57948fd9ef1c4e2808ea77ee4c3e6e710a367",
+    "05ee6bd00e0dec98be6a300ac09cc258edce2cc7"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
