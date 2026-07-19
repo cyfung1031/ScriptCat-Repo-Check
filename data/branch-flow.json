@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T06:43:54.957Z",
+  "generatedAt": "2026-07-19T09:18:47.119Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "4e7e8067eafa64973d9e709092a187ef3228903a",
+      "shortSha": "4e7e806",
+      "title": "📄 修正 AGENTS.md 与 develop.md 中的过期事实与措辞歧义 (#1611)",
+      "author": "cyfung1031",
+      "date": "2026-07-19T07:22:23Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/4e7e8067eafa64973d9e709092a187ef3228903a"
+    },
     {
       "sha": "05ee6bd00e0dec98be6a300ac09cc258edce2cc7",
       "shortSha": "05ee6bd",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-05T11:24:21Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/15c62d0803a6608ce35f52432e638f095c330d6d"
-    },
-    {
-      "sha": "65775cbdb8e2ad6d6d23e5e21029dfd3c403a81d",
-      "shortSha": "65775cb",
-      "title": "🔧 通用修复与基础设施改进 (#1328)",
-      "author": "wangyizhi",
-      "date": "2026-04-05T08:55:45Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/65775cbdb8e2ad6d6d23e5e21029dfd3c403a81d"
     }
   ],
   "betaCommits": [
@@ -3408,7 +3408,8 @@
     "83f32cca2d64ee744a505eec2351cfc0b7d1f909",
     "82546b12b7d8104c36e528a510b7ad423a3e0531",
     "44f57948fd9ef1c4e2808ea77ee4c3e6e710a367",
-    "05ee6bd00e0dec98be6a300ac09cc258edce2cc7"
+    "05ee6bd00e0dec98be6a300ac09cc258edce2cc7",
+    "4e7e8067eafa64973d9e709092a187ef3228903a"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
