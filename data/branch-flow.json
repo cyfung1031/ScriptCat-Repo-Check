@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T04:08:43.257Z",
+  "generatedAt": "2026-07-20T07:32:05.275Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "82c38bae611de52a468c9973e814d5e14652b8de",
+      "shortSha": "82c38ba",
+      "title": "✅ add popup matching regression e2e tests (#1595)",
+      "author": "cyfung1031",
+      "date": "2026-07-20T05:58:02Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/82c38bae611de52a468c9973e814d5e14652b8de"
+    },
     {
       "sha": "74a9814a88a585aea1f410cf4d008b790d8ab557",
       "shortSha": "74a9814",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-04-07T14:23:58Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/eccc1189847ff2fa0e4ff6801221e6d0cce98dad"
-    },
-    {
-      "sha": "6dbfaefff6c957385e0337e45032ece89374724d",
-      "shortSha": "6dbfaef",
-      "title": "♻️ 移除子代理 to 参数，Agent 管理页面添加文档链接 (#1337)",
-      "author": "wangyizhi",
-      "date": "2026-04-07T14:17:28Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/6dbfaefff6c957385e0337e45032ece89374724d"
     }
   ],
   "betaCommits": [
@@ -3411,7 +3411,8 @@
     "05ee6bd00e0dec98be6a300ac09cc258edce2cc7",
     "4e7e8067eafa64973d9e709092a187ef3228903a",
     "31fe2be86354db3deb18165d12472750c648d0f0",
-    "74a9814a88a585aea1f410cf4d008b790d8ab557"
+    "74a9814a88a585aea1f410cf4d008b790d8ab557",
+    "82c38bae611de52a468c9973e814d5e14652b8de"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
