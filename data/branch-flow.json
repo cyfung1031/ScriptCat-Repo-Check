@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T23:13:29.140Z",
+  "generatedAt": "2026-07-20T04:08:43.257Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "74a9814a88a585aea1f410cf4d008b790d8ab557",
+      "shortSha": "74a9814",
+      "title": "脚本同步设置改为即时保存 (#1615)",
+      "author": "wangyizhi",
+      "date": "2026-07-20T02:37:13Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/74a9814a88a585aea1f410cf4d008b790d8ab557"
+    },
+    {
+      "sha": "31fe2be86354db3deb18165d12472750c648d0f0",
+      "shortSha": "31fe2be",
+      "title": "📄 补充注释规范：拒绝审计追溯标签、复述性与失效注释 (#1602)",
+      "author": "cyfung1031",
+      "date": "2026-07-20T01:43:36Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/31fe2be86354db3deb18165d12472750c648d0f0"
+    },
     {
       "sha": "4e7e8067eafa64973d9e709092a187ef3228903a",
       "shortSha": "4e7e806",
@@ -1273,22 +1289,6 @@
       "author": "wangyizhi",
       "date": "2026-04-07T14:17:28Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/6dbfaefff6c957385e0337e45032ece89374724d"
-    },
-    {
-      "sha": "94b533dcd85a2e39c27d1b9af5c9e1f3e94af7ac",
-      "shortSha": "94b533d",
-      "title": "💥 脚本猫 AI Agent (#1324)",
-      "author": "wangyizhi",
-      "date": "2026-04-07T10:05:26Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/94b533dcd85a2e39c27d1b9af5c9e1f3e94af7ac"
-    },
-    {
-      "sha": "15c62d0803a6608ce35f52432e638f095c330d6d",
-      "shortSha": "15c62d0",
-      "title": "✨ 新增更多图标服务供应商 (#1333)",
-      "author": "cyfung1031",
-      "date": "2026-04-05T11:24:21Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/15c62d0803a6608ce35f52432e638f095c330d6d"
     }
   ],
   "betaCommits": [
@@ -3409,7 +3409,9 @@
     "82546b12b7d8104c36e528a510b7ad423a3e0531",
     "44f57948fd9ef1c4e2808ea77ee4c3e6e710a367",
     "05ee6bd00e0dec98be6a300ac09cc258edce2cc7",
-    "4e7e8067eafa64973d9e709092a187ef3228903a"
+    "4e7e8067eafa64973d9e709092a187ef3228903a",
+    "31fe2be86354db3deb18165d12472750c648d0f0",
+    "74a9814a88a585aea1f410cf4d008b790d8ab557"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
