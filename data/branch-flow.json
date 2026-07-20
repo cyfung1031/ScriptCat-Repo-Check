@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T13:19:45.885Z",
+  "generatedAt": "2026-07-20T16:02:29.920Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "c7543bb0afdfd80ee29744c86da45856a5c5d97c",
+      "shortSha": "c7543bb",
+      "title": "📄 精简全部 Issue 模板，降低反馈门槛 (#1593)",
+      "author": "cyfung1031",
+      "date": "2026-07-20T14:46:15Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/c7543bb0afdfd80ee29744c86da45856a5c5d97c"
+    },
     {
       "sha": "95e64a8edc732b3dd60f6678e26fe7524d9ec21b",
       "shortSha": "95e64a8",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-04-22T03:23:01Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/99cb415b36fdf4f86fbb037a97eb1e9a8277260a"
-    },
-    {
-      "sha": "283bbef435d2133e4fbecb2ff496e4ac6506d1d3",
-      "shortSha": "283bbef",
-      "title": "⬆️ 修复所有 npm vulnerability (#1350)",
-      "author": "cyfung1031",
-      "date": "2026-04-14T04:03:54Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/283bbef435d2133e4fbecb2ff496e4ac6506d1d3"
     }
   ],
   "betaCommits": [
@@ -3418,7 +3418,8 @@
     "3461fd4993cf8218ee3f877aae6596a1abfcedbb",
     "3fc6ced2a16ca6abfbc7bfefaa66d1cc97343e34",
     "ebafdcd95950936a02761c76e6f27c2c5c06fa7b",
-    "95e64a8edc732b3dd60f6678e26fe7524d9ec21b"
+    "95e64a8edc732b3dd60f6678e26fe7524d9ec21b",
+    "c7543bb0afdfd80ee29744c86da45856a5c5d97c"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
