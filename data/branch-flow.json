@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T07:32:05.275Z",
+  "generatedAt": "2026-07-20T11:15:05.525Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,46 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "ebafdcd95950936a02761c76e6f27c2c5c06fa7b",
+      "shortSha": "ebafdcd",
+      "title": "✨ 未定义元数据标签在编辑器中显示警告 (#1608)",
+      "author": "cyfung1031",
+      "date": "2026-07-20T10:51:49Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/ebafdcd95950936a02761c76e6f27c2c5c06fa7b"
+    },
+    {
+      "sha": "3fc6ced2a16ca6abfbc7bfefaa66d1cc97343e34",
+      "shortSha": "3fc6ced",
+      "title": "🐛 修正回收站同名脚本保存确认文案 (#1622)",
+      "author": "wangyizhi",
+      "date": "2026-07-20T10:01:58Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3fc6ced2a16ca6abfbc7bfefaa66d1cc97343e34"
+    },
+    {
+      "sha": "3461fd4993cf8218ee3f877aae6596a1abfcedbb",
+      "shortSha": "3461fd4",
+      "title": "📄 修正架构/测试/i18n 文档过期事实并解决跨文档政策冲突 (#1616)",
+      "author": "cyfung1031",
+      "date": "2026-07-20T09:32:14Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3461fd4993cf8218ee3f877aae6596a1abfcedbb"
+    },
+    {
+      "sha": "46ebef81084395b2773a3d3be5ef097e98550221",
+      "shortSha": "46ebef8",
+      "title": "🌐 新增翻译完整性机械检查 (check:i18n) (#1606)",
+      "author": "cyfung1031",
+      "date": "2026-07-20T09:13:30Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/46ebef81084395b2773a3d3be5ef097e98550221"
+    },
+    {
+      "sha": "9c6e2f10cdc9d1eda6b312c98391e97ba9ef9cc5",
+      "shortSha": "9c6e2f1",
+      "title": "🌐 add Korean (ko-KR) translation (#1568)",
+      "author": "moduvoice",
+      "date": "2026-07-20T08:39:54Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/9c6e2f10cdc9d1eda6b312c98391e97ba9ef9cc5"
+    },
     {
       "sha": "82c38bae611de52a468c9973e814d5e14652b8de",
       "shortSha": "82c38ba",
@@ -1249,46 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-14T04:02:51Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/89694a6f92f83cfee59c09c599351598ca114755"
-    },
-    {
-      "sha": "7bbd6d18edfe04c58bbe34bfe5da95be4d21ebc5",
-      "shortSha": "7bbd6d1",
-      "title": "🐛 修复 web_fetch/web_search 合约不一致",
-      "author": "王一之",
-      "date": "2026-04-08T05:58:25Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/7bbd6d18edfe04c58bbe34bfe5da95be4d21ebc5"
-    },
-    {
-      "sha": "2447ce3d5c65a7ede9f8a5f9e00a707513598964",
-      "shortSha": "2447ce3",
-      "title": "🔧 pnpm cooldown: 不抓取一个月内最新版 （pnpm: 提升至 10.33.0 以使用 minimumReleaseAge 避免 supply chain 攻击） (#1341)",
-      "author": "cyfung1031",
-      "date": "2026-04-08T02:19:41Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/2447ce3d5c65a7ede9f8a5f9e00a707513598964"
-    },
-    {
-      "sha": "39aff8a9643026eb0efbf0563c5c0f79cef2a334",
-      "shortSha": "39aff8a",
-      "title": "♻️ 删除 uint8Array 重复封装 (#1340)",
-      "author": "cyfung1031",
-      "date": "2026-04-08T02:07:38Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/39aff8a9643026eb0efbf0563c5c0f79cef2a334"
-    },
-    {
-      "sha": "40e7eb0135d8b835dc0a0852841c048a56a35f20",
-      "shortSha": "40e7eb0",
-      "title": "Merge branch 'release/v1.4' into release/v1.4-agent",
-      "author": "王一之",
-      "date": "2026-04-07T14:24:25Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/40e7eb0135d8b835dc0a0852841c048a56a35f20"
-    },
-    {
-      "sha": "eccc1189847ff2fa0e4ff6801221e6d0cce98dad",
-      "shortSha": "eccc118",
-      "title": "Merge branch 'main' into release/v1.4",
-      "author": "王一之",
-      "date": "2026-04-07T14:23:58Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/eccc1189847ff2fa0e4ff6801221e6d0cce98dad"
     }
   ],
   "betaCommits": [
@@ -3412,7 +3412,12 @@
     "4e7e8067eafa64973d9e709092a187ef3228903a",
     "31fe2be86354db3deb18165d12472750c648d0f0",
     "74a9814a88a585aea1f410cf4d008b790d8ab557",
-    "82c38bae611de52a468c9973e814d5e14652b8de"
+    "82c38bae611de52a468c9973e814d5e14652b8de",
+    "9c6e2f10cdc9d1eda6b312c98391e97ba9ef9cc5",
+    "46ebef81084395b2773a3d3be5ef097e98550221",
+    "3461fd4993cf8218ee3f877aae6596a1abfcedbb",
+    "3fc6ced2a16ca6abfbc7bfefaa66d1cc97343e34",
+    "ebafdcd95950936a02761c76e6f27c2c5c06fa7b"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
