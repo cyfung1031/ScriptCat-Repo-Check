@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T11:15:05.525Z",
+  "generatedAt": "2026-07-20T13:19:45.885Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "95e64a8edc732b3dd60f6678e26fe7524d9ec21b",
+      "shortSha": "95e64a8",
+      "title": "🐛 修复 GM_xmlhttpRequest 自定义 cookie 追加而非覆盖同名 cookie (#1604)",
+      "author": "cyfung1031",
+      "date": "2026-07-20T12:04:09Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/95e64a8edc732b3dd60f6678e26fe7524d9ec21b"
+    },
     {
       "sha": "ebafdcd95950936a02761c76e6f27c2c5c06fa7b",
       "shortSha": "ebafdcd",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-14T04:03:54Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/283bbef435d2133e4fbecb2ff496e4ac6506d1d3"
-    },
-    {
-      "sha": "89694a6f92f83cfee59c09c599351598ca114755",
-      "shortSha": "89694a6",
-      "title": "✅ 单元测试中 axios 改为 moment (#1349)",
-      "author": "cyfung1031",
-      "date": "2026-04-14T04:02:51Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/89694a6f92f83cfee59c09c599351598ca114755"
     }
   ],
   "betaCommits": [
@@ -3417,7 +3417,8 @@
     "46ebef81084395b2773a3d3be5ef097e98550221",
     "3461fd4993cf8218ee3f877aae6596a1abfcedbb",
     "3fc6ced2a16ca6abfbc7bfefaa66d1cc97343e34",
-    "ebafdcd95950936a02761c76e6f27c2c5c06fa7b"
+    "ebafdcd95950936a02761c76e6f27c2c5c06fa7b",
+    "95e64a8edc732b3dd60f6678e26fe7524d9ec21b"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
