@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T09:41:29.008Z",
+  "generatedAt": "2026-07-21T12:01:31.567Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "301c13e1e381a63086f7cf88f0506f6c80801c09",
+      "shortSha": "301c13e",
+      "title": "✅ 补全并重构高价值 E2E 覆盖 (#1629)",
+      "author": "wangyizhi",
+      "date": "2026-07-21T11:02:32Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/301c13e1e381a63086f7cf88f0506f6c80801c09"
+    },
     {
       "sha": "e7d448b77fa5d8953639b7b75b06567239cfd467",
       "shortSha": "e7d448b",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-04-22T16:16:04Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/d80107b760dbff513cbc2174c6678db671414721"
-    },
-    {
-      "sha": "dd3ac76dfb2796df22d65e00ec92962c10c0042a",
-      "shortSha": "dd3ac76",
-      "title": "🐛 UserConfigPanel CSS 修正 (#1361)",
-      "author": "cyfung1031",
-      "date": "2026-04-22T07:09:45Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/dd3ac76dfb2796df22d65e00ec92962c10c0042a"
     }
   ],
   "betaCommits": [
@@ -3420,7 +3420,8 @@
     "ebafdcd95950936a02761c76e6f27c2c5c06fa7b",
     "95e64a8edc732b3dd60f6678e26fe7524d9ec21b",
     "c7543bb0afdfd80ee29744c86da45856a5c5d97c",
-    "e7d448b77fa5d8953639b7b75b06567239cfd467"
+    "e7d448b77fa5d8953639b7b75b06567239cfd467",
+    "301c13e1e381a63086f7cf88f0506f6c80801c09"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
