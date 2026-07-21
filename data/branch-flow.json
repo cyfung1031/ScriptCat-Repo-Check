@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T06:42:39.548Z",
+  "generatedAt": "2026-07-21T09:41:29.008Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "e7d448b77fa5d8953639b7b75b06567239cfd467",
+      "shortSha": "e7d448b",
+      "title": "🦊 启用 Firefox MV3 构建并完善 sandbox/offscreen 通信 (#1561)",
+      "author": "cyfung1031",
+      "date": "2026-07-21T09:11:54Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/e7d448b77fa5d8953639b7b75b06567239cfd467"
+    },
     {
       "sha": "c7543bb0afdfd80ee29744c86da45856a5c5d97c",
       "shortSha": "c7543bb",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-22T07:09:45Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/dd3ac76dfb2796df22d65e00ec92962c10c0042a"
-    },
-    {
-      "sha": "99cb415b36fdf4f86fbb037a97eb1e9a8277260a",
-      "shortSha": "99cb415",
-      "title": "🐛 修复 PR #1331 Copilot review 在 main 分支同样存在的 3 处问题",
-      "author": "王一之",
-      "date": "2026-04-22T03:23:01Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/99cb415b36fdf4f86fbb037a97eb1e9a8277260a"
     }
   ],
   "betaCommits": [
@@ -3419,7 +3419,8 @@
     "3fc6ced2a16ca6abfbc7bfefaa66d1cc97343e34",
     "ebafdcd95950936a02761c76e6f27c2c5c06fa7b",
     "95e64a8edc732b3dd60f6678e26fe7524d9ec21b",
-    "c7543bb0afdfd80ee29744c86da45856a5c5d97c"
+    "c7543bb0afdfd80ee29744c86da45856a5c5d97c",
+    "e7d448b77fa5d8953639b7b75b06567239cfd467"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
