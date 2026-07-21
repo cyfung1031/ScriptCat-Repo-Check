@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T14:25:31.547Z",
+  "generatedAt": "2026-07-21T16:44:50.908Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "0d45b0b76315cd19f0ced3046c976ae34dc87adb",
+      "shortSha": "0d45b0b",
+      "title": "✅ 完善测试设计规范并清理低价值用例 (#1628)",
+      "author": "wangyizhi",
+      "date": "2026-07-21T14:31:59Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/0d45b0b76315cd19f0ced3046c976ae34dc87adb"
+    },
     {
       "sha": "301c13e1e381a63086f7cf88f0506f6c80801c09",
       "shortSha": "301c13e",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-04-22T16:21:10Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/f5aa1eff4ce1a0d03bce6023fec93f58011ba718"
-    },
-    {
-      "sha": "d80107b760dbff513cbc2174c6678db671414721",
-      "shortSha": "d80107b",
-      "title": "Merge branch 'main' into release/v1.4",
-      "author": "王一之",
-      "date": "2026-04-22T16:16:04Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/d80107b760dbff513cbc2174c6678db671414721"
     }
   ],
   "betaCommits": [
@@ -3421,7 +3421,8 @@
     "95e64a8edc732b3dd60f6678e26fe7524d9ec21b",
     "c7543bb0afdfd80ee29744c86da45856a5c5d97c",
     "e7d448b77fa5d8953639b7b75b06567239cfd467",
-    "301c13e1e381a63086f7cf88f0506f6c80801c09"
+    "301c13e1e381a63086f7cf88f0506f6c80801c09",
+    "0d45b0b76315cd19f0ced3046c976ae34dc87adb"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
