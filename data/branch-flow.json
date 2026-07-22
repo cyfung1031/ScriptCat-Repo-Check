@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T00:10:07.477Z",
+  "generatedAt": "2026-07-22T03:49:44.150Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "413bee9593259179e9db72be61d98f060fcf5738",
+      "shortSha": "413bee9",
+      "title": "🐛 迁移测试端点从 httpbun.com 到 httpbingo.org (#1617)",
+      "author": "cyfung1031",
+      "date": "2026-07-22T02:12:10Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/413bee9593259179e9db72be61d98f060fcf5738"
+    },
     {
       "sha": "0d45b0b76315cd19f0ced3046c976ae34dc87adb",
       "shortSha": "0d45b0b",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-22T17:00:34Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/b0a45f6136191e6402f881f1f1b2def6eeda6790"
-    },
-    {
-      "sha": "f5aa1eff4ce1a0d03bce6023fec93f58011ba718",
-      "shortSha": "f5aa1ef",
-      "title": "Merge branch 'release/v1.4' into release/v1.4-agent",
-      "author": "王一之",
-      "date": "2026-04-22T16:21:10Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/f5aa1eff4ce1a0d03bce6023fec93f58011ba718"
     }
   ],
   "betaCommits": [
@@ -3422,7 +3422,8 @@
     "c7543bb0afdfd80ee29744c86da45856a5c5d97c",
     "e7d448b77fa5d8953639b7b75b06567239cfd467",
     "301c13e1e381a63086f7cf88f0506f6c80801c09",
-    "0d45b0b76315cd19f0ced3046c976ae34dc87adb"
+    "0d45b0b76315cd19f0ced3046c976ae34dc87adb",
+    "413bee9593259179e9db72be61d98f060fcf5738"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
