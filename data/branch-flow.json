@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T09:35:51.029Z",
+  "generatedAt": "2026-07-24T11:56:32.152Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "2a933d71ec689059b7c3d32eecce04e440ec9a39",
+      "shortSha": "2a933d7",
+      "title": "🐛 修复安装页回退/关闭标签逻辑：改用 chrome.tabs.goBack 并区分同标签重定向 (#1594)",
+      "author": "cyfung1031",
+      "date": "2026-07-24T10:03:47Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/2a933d71ec689059b7c3d32eecce04e440ec9a39"
+    },
     {
       "sha": "413bee9593259179e9db72be61d98f060fcf5738",
       "shortSha": "413bee9",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-23T02:13:19Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/a62e87620a8f05dc910895446e2a8575a6774df5"
-    },
-    {
-      "sha": "b0a45f6136191e6402f881f1f1b2def6eeda6790",
-      "shortSha": "b0a45f6",
-      "title": "🐛 修复兼容 reasoning model (#1357)",
-      "author": "cyfung1031",
-      "date": "2026-04-22T17:00:34Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b0a45f6136191e6402f881f1f1b2def6eeda6790"
     }
   ],
   "betaCommits": [
@@ -3423,7 +3423,8 @@
     "e7d448b77fa5d8953639b7b75b06567239cfd467",
     "301c13e1e381a63086f7cf88f0506f6c80801c09",
     "0d45b0b76315cd19f0ced3046c976ae34dc87adb",
-    "413bee9593259179e9db72be61d98f060fcf5738"
+    "413bee9593259179e9db72be61d98f060fcf5738",
+    "2a933d71ec689059b7c3d32eecce04e440ec9a39"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
