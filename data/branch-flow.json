@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T00:16:03.638Z",
+  "generatedAt": "2026-07-27T04:08:54.791Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "9686b3247ff72a80b2af3e8aafba19474f5260f8",
+      "shortSha": "9686b32",
+      "title": "✨ 图标服务新增「禁用」档,彻底关闭 favicon 获取 (#1637)",
+      "author": "wangyizhi",
+      "date": "2026-07-27T03:46:18Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/9686b3247ff72a80b2af3e8aafba19474f5260f8"
+    },
     {
       "sha": "2a933d71ec689059b7c3d32eecce04e440ec9a39",
       "shortSha": "2a933d7",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-23T03:47:34Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/6d2b36b5c3153ca2d11fb230473f6e2c3eaa738d"
-    },
-    {
-      "sha": "a62e87620a8f05dc910895446e2a8575a6774df5",
-      "shortSha": "a62e876",
-      "title": "✅ example/tests: `GM_registerMenuCommand` (#1366)",
-      "author": "cyfung1031",
-      "date": "2026-04-23T02:13:19Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/a62e87620a8f05dc910895446e2a8575a6774df5"
     }
   ],
   "betaCommits": [
@@ -3424,7 +3424,8 @@
     "301c13e1e381a63086f7cf88f0506f6c80801c09",
     "0d45b0b76315cd19f0ced3046c976ae34dc87adb",
     "413bee9593259179e9db72be61d98f060fcf5738",
-    "2a933d71ec689059b7c3d32eecce04e440ec9a39"
+    "2a933d71ec689059b7c3d32eecce04e440ec9a39",
+    "9686b3247ff72a80b2af3e8aafba19474f5260f8"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
