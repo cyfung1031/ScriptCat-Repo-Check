@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T00:15:42.054Z",
+  "generatedAt": "2026-08-03T04:01:24.226Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "13ddf857f11806314e64425b9b602350d70933dd",
+      "shortSha": "13ddf85",
+      "title": "♻️ 使用官方 MCP SDK 重构客户端 (#1643)",
+      "author": "wangyizhi",
+      "date": "2026-08-03T03:25:58Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/13ddf857f11806314e64425b9b602350d70933dd"
+    },
     {
       "sha": "9686b3247ff72a80b2af3e8aafba19474f5260f8",
       "shortSha": "9686b32",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-23T03:51:27Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/03cc6e3657ca1477b40a00b4f97ad94ce66b46e7"
-    },
-    {
-      "sha": "6d2b36b5c3153ca2d11fb230473f6e2c3eaa738d",
-      "shortSha": "6d2b36b",
-      "title": "🐛 修复 Agent 流式 tool_call arguments 拼接错误及并行工具调用串扰问题 (#1355)",
-      "author": "cyfung1031",
-      "date": "2026-04-23T03:47:34Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/6d2b36b5c3153ca2d11fb230473f6e2c3eaa738d"
     }
   ],
   "betaCommits": [
@@ -3425,7 +3425,8 @@
     "0d45b0b76315cd19f0ced3046c976ae34dc87adb",
     "413bee9593259179e9db72be61d98f060fcf5738",
     "2a933d71ec689059b7c3d32eecce04e440ec9a39",
-    "9686b3247ff72a80b2af3e8aafba19474f5260f8"
+    "9686b3247ff72a80b2af3e8aafba19474f5260f8",
+    "13ddf857f11806314e64425b9b602350d70933dd"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
