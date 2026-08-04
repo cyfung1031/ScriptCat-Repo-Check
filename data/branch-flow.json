@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T06:42:29.986Z",
+  "generatedAt": "2026-08-04T09:59:28.912Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "65121faaa5376eaa0d04657c2d1855a402bd153d",
+      "shortSha": "65121fa",
+      "title": "🐛 修复脚本设置缺少 context-menu 运行时机 (#1652)",
+      "author": "wangyizhi",
+      "date": "2026-08-04T09:37:19Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/65121faaa5376eaa0d04657c2d1855a402bd153d"
+    },
     {
       "sha": "76ead75dd5a48a291924a7e3d88bc07d9a4f9d84",
       "shortSha": "76ead75",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-23T06:24:39Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/f8e76e62413021efcc32b9698b15b7607c6b2993"
-    },
-    {
-      "sha": "89ccc8eebf2d1b224352de98c8c2872afaf74245",
-      "shortSha": "89ccc8e",
-      "title": "npm vulnerability fix for v1.4 agent (#1365)",
-      "author": "cyfung1031",
-      "date": "2026-04-23T06:08:53Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/89ccc8eebf2d1b224352de98c8c2872afaf74245"
     }
   ],
   "betaCommits": [
@@ -3427,7 +3427,8 @@
     "2a933d71ec689059b7c3d32eecce04e440ec9a39",
     "9686b3247ff72a80b2af3e8aafba19474f5260f8",
     "13ddf857f11806314e64425b9b602350d70933dd",
-    "76ead75dd5a48a291924a7e3d88bc07d9a4f9d84"
+    "76ead75dd5a48a291924a7e3d88bc07d9a4f9d84",
+    "65121faaa5376eaa0d04657c2d1855a402bd153d"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
