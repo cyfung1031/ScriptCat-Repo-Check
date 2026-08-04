@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T03:40:52.154Z",
+  "generatedAt": "2026-08-04T06:42:29.986Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "76ead75dd5a48a291924a7e3d88bc07d9a4f9d84",
+      "shortSha": "76ead75",
+      "title": "✨ popup 脚本列表展开数量改为可配置，与菜单展开数量分开 (#1645)",
+      "author": "wangyizhi",
+      "date": "2026-08-04T05:52:52Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/76ead75dd5a48a291924a7e3d88bc07d9a4f9d84"
+    },
     {
       "sha": "13ddf857f11806314e64425b9b602350d70933dd",
       "shortSha": "13ddf85",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-23T06:08:53Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/89ccc8eebf2d1b224352de98c8c2872afaf74245"
-    },
-    {
-      "sha": "03cc6e3657ca1477b40a00b4f97ad94ce66b46e7",
-      "shortSha": "03cc6e3",
-      "title": "npm vulnerability fix for 1.4 (#1364)",
-      "author": "cyfung1031",
-      "date": "2026-04-23T03:51:27Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/03cc6e3657ca1477b40a00b4f97ad94ce66b46e7"
     }
   ],
   "betaCommits": [
@@ -3426,7 +3426,8 @@
     "413bee9593259179e9db72be61d98f060fcf5738",
     "2a933d71ec689059b7c3d32eecce04e440ec9a39",
     "9686b3247ff72a80b2af3e8aafba19474f5260f8",
-    "13ddf857f11806314e64425b9b602350d70933dd"
+    "13ddf857f11806314e64425b9b602350d70933dd",
+    "76ead75dd5a48a291924a7e3d88bc07d9a4f9d84"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
