@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T06:43:31.580Z",
+  "generatedAt": "2026-08-05T09:58:24.142Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,30 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "5aa0f25ed2a73e91050a3dd910db1e35f73657c8",
+      "shortSha": "5aa0f25",
+      "title": "💄 修复安卓端界面适配：动态视口高度 + 窄屏表格/设置行/日志统计条重排 (#1636)",
+      "author": "Renji Yuusei",
+      "date": "2026-08-05T07:36:05Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/5aa0f25ed2a73e91050a3dd910db1e35f73657c8"
+    },
+    {
+      "sha": "92077a4f77531867b0cf0ad851553264d1d6f0c1",
+      "shortSha": "92077a4",
+      "title": "✨ 增加 Popup 站点范围快捷操作 (#1646)",
+      "author": "wangyizhi",
+      "date": "2026-08-05T07:01:56Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/92077a4f77531867b0cf0ad851553264d1d6f0c1"
+    },
+    {
+      "sha": "6c2c43d055ddeef59e034eb3dbee1f35335f6dc5",
+      "shortSha": "6c2c43d",
+      "title": "✨ 安全重构 ScriptCat MCP 桥接：sctl 本地守护进程、分级授权与人工确认 (#1573)",
+      "author": "cyfung1031",
+      "date": "2026-08-05T06:46:45Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/6c2c43d055ddeef59e034eb3dbee1f35335f6dc5"
+    },
     {
       "sha": "eeb8cb05c5a969c59a4276a7964933cffcfc7e5f",
       "shortSha": "eeb8cb0",
@@ -1265,30 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-26T15:20:31Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/87eac92c3d83737f12576df28132a9dc80ab5175"
-    },
-    {
-      "sha": "982f09eed437c66eda48badfdb406ff08f250591",
-      "shortSha": "982f09e",
-      "title": "🐛 优化日志显示UI (#1372)",
-      "author": "cyfung1031",
-      "date": "2026-04-25T04:35:04Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/982f09eed437c66eda48badfdb406ff08f250591"
-    },
-    {
-      "sha": "144dc258795d0a2621ba4bf6721b4c7bc8a6fc9b",
-      "shortSha": "144dc25",
-      "title": "🐛 修正本机档案拖拉安装时错误设置origin问题 (#1371)",
-      "author": "cyfung1031",
-      "date": "2026-04-25T04:06:30Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/144dc258795d0a2621ba4bf6721b4c7bc8a6fc9b"
-    },
-    {
-      "sha": "6f97ba3c47e4e7e67da7647e7176f01a887a85da",
-      "shortSha": "6f97ba3",
-      "title": "⚡️ 强化 prompt 可靠性——结果验证、budget 语义、安全边界与认识论纪律 (#1354)",
-      "author": "cyfung1031",
-      "date": "2026-04-23T06:42:48Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/6f97ba3c47e4e7e67da7647e7176f01a887a85da"
     }
   ],
   "betaCommits": [
@@ -3429,7 +3429,10 @@
     "13ddf857f11806314e64425b9b602350d70933dd",
     "76ead75dd5a48a291924a7e3d88bc07d9a4f9d84",
     "65121faaa5376eaa0d04657c2d1855a402bd153d",
-    "eeb8cb05c5a969c59a4276a7964933cffcfc7e5f"
+    "eeb8cb05c5a969c59a4276a7964933cffcfc7e5f",
+    "6c2c43d055ddeef59e034eb3dbee1f35335f6dc5",
+    "92077a4f77531867b0cf0ad851553264d1d6f0c1",
+    "5aa0f25ed2a73e91050a3dd910db1e35f73657c8"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
