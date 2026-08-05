@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T23:27:11.304Z",
+  "generatedAt": "2026-08-05T03:35:54.674Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "eeb8cb05c5a969c59a4276a7964933cffcfc7e5f",
+      "shortSha": "eeb8cb0",
+      "title": "✅ 清理高置信冗余测试 (#1653)",
+      "author": "wangyizhi",
+      "date": "2026-08-05T02:01:44Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/eeb8cb05c5a969c59a4276a7964933cffcfc7e5f"
+    },
     {
       "sha": "65121faaa5376eaa0d04657c2d1855a402bd153d",
       "shortSha": "65121fa",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-23T06:42:48Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/6f97ba3c47e4e7e67da7647e7176f01a887a85da"
-    },
-    {
-      "sha": "f8e76e62413021efcc32b9698b15b7607c6b2993",
-      "shortSha": "f8e76e6",
-      "title": "🐛 解决并发 xhr 的 session rule 数量问题 (#1353)",
-      "author": "cyfung1031",
-      "date": "2026-04-23T06:24:39Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/f8e76e62413021efcc32b9698b15b7607c6b2993"
     }
   ],
   "betaCommits": [
@@ -3428,7 +3428,8 @@
     "9686b3247ff72a80b2af3e8aafba19474f5260f8",
     "13ddf857f11806314e64425b9b602350d70933dd",
     "76ead75dd5a48a291924a7e3d88bc07d9a4f9d84",
-    "65121faaa5376eaa0d04657c2d1855a402bd153d"
+    "65121faaa5376eaa0d04657c2d1855a402bd153d",
+    "eeb8cb05c5a969c59a4276a7964933cffcfc7e5f"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
