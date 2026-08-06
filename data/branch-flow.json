@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T23:18:39.271Z",
+  "generatedAt": "2026-08-06T03:41:53.560Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "e2a38150ac731f153a93d9c0fbeb0cde686e45e0",
+      "shortSha": "e2a3815",
+      "title": "🐛 完善贡献者指南与编辑器未保存导航保护 (#1656)",
+      "author": "wangyizhi",
+      "date": "2026-08-06T03:35:46Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/e2a38150ac731f153a93d9c0fbeb0cde686e45e0"
+    },
     {
       "sha": "5aa0f25ed2a73e91050a3dd910db1e35f73657c8",
       "shortSha": "5aa0f25",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-26T15:26:26Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/198a47e5212886734697718b8b692ea4b10487b3"
-    },
-    {
-      "sha": "87eac92c3d83737f12576df28132a9dc80ab5175",
-      "shortSha": "87eac92",
-      "title": "⚡️ 优化 获取脚本 的 多平台搜索引擎选择 (#1379)",
-      "author": "cyfung1031",
-      "date": "2026-04-26T15:20:31Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/87eac92c3d83737f12576df28132a9dc80ab5175"
     }
   ],
   "betaCommits": [
@@ -3432,7 +3432,8 @@
     "eeb8cb05c5a969c59a4276a7964933cffcfc7e5f",
     "6c2c43d055ddeef59e034eb3dbee1f35335f6dc5",
     "92077a4f77531867b0cf0ad851553264d1d6f0c1",
-    "5aa0f25ed2a73e91050a3dd910db1e35f73657c8"
+    "5aa0f25ed2a73e91050a3dd910db1e35f73657c8",
+    "e2a38150ac731f153a93d9c0fbeb0cde686e45e0"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
