@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T10:00:28.569Z",
+  "generatedAt": "2026-08-06T12:20:33.453Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "a4bc9b681734717b8c9171f5224f581411ed273c",
+      "shortSha": "a4bc9b6",
+      "title": "📄 Update README.md",
+      "author": "王一之",
+      "date": "2026-08-06T10:01:36Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/a4bc9b681734717b8c9171f5224f581411ed273c"
+    },
     {
       "sha": "3f2e4120d9c6da1f85937add2cada77c5f936f63",
       "shortSha": "3f2e412",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-26T15:28:00Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/f617cceab90c62e6bcc6400eb394a4e83148a9df"
-    },
-    {
-      "sha": "95154e04965f2c78516b4b9e4fc65d2a2261b927",
-      "shortSha": "95154e0",
-      "title": "⚡️ 优化安装页的 loadingStatus 改用 monospace 避免跳动 (#1381)",
-      "author": "cyfung1031",
-      "date": "2026-04-26T15:27:34Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/95154e04965f2c78516b4b9e4fc65d2a2261b927"
     }
   ],
   "betaCommits": [
@@ -3434,7 +3434,8 @@
     "92077a4f77531867b0cf0ad851553264d1d6f0c1",
     "5aa0f25ed2a73e91050a3dd910db1e35f73657c8",
     "e2a38150ac731f153a93d9c0fbeb0cde686e45e0",
-    "3f2e4120d9c6da1f85937add2cada77c5f936f63"
+    "3f2e4120d9c6da1f85937add2cada77c5f936f63",
+    "a4bc9b681734717b8c9171f5224f581411ed273c"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
