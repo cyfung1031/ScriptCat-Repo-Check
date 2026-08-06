@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T03:41:53.560Z",
+  "generatedAt": "2026-08-06T06:47:48.276Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "3f2e4120d9c6da1f85937add2cada77c5f936f63",
+      "shortSha": "3f2e412",
+      "title": "🔖 release v1.5.0-beta.1",
+      "author": "王一之",
+      "date": "2026-08-06T04:25:57Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3f2e4120d9c6da1f85937add2cada77c5f936f63"
+    },
     {
       "sha": "e2a38150ac731f153a93d9c0fbeb0cde686e45e0",
       "shortSha": "e2a3815",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-26T15:27:34Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/95154e04965f2c78516b4b9e4fc65d2a2261b927"
-    },
-    {
-      "sha": "198a47e5212886734697718b8b692ea4b10487b3",
-      "shortSha": "198a47e",
-      "title": "🐛 修复 Sidebar 导致卡片模式下的尺寸调整异常 #1179 (#1373)",
-      "author": "cyfung1031",
-      "date": "2026-04-26T15:26:26Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/198a47e5212886734697718b8b692ea4b10487b3"
     }
   ],
   "betaCommits": [
@@ -3433,7 +3433,8 @@
     "6c2c43d055ddeef59e034eb3dbee1f35335f6dc5",
     "92077a4f77531867b0cf0ad851553264d1d6f0c1",
     "5aa0f25ed2a73e91050a3dd910db1e35f73657c8",
-    "e2a38150ac731f153a93d9c0fbeb0cde686e45e0"
+    "e2a38150ac731f153a93d9c0fbeb0cde686e45e0",
+    "3f2e4120d9c6da1f85937add2cada77c5f936f63"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
