@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T23:51:55.955Z",
+  "generatedAt": "2026-08-11T02:29:35.143Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "125d58b5ebc2ab54e9739d708788357619b15f50",
+      "shortSha": "125d58b",
+      "title": "🐛 修复 GM_download 传入空 url 时未触发 onerror 的兼容性问题 (#1619)",
+      "author": "cyfung1031",
+      "date": "2026-08-11T01:55:08Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/125d58b5ebc2ab54e9739d708788357619b15f50"
+    },
     {
       "sha": "a4bc9b681734717b8c9171f5224f581411ed273c",
       "shortSha": "a4bc9b6",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-04-27T02:18:28Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/81e11c07c8cd463d070e872383d4492d605f9702"
-    },
-    {
-      "sha": "f617cceab90c62e6bcc6400eb394a4e83148a9df",
-      "shortSha": "f617cce",
-      "title": "🐛 修正语言切换信息 (#1380)",
-      "author": "cyfung1031",
-      "date": "2026-04-26T15:28:00Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/f617cceab90c62e6bcc6400eb394a4e83148a9df"
     }
   ],
   "betaCommits": [
@@ -3435,7 +3435,8 @@
     "5aa0f25ed2a73e91050a3dd910db1e35f73657c8",
     "e2a38150ac731f153a93d9c0fbeb0cde686e45e0",
     "3f2e4120d9c6da1f85937add2cada77c5f936f63",
-    "a4bc9b681734717b8c9171f5224f581411ed273c"
+    "a4bc9b681734717b8c9171f5224f581411ed273c",
+    "125d58b5ebc2ab54e9739d708788357619b15f50"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
