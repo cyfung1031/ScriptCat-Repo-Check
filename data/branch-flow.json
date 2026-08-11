@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T02:29:35.143Z",
+  "generatedAt": "2026-08-11T04:41:35.225Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "1d2250c80bd9410f87270ac4e0d3daba6ec341c5",
+      "shortSha": "1d2250c",
+      "title": "📄 enable DeepWiki auto refresh (#1664)",
+      "author": "cyfung1031",
+      "date": "2026-08-11T03:03:11Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/1d2250c80bd9410f87270ac4e0d3daba6ec341c5"
+    },
     {
       "sha": "125d58b5ebc2ab54e9739d708788357619b15f50",
       "shortSha": "125d58b",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-27T03:32:15Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/11d149e1d4f7e04f7ad0c26ea89f8757fb43a5f6"
-    },
-    {
-      "sha": "81e11c07c8cd463d070e872383d4492d605f9702",
-      "shortSha": "81e11c0",
-      "title": "Merge branch 'main' into release/v1.4",
-      "author": "王一之",
-      "date": "2026-04-27T02:18:28Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/81e11c07c8cd463d070e872383d4492d605f9702"
     }
   ],
   "betaCommits": [
@@ -3436,7 +3436,8 @@
     "e2a38150ac731f153a93d9c0fbeb0cde686e45e0",
     "3f2e4120d9c6da1f85937add2cada77c5f936f63",
     "a4bc9b681734717b8c9171f5224f581411ed273c",
-    "125d58b5ebc2ab54e9739d708788357619b15f50"
+    "125d58b5ebc2ab54e9739d708788357619b15f50",
+    "1d2250c80bd9410f87270ac4e0d3daba6ec341c5"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
