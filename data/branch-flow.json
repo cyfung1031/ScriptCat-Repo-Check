@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T09:15:27.055Z",
+  "generatedAt": "2026-08-11T10:14:15.161Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "2a311b006b757282411cf365a4da9a04577e5eaa",
+      "shortSha": "2a311b0",
+      "title": "👷 每 3 天同步 DeepWiki Markdown 上下文 (#1665)",
+      "author": "cyfung1031",
+      "date": "2026-08-11T09:35:10Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/2a311b006b757282411cf365a4da9a04577e5eaa"
+    },
     {
       "sha": "1d2250c80bd9410f87270ac4e0d3daba6ec341c5",
       "shortSha": "1d2250c",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-27T05:53:23Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/a4a7f44047da9eb7d28448d26b07a0302ff8f597"
-    },
-    {
-      "sha": "11d149e1d4f7e04f7ad0c26ea89f8757fb43a5f6",
-      "shortSha": "11d149e",
-      "title": "🐛 新增 extensionEnv 处理 isIncognito (early-start & bgScript), userAgent (bgScript) 及 run-in (bgScript) (#1368)",
-      "author": "cyfung1031",
-      "date": "2026-04-27T03:32:15Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/11d149e1d4f7e04f7ad0c26ea89f8757fb43a5f6"
     }
   ],
   "betaCommits": [
@@ -3437,7 +3437,8 @@
     "3f2e4120d9c6da1f85937add2cada77c5f936f63",
     "a4bc9b681734717b8c9171f5224f581411ed273c",
     "125d58b5ebc2ab54e9739d708788357619b15f50",
-    "1d2250c80bd9410f87270ac4e0d3daba6ec341c5"
+    "1d2250c80bd9410f87270ac4e0d3daba6ec341c5",
+    "2a311b006b757282411cf365a4da9a04577e5eaa"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
