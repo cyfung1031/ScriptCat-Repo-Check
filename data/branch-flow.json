@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T05:05:40.368Z",
+  "generatedAt": "2026-08-12T06:44:05.966Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "88e73d8aeef2929e7fabf6f1552c8ea018dd1078",
+      "shortSha": "88e73d8",
+      "title": "✨ Popup 站点范围操作：S1–S4 可逆状态机（#1590） (#1666)",
+      "author": "wangyizhi",
+      "date": "2026-08-12T05:54:18Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/88e73d8aeef2929e7fabf6f1552c8ea018dd1078"
+    },
     {
       "sha": "b8fe9e0fe82c19019249328938baeec386fcff3a",
       "shortSha": "b8fe9e0",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-27T06:16:58Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/fda70623b58d8fd96ca66283c433e18850822275"
-    },
-    {
-      "sha": "a1eb8dc5626a71d5078621b2df9d5d098c972cf8",
-      "shortSha": "a1eb8dc",
-      "title": "🐛 修复 `packages/filesystem` 中认证恢复与删除幂等问题 (#1375)",
-      "author": "cyfung1031",
-      "date": "2026-04-27T06:07:25Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/a1eb8dc5626a71d5078621b2df9d5d098c972cf8"
     }
   ],
   "betaCommits": [
@@ -3439,7 +3439,8 @@
     "125d58b5ebc2ab54e9739d708788357619b15f50",
     "1d2250c80bd9410f87270ac4e0d3daba6ec341c5",
     "2a311b006b757282411cf365a4da9a04577e5eaa",
-    "b8fe9e0fe82c19019249328938baeec386fcff3a"
+    "b8fe9e0fe82c19019249328938baeec386fcff3a",
+    "88e73d8aeef2929e7fabf6f1552c8ea018dd1078"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
