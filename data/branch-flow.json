@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T01:56:23.786Z",
+  "generatedAt": "2026-08-17T03:14:08.870Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "9e31780f55408b59020dbb66e49f5f8f5760ff8b",
+      "shortSha": "9e31780",
+      "title": "♻️ 重构本地验证流程：常驻会话 + 命令驱动，替代一次性 spec (#1674)",
+      "author": "wangyizhi",
+      "date": "2026-08-17T02:13:20Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/9e31780f55408b59020dbb66e49f5f8f5760ff8b"
+    },
     {
       "sha": "88e73d8aeef2929e7fabf6f1552c8ea018dd1078",
       "shortSha": "88e73d8",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-04-27T06:27:48Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/2c5619870b0228013923c5385734d66770723a68"
-    },
-    {
-      "sha": "fda70623b58d8fd96ca66283c433e18850822275",
-      "shortSha": "fda7062",
-      "title": "🐛 收紧 `LimiterFileSystem` 的 429 自动重试范围，避免写操作被盲目重放 (#1376)",
-      "author": "cyfung1031",
-      "date": "2026-04-27T06:16:58Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/fda70623b58d8fd96ca66283c433e18850822275"
     }
   ],
   "betaCommits": [
@@ -3440,7 +3440,8 @@
     "1d2250c80bd9410f87270ac4e0d3daba6ec341c5",
     "2a311b006b757282411cf365a4da9a04577e5eaa",
     "b8fe9e0fe82c19019249328938baeec386fcff3a",
-    "88e73d8aeef2929e7fabf6f1552c8ea018dd1078"
+    "88e73d8aeef2929e7fabf6f1552c8ea018dd1078",
+    "9e31780f55408b59020dbb66e49f5f8f5760ff8b"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
