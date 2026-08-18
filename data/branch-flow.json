@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T05:46:32.305Z",
+  "generatedAt": "2026-08-18T07:06:34.691Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,54 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "a8c92c1a164a39bba7ecd7351033a53651f58c77",
+      "shortSha": "a8c92c1",
+      "title": "💄 更新页/安装页/编辑器体验修复，并修正被过期检查快照覆盖的更新记录 (#1677)",
+      "author": "wangyizhi",
+      "date": "2026-08-18T06:40:32Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/a8c92c1a164a39bba7ecd7351033a53651f58c77"
+    },
+    {
+      "sha": "a51bec9ed1c08f2d7fe158958f3418159790fded",
+      "shortSha": "a51bec9",
+      "title": "✅ 抽离 example/tests 共用测试框架 (sctest) 并迁移 12 个测试脚本 (#1631)",
+      "author": "wangyizhi",
+      "date": "2026-08-18T06:00:47Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/a51bec9ed1c08f2d7fe158958f3418159790fded"
+    },
+    {
+      "sha": "09fac37ba66cbf666c6c49f0b7a4f1a29def93b3",
+      "shortSha": "09fac37",
+      "title": "🐛 修复安装更新页关闭并升级至 v1.5.0-beta.3 (#1675)",
+      "author": "wangyizhi",
+      "date": "2026-08-18T05:55:37Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/09fac37ba66cbf666c6c49f0b7a4f1a29def93b3"
+    },
+    {
+      "sha": "761807e20241c42127fb19102011d9683a7011b9",
+      "shortSha": "761807e",
+      "title": "⚡️ 优化脚本检查与打包性能 (#1662)",
+      "author": "cyfung1031",
+      "date": "2026-08-18T05:54:02Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/761807e20241c42127fb19102011d9683a7011b9"
+    },
+    {
+      "sha": "07d87ef5adeaa9442035e2302308a451196d64dc",
+      "shortSha": "07d87ef",
+      "title": "📄 完善 Agent 文档职责、证据与审查边界 (#1658)",
+      "author": "cyfung1031",
+      "date": "2026-08-18T05:53:09Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/07d87ef5adeaa9442035e2302308a451196d64dc"
+    },
+    {
+      "sha": "dcc336d3892f316643844906f5708e0c64b46238",
+      "shortSha": "dcc336d",
+      "title": "🐛 云同步不再随 SW 冷启动触发，闹钟周期改为 30 分钟 (#1678)",
+      "author": "wangyizhi",
+      "date": "2026-08-18T05:51:14Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/dcc336d3892f316643844906f5708e0c64b46238"
+    },
     {
       "sha": "9e31780f55408b59020dbb66e49f5f8f5760ff8b",
       "shortSha": "9e31780",
@@ -1241,54 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-06T06:45:07Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/94075571b7b63e79a9137a3d79163d4e3f8e344c"
-    },
-    {
-      "sha": "385aedcd80efba1a32f5b323f01f0cb6dfac1f89",
-      "shortSha": "385aedc",
-      "title": "🐛 修复 脚本管理页面的tooltip提示被遮挡问题 (#1386) (#1387)",
-      "author": "deyu",
-      "date": "2026-04-30T08:25:30Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/385aedcd80efba1a32f5b323f01f0cb6dfac1f89"
-    },
-    {
-      "sha": "10275aab8d89c8aa7ec3f59c95ce7c246d3e5a48",
-      "shortSha": "10275aa",
-      "title": "🔧 更新帮助翻译链接指向 discussions/531",
-      "author": "王一之",
-      "date": "2026-04-29T04:11:15Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/10275aab8d89c8aa7ec3f59c95ce7c246d3e5a48"
-    },
-    {
-      "sha": "ae55bc79b48fa2b2cbece65b8836b04534bf9423",
-      "shortSha": "ae55bc7",
-      "title": "🔥 移除 Crowdin 与 ach-UG 伪语言相关内容 (#1385)",
-      "author": "wangyizhi",
-      "date": "2026-04-29T04:06:17Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/ae55bc79b48fa2b2cbece65b8836b04534bf9423"
-    },
-    {
-      "sha": "f42baa4b823adafa7c5a10d1c581634c4553f180",
-      "shortSha": "f42baa4",
-      "title": "Merge branch 'main' into release/v1.4",
-      "author": "王一之",
-      "date": "2026-04-28T03:45:04Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/f42baa4b823adafa7c5a10d1c581634c4553f180"
-    },
-    {
-      "sha": "de882dc7dffc0f04dc3e9c159f2e6641a222942e",
-      "shortSha": "de882dc",
-      "title": "🐛 修正 localStorage mock (#1382)",
-      "author": "cyfung1031",
-      "date": "2026-04-28T03:44:33Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/de882dc7dffc0f04dc3e9c159f2e6641a222942e"
-    },
-    {
-      "sha": "2c5619870b0228013923c5385734d66770723a68",
-      "shortSha": "2c56198",
-      "title": "⚡️ 移除 Baidu filesystem 对全局 DNR 规则的依赖，改为请求级禁用 cookie (#1377)",
-      "author": "cyfung1031",
-      "date": "2026-04-27T06:27:48Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/2c5619870b0228013923c5385734d66770723a68"
     }
   ],
   "betaCommits": [
@@ -3441,7 +3441,13 @@
     "2a311b006b757282411cf365a4da9a04577e5eaa",
     "b8fe9e0fe82c19019249328938baeec386fcff3a",
     "88e73d8aeef2929e7fabf6f1552c8ea018dd1078",
-    "9e31780f55408b59020dbb66e49f5f8f5760ff8b"
+    "9e31780f55408b59020dbb66e49f5f8f5760ff8b",
+    "dcc336d3892f316643844906f5708e0c64b46238",
+    "07d87ef5adeaa9442035e2302308a451196d64dc",
+    "761807e20241c42127fb19102011d9683a7011b9",
+    "09fac37ba66cbf666c6c49f0b7a4f1a29def93b3",
+    "a51bec9ed1c08f2d7fe158958f3418159790fded",
+    "a8c92c1a164a39bba7ecd7351033a53651f58c77"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
