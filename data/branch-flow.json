@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T08:59:56.301Z",
+  "generatedAt": "2026-08-21T09:53:10.628Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "3a15616080999c63f8d8d0600d1ad298a550c615",
+      "shortSha": "3a15616",
+      "title": "♻️ Agent 对话、工具循环、持久化与 MCP 可靠性增强 (#1549)",
+      "author": "cyfung1031",
+      "date": "2026-08-21T09:01:07Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3a15616080999c63f8d8d0600d1ad298a550c615"
+    },
     {
       "sha": "8e5e4641e2e2be147d13f16e54f72d9571e26a03",
       "shortSha": "8e5e464",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-06T07:00:23Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/f25fa5d3fe1e32edd85c868ce7ad78bbeed702bd"
-    },
-    {
-      "sha": "61dd5f4977741ae18aa30eb7594f69d18310603a",
-      "shortSha": "61dd5f4",
-      "title": "🐛(sync) OneDrive createDir recursion (#1390)",
-      "author": "cyfung1031",
-      "date": "2026-05-06T06:59:55Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/61dd5f4977741ae18aa30eb7594f69d18310603a"
     }
   ],
   "betaCommits": [
@@ -3448,7 +3448,8 @@
     "09fac37ba66cbf666c6c49f0b7a4f1a29def93b3",
     "a51bec9ed1c08f2d7fe158958f3418159790fded",
     "a8c92c1a164a39bba7ecd7351033a53651f58c77",
-    "8e5e4641e2e2be147d13f16e54f72d9571e26a03"
+    "8e5e4641e2e2be147d13f16e54f72d9571e26a03",
+    "3a15616080999c63f8d8d0600d1ad298a550c615"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
