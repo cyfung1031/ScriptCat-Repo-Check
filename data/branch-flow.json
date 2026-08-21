@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T07:59:19.215Z",
+  "generatedAt": "2026-08-21T08:59:56.301Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "8e5e4641e2e2be147d13f16e54f72d9571e26a03",
+      "shortSha": "8e5e464",
+      "title": "🦊 Firefox 最低版本提升到 154.0",
+      "author": "王一之",
+      "date": "2026-08-21T08:57:39Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/8e5e4641e2e2be147d13f16e54f72d9571e26a03"
+    },
     {
       "sha": "a8c92c1a164a39bba7ecd7351033a53651f58c77",
       "shortSha": "a8c92c1",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-06T06:59:55Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/61dd5f4977741ae18aa30eb7594f69d18310603a"
-    },
-    {
-      "sha": "94075571b7b63e79a9137a3d79163d4e3f8e344c",
-      "shortSha": "9407557",
-      "title": "🐛 create_context 的空物件改为 Object.create(null) (#1397)",
-      "author": "cyfung1031",
-      "date": "2026-05-06T06:45:07Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/94075571b7b63e79a9137a3d79163d4e3f8e344c"
     }
   ],
   "betaCommits": [
@@ -3447,7 +3447,8 @@
     "761807e20241c42127fb19102011d9683a7011b9",
     "09fac37ba66cbf666c6c49f0b7a4f1a29def93b3",
     "a51bec9ed1c08f2d7fe158958f3418159790fded",
-    "a8c92c1a164a39bba7ecd7351033a53651f58c77"
+    "a8c92c1a164a39bba7ecd7351033a53651f58c77",
+    "8e5e4641e2e2be147d13f16e54f72d9571e26a03"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
