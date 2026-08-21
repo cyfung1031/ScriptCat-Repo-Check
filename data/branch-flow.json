@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T14:55:17.828Z",
+  "generatedAt": "2026-08-21T15:49:47.991Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "1205b87f9ac283ce8f4b55ace165f444bade54a4",
+      "shortSha": "1205b87",
+      "title": "🐛 e2e 模块不再在顶层加载 @playwright/test，修打包 CI 随机失败",
+      "author": "王一之",
+      "date": "2026-08-21T15:30:34Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/1205b87f9ac283ce8f4b55ace165f444bade54a4"
+    },
     {
       "sha": "87638a5123aafe85801278be5ba43680f40204b6",
       "shortSha": "87638a5",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-06T07:28:43Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/27006fee8acc9cd03622d6b9bf23dc38d2e7cba0"
-    },
-    {
-      "sha": "206b5fe35adf7beee314b9261d4762cda934c883",
-      "shortSha": "206b5fe",
-      "title": "🐛(sync) (Codex) OAuth refresh token race (#1392)",
-      "author": "cyfung1031",
-      "date": "2026-05-06T07:09:10Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/206b5fe35adf7beee314b9261d4762cda934c883"
     }
   ],
   "betaCommits": [
@@ -3450,7 +3450,8 @@
     "a8c92c1a164a39bba7ecd7351033a53651f58c77",
     "8e5e4641e2e2be147d13f16e54f72d9571e26a03",
     "3a15616080999c63f8d8d0600d1ad298a550c615",
-    "87638a5123aafe85801278be5ba43680f40204b6"
+    "87638a5123aafe85801278be5ba43680f40204b6",
+    "1205b87f9ac283ce8f4b55ace165f444bade54a4"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
