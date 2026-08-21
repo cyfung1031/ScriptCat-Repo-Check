@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T13:13:00.492Z",
+  "generatedAt": "2026-08-21T13:59:47.269Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "87638a5123aafe85801278be5ba43680f40204b6",
+      "shortSha": "87638a5",
+      "title": "🔖 版本号回退至 1.5.0-beta.2（beta.2 从未发布，消除序号空洞）",
+      "author": "王一之",
+      "date": "2026-08-21T13:57:34Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/87638a5123aafe85801278be5ba43680f40204b6"
+    },
     {
       "sha": "3a15616080999c63f8d8d0600d1ad298a550c615",
       "shortSha": "3a15616",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-06T07:09:10Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/206b5fe35adf7beee314b9261d4762cda934c883"
-    },
-    {
-      "sha": "f25fa5d3fe1e32edd85c868ce7ad78bbeed702bd",
-      "shortSha": "f25fa5d",
-      "title": "🐛(sync) Google Drive `ensureDirExists()` 接口语义不一致 (#1391)",
-      "author": "cyfung1031",
-      "date": "2026-05-06T07:00:23Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/f25fa5d3fe1e32edd85c868ce7ad78bbeed702bd"
     }
   ],
   "betaCommits": [
@@ -3449,7 +3449,8 @@
     "a51bec9ed1c08f2d7fe158958f3418159790fded",
     "a8c92c1a164a39bba7ecd7351033a53651f58c77",
     "8e5e4641e2e2be147d13f16e54f72d9571e26a03",
-    "3a15616080999c63f8d8d0600d1ad298a550c615"
+    "3a15616080999c63f8d8d0600d1ad298a550c615",
+    "87638a5123aafe85801278be5ba43680f40204b6"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
