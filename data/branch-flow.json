@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T05:55:11.729Z",
+  "generatedAt": "2026-08-24T07:30:20.127Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "484a74b6910201b19c780c0557170afcf13422c4",
+      "shortSha": "484a74b",
+      "title": "✅ 添加 CustomEventMessage relatedTarget 生命周期测试 (#1685)",
+      "author": "cyfung1031",
+      "date": "2026-08-24T06:16:37Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/484a74b6910201b19c780c0557170afcf13422c4"
+    },
     {
       "sha": "1205b87f9ac283ce8f4b55ace165f444bade54a4",
       "shortSha": "1205b87",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-06T07:30:10Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/074be0135a1b19964247220e4b6f0a0fba27636b"
-    },
-    {
-      "sha": "27006fee8acc9cd03622d6b9bf23dc38d2e7cba0",
-      "shortSha": "27006fe",
-      "title": "🐛(sync) WebDAV `verify()` 过弱 (#1395)",
-      "author": "cyfung1031",
-      "date": "2026-05-06T07:28:43Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/27006fee8acc9cd03622d6b9bf23dc38d2e7cba0"
     }
   ],
   "betaCommits": [
@@ -3451,7 +3451,8 @@
     "8e5e4641e2e2be147d13f16e54f72d9571e26a03",
     "3a15616080999c63f8d8d0600d1ad298a550c615",
     "87638a5123aafe85801278be5ba43680f40204b6",
-    "1205b87f9ac283ce8f4b55ace165f444bade54a4"
+    "1205b87f9ac283ce8f4b55ace165f444bade54a4",
+    "484a74b6910201b19c780c0557170afcf13422c4"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
