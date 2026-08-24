@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T14:05:39.195Z",
+  "generatedAt": "2026-08-24T15:02:35.861Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "310a16b8319016b758b726b86f58a373255b02d2",
+      "shortSha": "310a16b",
+      "title": "💄 菜单展开数量为 0 时，popup 展开的菜单排在编辑/脚本设置之前 (#1688)",
+      "author": "wangyizhi",
+      "date": "2026-08-24T14:50:39Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/310a16b8319016b758b726b86f58a373255b02d2"
+    },
     {
       "sha": "484a74b6910201b19c780c0557170afcf13422c4",
       "shortSha": "484a74b",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-06T07:30:55Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/8562d0653848cefd6a8d6a9798152aeeda507170"
-    },
-    {
-      "sha": "074be0135a1b19964247220e4b6f0a0fba27636b",
-      "shortSha": "074be01",
-      "title": "🐛(sync) (Codex) Sync digest consistency / eventual consistency (#1393)",
-      "author": "cyfung1031",
-      "date": "2026-05-06T07:30:10Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/074be0135a1b19964247220e4b6f0a0fba27636b"
     }
   ],
   "betaCommits": [
@@ -3452,7 +3452,8 @@
     "3a15616080999c63f8d8d0600d1ad298a550c615",
     "87638a5123aafe85801278be5ba43680f40204b6",
     "1205b87f9ac283ce8f4b55ace165f444bade54a4",
-    "484a74b6910201b19c780c0557170afcf13422c4"
+    "484a74b6910201b19c780c0557170afcf13422c4",
+    "310a16b8319016b758b726b86f58a373255b02d2"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
