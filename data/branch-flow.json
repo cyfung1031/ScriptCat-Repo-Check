@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T05:49:10.102Z",
+  "generatedAt": "2026-08-25T07:10:07.167Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "3cb560041391734189a8695bc8d195ce3dc55d95",
+      "shortSha": "3cb5600",
+      "title": "🐛 修复多设备同步脚本排序错乱 (#1690)",
+      "author": "wangyizhi",
+      "date": "2026-08-25T07:06:12Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3cb560041391734189a8695bc8d195ce3dc55d95"
+    },
     {
       "sha": "310a16b8319016b758b726b86f58a373255b02d2",
       "shortSha": "310a16b",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-06T07:31:57Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/8fe5035c339738e0917345ae3174680e9e44c6a0"
-    },
-    {
-      "sha": "8562d0653848cefd6a8d6a9798152aeeda507170",
-      "shortSha": "8562d06",
-      "title": "🧪 parseMetadata 增加 \"解析非GM标准UserScript元数据\" (#1400)",
-      "author": "cyfung1031",
-      "date": "2026-05-06T07:30:55Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/8562d0653848cefd6a8d6a9798152aeeda507170"
     }
   ],
   "betaCommits": [
@@ -3453,7 +3453,8 @@
     "87638a5123aafe85801278be5ba43680f40204b6",
     "1205b87f9ac283ce8f4b55ace165f444bade54a4",
     "484a74b6910201b19c780c0557170afcf13422c4",
-    "310a16b8319016b758b726b86f58a373255b02d2"
+    "310a16b8319016b758b726b86f58a373255b02d2",
+    "3cb560041391734189a8695bc8d195ce3dc55d95"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
