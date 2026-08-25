@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T09:01:42.467Z",
+  "generatedAt": "2026-08-25T09:52:58.079Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "6610cb024754ebb967ef11f2a4657b762328c8e4",
+      "shortSha": "6610cb0",
+      "title": "🐛 修复 popup「当前页运行脚本」误报：过滤不可运行页面并恢复 iframe 脚本显示 (#1687) (#1689)",
+      "author": "wangyizhi",
+      "date": "2026-08-25T09:20:46Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/6610cb024754ebb967ef11f2a4657b762328c8e4"
+    },
     {
       "sha": "3cb560041391734189a8695bc8d195ce3dc55d95",
       "shortSha": "3cb5600",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-06T07:55:57Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/72f5e931d51ef6a35a55d4719eecc99d24b9ea4d"
-    },
-    {
-      "sha": "8fe5035c339738e0917345ae3174680e9e44c6a0",
-      "shortSha": "8fe5035",
-      "title": "🐛(sync) Dropbox exists swallows auth errors (#1394)",
-      "author": "cyfung1031",
-      "date": "2026-05-06T07:31:57Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/8fe5035c339738e0917345ae3174680e9e44c6a0"
     }
   ],
   "betaCommits": [
@@ -3454,7 +3454,8 @@
     "1205b87f9ac283ce8f4b55ace165f444bade54a4",
     "484a74b6910201b19c780c0557170afcf13422c4",
     "310a16b8319016b758b726b86f58a373255b02d2",
-    "3cb560041391734189a8695bc8d195ce3dc55d95"
+    "3cb560041391734189a8695bc8d195ce3dc55d95",
+    "6610cb024754ebb967ef11f2a4657b762328c8e4"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
