@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T23:39:53.296Z",
+  "generatedAt": "2026-08-27T09:54:31.706Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "eee7d71de9117309b99cb40df20689675335ebb2",
+      "shortSha": "eee7d71",
+      "title": "🔒 限制 Agent OPFS 写操作至 workspace 并支持重命名与移动 (#1578)",
+      "author": "cyfung1031",
+      "date": "2026-08-27T08:36:13Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/eee7d71de9117309b99cb40df20689675335ebb2"
+    },
     {
       "sha": "6610cb024754ebb967ef11f2a4657b762328c8e4",
       "shortSha": "6610cb0",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-06T08:06:34Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/9acb2f13438b7760367ac99d3d171cfb582e823a"
-    },
-    {
-      "sha": "72f5e931d51ef6a35a55d4719eecc99d24b9ea4d",
-      "shortSha": "72f5e93",
-      "title": "🐛 修复 ScriptCat 长时间运行时可能出现的内存泄漏问题 (#1401)",
-      "author": "cyfung1031",
-      "date": "2026-05-06T07:55:57Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/72f5e931d51ef6a35a55d4719eecc99d24b9ea4d"
     }
   ],
   "betaCommits": [
@@ -3455,7 +3455,8 @@
     "484a74b6910201b19c780c0557170afcf13422c4",
     "310a16b8319016b758b726b86f58a373255b02d2",
     "3cb560041391734189a8695bc8d195ce3dc55d95",
-    "6610cb024754ebb967ef11f2a4657b762328c8e4"
+    "6610cb024754ebb967ef11f2a4657b762328c8e4",
+    "eee7d71de9117309b99cb40df20689675335ebb2"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
