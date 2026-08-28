@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T20:33:29.190Z",
+  "generatedAt": "2026-08-28T05:26:33.462Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "e57a73404877b9ff4398b55383d2620daaf94614",
+      "shortSha": "e57a734",
+      "title": "🐛 修复 Firefox 下 @inject-into content 脚本沙盒缺失 EventTarget 方法 (#1692)",
+      "author": "wangyizhi",
+      "date": "2026-08-28T02:19:28Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/e57a73404877b9ff4398b55383d2620daaf94614"
+    },
     {
       "sha": "eee7d71de9117309b99cb40df20689675335ebb2",
       "shortSha": "eee7d71",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-05-06T08:13:21Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/b70537cdb8a0eceec685eb65a19355ecd5cdcaae"
-    },
-    {
-      "sha": "9acb2f13438b7760367ac99d3d171cfb582e823a",
-      "shortSha": "9acb2f1",
-      "title": "🐛(UI) 新手指引按钮显示不全 #1396 (#1398)",
-      "author": "cyfung1031",
-      "date": "2026-05-06T08:06:34Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/9acb2f13438b7760367ac99d3d171cfb582e823a"
     }
   ],
   "betaCommits": [
@@ -3456,7 +3456,8 @@
     "310a16b8319016b758b726b86f58a373255b02d2",
     "3cb560041391734189a8695bc8d195ce3dc55d95",
     "6610cb024754ebb967ef11f2a4657b762328c8e4",
-    "eee7d71de9117309b99cb40df20689675335ebb2"
+    "eee7d71de9117309b99cb40df20689675335ebb2",
+    "e57a73404877b9ff4398b55383d2620daaf94614"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
