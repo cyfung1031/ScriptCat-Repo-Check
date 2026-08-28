@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T05:26:33.462Z",
+  "generatedAt": "2026-08-28T18:46:16.321Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "c6fede18717c7d582d351db71fd919b7d9d68e0b",
+      "shortSha": "c6fede1",
+      "title": "improve check update failed message (#1693)",
+      "author": "cyfung1031",
+      "date": "2026-08-28T06:36:16Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/c6fede18717c7d582d351db71fd919b7d9d68e0b"
+    },
     {
       "sha": "e57a73404877b9ff4398b55383d2620daaf94614",
       "shortSha": "e57a734",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-05-06T08:16:50Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/60034f5b6b1cdffb45eda1572bf37387a128435e"
-    },
-    {
-      "sha": "b70537cdb8a0eceec685eb65a19355ecd5cdcaae",
-      "shortSha": "b70537c",
-      "title": "Merge branch 'main' into release/v1.4",
-      "author": "王一之",
-      "date": "2026-05-06T08:13:21Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b70537cdb8a0eceec685eb65a19355ecd5cdcaae"
     }
   ],
   "betaCommits": [
@@ -3457,7 +3457,8 @@
     "3cb560041391734189a8695bc8d195ce3dc55d95",
     "6610cb024754ebb967ef11f2a4657b762328c8e4",
     "eee7d71de9117309b99cb40df20689675335ebb2",
-    "e57a73404877b9ff4398b55383d2620daaf94614"
+    "e57a73404877b9ff4398b55383d2620daaf94614",
+    "c6fede18717c7d582d351db71fd919b7d9d68e0b"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
