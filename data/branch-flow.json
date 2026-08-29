@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T02:14:28.252Z",
+  "generatedAt": "2026-08-29T09:08:17.503Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "f8cc26e60f7910b1d653eee1b3297e7476ab1070",
+      "shortSha": "f8cc26e",
+      "title": "📄 完善 PR 修订、范围与发布绑定规则 (#1684)",
+      "author": "cyfung1031",
+      "date": "2026-08-29T03:00:26Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/f8cc26e60f7910b1d653eee1b3297e7476ab1070"
+    },
+    {
+      "sha": "f465da56a4acf0adde2a2b03e96aef40e25555da",
+      "shortSha": "f465da5",
+      "title": "🐛 修复 Popup 全局关闭提示时有时无、且当前页脚本列表为空 (#1694)",
+      "author": "wangyizhi",
+      "date": "2026-08-29T02:59:53Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/f465da56a4acf0adde2a2b03e96aef40e25555da"
+    },
     {
       "sha": "c6fede18717c7d582d351db71fd919b7d9d68e0b",
       "shortSha": "c6fede1",
@@ -1273,22 +1289,6 @@
       "author": "王一之",
       "date": "2026-05-06T08:55:13Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/2461a0bb2a3e118b9c179fc096a5c358d6c1a7ef"
-    },
-    {
-      "sha": "e143c4a7dc086e5c2b6af3082800b7d03fd854a9",
-      "shortSha": "e143c4a",
-      "title": "🐛(agent) pass extension env to skill script runtime",
-      "author": "王一之",
-      "date": "2026-05-06T08:28:12Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/e143c4a7dc086e5c2b6af3082800b7d03fd854a9"
-    },
-    {
-      "sha": "60034f5b6b1cdffb45eda1572bf37387a128435e",
-      "shortSha": "60034f5",
-      "title": "Merge branch 'release/v1.4' into release/v1.4-agent",
-      "author": "王一之",
-      "date": "2026-05-06T08:16:50Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/60034f5b6b1cdffb45eda1572bf37387a128435e"
     }
   ],
   "betaCommits": [
@@ -3458,7 +3458,9 @@
     "6610cb024754ebb967ef11f2a4657b762328c8e4",
     "eee7d71de9117309b99cb40df20689675335ebb2",
     "e57a73404877b9ff4398b55383d2620daaf94614",
-    "c6fede18717c7d582d351db71fd919b7d9d68e0b"
+    "c6fede18717c7d582d351db71fd919b7d9d68e0b",
+    "f465da56a4acf0adde2a2b03e96aef40e25555da",
+    "f8cc26e60f7910b1d653eee1b3297e7476ab1070"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
