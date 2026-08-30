@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T06:43:44.606Z",
+  "generatedAt": "2026-08-30T12:56:29.535Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "8cbe9832a592bbc3a2cd15a67ca9ed7bdc9d050b",
+      "shortSha": "8cbe983",
+      "title": "🐛 修复新建脚本按钮点击被 hover 菜单吞掉，改为直接新建用户脚本 (#1704)",
+      "author": "wangyizhi",
+      "date": "2026-08-30T07:04:20Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/8cbe9832a592bbc3a2cd15a67ca9ed7bdc9d050b"
+    },
     {
       "sha": "f8cc26e60f7910b1d653eee1b3297e7476ab1070",
       "shortSha": "f8cc26e",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-09T01:35:57Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/9f07a9e122742bfd8362cf0d0259454cf1d4208a"
-    },
-    {
-      "sha": "2461a0bb2a3e118b9c179fc096a5c358d6c1a7ef",
-      "shortSha": "2461a0b",
-      "title": "chore: bump version to 1.4.0-beta.2",
-      "author": "王一之",
-      "date": "2026-05-06T08:55:13Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/2461a0bb2a3e118b9c179fc096a5c358d6c1a7ef"
     }
   ],
   "betaCommits": [
@@ -3460,7 +3460,8 @@
     "e57a73404877b9ff4398b55383d2620daaf94614",
     "c6fede18717c7d582d351db71fd919b7d9d68e0b",
     "f465da56a4acf0adde2a2b03e96aef40e25555da",
-    "f8cc26e60f7910b1d653eee1b3297e7476ab1070"
+    "f8cc26e60f7910b1d653eee1b3297e7476ab1070",
+    "8cbe9832a592bbc3a2cd15a67ca9ed7bdc9d050b"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
