@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T23:53:06.212Z",
+  "generatedAt": "2026-09-01T05:15:03.813Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "9b03df46ec2e745cff732eeb2b3f725061d0cfaa",
+      "shortSha": "9b03df4",
+      "title": "✨ Popup 站点范围快捷操作常驻，关闭本站执行优先移出匹配 (#1696)",
+      "author": "wangyizhi",
+      "date": "2026-09-01T02:31:05Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/9b03df46ec2e745cff732eeb2b3f725061d0cfaa"
+    },
+    {
+      "sha": "007d01571eaba2f83fdc731d3a9c8b962dfb2bac",
+      "shortSha": "007d015",
+      "title": "🐛 修复 Firefox content world 沙盒自引用逃逸与接口物件被剥空 (#1697)",
+      "author": "wangyizhi",
+      "date": "2026-09-01T02:30:53Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/007d01571eaba2f83fdc731d3a9c8b962dfb2bac"
+    },
     {
       "sha": "8cbe9832a592bbc3a2cd15a67ca9ed7bdc9d050b",
       "shortSha": "8cbe983",
@@ -1273,22 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-09T01:44:49Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/aa0595a9c47eec445db0b87d367c90040bb16cf9"
-    },
-    {
-      "sha": "75bda223fa352b369fba09b9ab8e8e5da817df7a",
-      "shortSha": "75bda22",
-      "title": "🔧 调整打包构建命令",
-      "author": "王一之",
-      "date": "2026-05-09T01:41:04Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/75bda223fa352b369fba09b9ab8e8e5da817df7a"
-    },
-    {
-      "sha": "9f07a9e122742bfd8362cf0d0259454cf1d4208a",
-      "shortSha": "9f07a9e",
-      "title": "🐛 add \"frames\" to fix #1427 and more unit tests for sandbox createContext (#1428)",
-      "author": "cyfung1031",
-      "date": "2026-05-09T01:35:57Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/9f07a9e122742bfd8362cf0d0259454cf1d4208a"
     }
   ],
   "betaCommits": [
@@ -3461,7 +3461,9 @@
     "c6fede18717c7d582d351db71fd919b7d9d68e0b",
     "f465da56a4acf0adde2a2b03e96aef40e25555da",
     "f8cc26e60f7910b1d653eee1b3297e7476ab1070",
-    "8cbe9832a592bbc3a2cd15a67ca9ed7bdc9d050b"
+    "8cbe9832a592bbc3a2cd15a67ca9ed7bdc9d050b",
+    "007d01571eaba2f83fdc731d3a9c8b962dfb2bac",
+    "9b03df46ec2e745cff732eeb2b3f725061d0cfaa"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
