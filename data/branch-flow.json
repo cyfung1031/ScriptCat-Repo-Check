@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T05:15:03.813Z",
+  "generatedAt": "2026-09-01T10:12:21.454Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,30 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "61164f6920e736fd3a03b269fb907e7aa7975432",
+      "shortSha": "61164f6",
+      "title": "🔖 release v1.5.0-beta.3",
+      "author": "王一之",
+      "date": "2026-09-01T08:36:54Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/61164f6920e736fd3a03b269fb907e7aa7975432"
+    },
+    {
+      "sha": "222e4e2f2440a86b141d284215141f882bc492b1",
+      "shortSha": "222e4e2",
+      "title": "💄 桌面与移动三页列表统一为自适应列表行，修复窄窗口下脚本名被挤没 (#1709)",
+      "author": "wangyizhi",
+      "date": "2026-09-01T07:08:56Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/222e4e2f2440a86b141d284215141f882bc492b1"
+    },
+    {
+      "sha": "21a7cda10d74a6078e5696e5d770ba8751dcac70",
+      "shortSha": "21a7cda",
+      "title": "✨ 增加网络规则管理（DNR） (#1598)",
+      "author": "cyfung1031",
+      "date": "2026-09-01T06:14:23Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/21a7cda10d74a6078e5696e5d770ba8751dcac70"
+    },
     {
       "sha": "9b03df46ec2e745cff732eeb2b3f725061d0cfaa",
       "shortSha": "9b03df4",
@@ -1265,30 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-09T10:23:10Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/fdb19065af35e80611e36c2a5fd50bb36e9cb0d8"
-    },
-    {
-      "sha": "9bf361a7dcb80bf49be57ee68dad997d24fb6bb8",
-      "shortSha": "9bf361a",
-      "title": "🐛 overscroll-behavior 修正 (#1413)",
-      "author": "cyfung1031",
-      "date": "2026-05-09T02:26:49Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/9bf361a7dcb80bf49be57ee68dad997d24fb6bb8"
-    },
-    {
-      "sha": "aca786ba538a849a50deab4446284da87b14a5ea",
-      "shortSha": "aca786b",
-      "title": "🐛 不支持更新的就不要显示更新 (#1418)",
-      "author": "cyfung1031",
-      "date": "2026-05-09T02:06:13Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/aca786ba538a849a50deab4446284da87b14a5ea"
-    },
-    {
-      "sha": "aa0595a9c47eec445db0b87d367c90040bb16cf9",
-      "shortSha": "aa0595a",
-      "title": "🐛 修复 i18n 缺失键引用 (#1422)",
-      "author": "cyfung1031",
-      "date": "2026-05-09T01:44:49Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/aa0595a9c47eec445db0b87d367c90040bb16cf9"
     }
   ],
   "betaCommits": [
@@ -3463,7 +3463,10 @@
     "f8cc26e60f7910b1d653eee1b3297e7476ab1070",
     "8cbe9832a592bbc3a2cd15a67ca9ed7bdc9d050b",
     "007d01571eaba2f83fdc731d3a9c8b962dfb2bac",
-    "9b03df46ec2e745cff732eeb2b3f725061d0cfaa"
+    "9b03df46ec2e745cff732eeb2b3f725061d0cfaa",
+    "21a7cda10d74a6078e5696e5d770ba8751dcac70",
+    "222e4e2f2440a86b141d284215141f882bc492b1",
+    "61164f6920e736fd3a03b269fb907e7aa7975432"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
