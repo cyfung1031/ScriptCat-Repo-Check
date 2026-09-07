@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T04:47:49.078Z",
+  "generatedAt": "2026-09-07T10:23:54.830Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,54 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "b75124c0c450d73a90347f0ac555f66238d5b1af",
+      "shortSha": "b75124c",
+      "title": "🐛 修复 Edge Dev 下脚本注入静默失效 (#1725)",
+      "author": "mikemikimike",
+      "date": "2026-09-07T08:26:43Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/b75124c0c450d73a90347f0ac555f66238d5b1af"
+    },
+    {
+      "sha": "999d2cd8a84975868f29d968ec035d6a9bb9d2a0",
+      "shortSha": "999d2cd",
+      "title": "🐛 批量更新页打开更新详情复用检查缓存并挡住重复点击 (#1719)",
+      "author": "wangyizhi",
+      "date": "2026-09-07T06:13:16Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/999d2cd8a84975868f29d968ec035d6a9bb9d2a0"
+    },
+    {
+      "sha": "58391fbe016e83b4015e4845166688892c39f50f",
+      "shortSha": "58391fb",
+      "title": "📄 补充 Agent 自主操作边界、指令冲突裁决与人类可读写作规范 (#1728)",
+      "author": "cyfung1031",
+      "date": "2026-09-07T06:12:34Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/58391fbe016e83b4015e4845166688892c39f50f"
+    },
+    {
+      "sha": "eae267eac11cfca94dea65c2eaaf076bf468501a",
+      "shortSha": "eae267e",
+      "title": "✅ 加固 UI 异步断言与 E2E 保存结果观察 (#1727)",
+      "author": "cyfung1031",
+      "date": "2026-09-07T05:44:03Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/eae267eac11cfca94dea65c2eaaf076bf468501a"
+    },
+    {
+      "sha": "8d6f7eb7319601d0c76a58595803dcbf37b24c12",
+      "shortSha": "8d6f7eb",
+      "title": "✨ 统一 example/tests 测试结果与人工验证反馈 (#1717)",
+      "author": "cyfung1031",
+      "date": "2026-09-07T05:43:54Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/8d6f7eb7319601d0c76a58595803dcbf37b24c12"
+    },
+    {
+      "sha": "afe97d81fc33fdb979fff3d3044c54886b70ce6f",
+      "shortSha": "afe97d8",
+      "title": "🐛 修复 @run-at context-menu：设置覆写不生效、菜单注册不上、脚本体自己的菜单被屏蔽 (#1718)",
+      "author": "wangyizhi",
+      "date": "2026-09-07T05:41:37Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/afe97d81fc33fdb979fff3d3044c54886b70ce6f"
+    },
     {
       "sha": "61164f6920e736fd3a03b269fb907e7aa7975432",
       "shortSha": "61164f6",
@@ -1241,54 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-10T03:47:57Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/c884abfa91b6a93ab2579a79ef9042145a53e65f"
-    },
-    {
-      "sha": "fd30d42bfc1d63d27142ed62f5a79b182c396adc",
-      "shortSha": "fd30d42",
-      "title": "🐛 规范化 Google Drive 和 OneDrive 的文件系统请求错误 (#1406)",
-      "author": "cyfung1031",
-      "date": "2026-05-10T03:43:37Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/fd30d42bfc1d63d27142ed62f5a79b182c396adc"
-    },
-    {
-      "sha": "6ee6db054f9f6ec4607be1aa0dc77703ba214a21",
-      "shortSha": "6ee6db0",
-      "title": "🐛 OneDrive zero-byte upload fix (#1405)",
-      "author": "cyfung1031",
-      "date": "2026-05-10T03:31:13Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/6ee6db054f9f6ec4607be1aa0dc77703ba214a21"
-    },
-    {
-      "sha": "5aea47946677004041af42637339e6709a7c6009",
-      "shortSha": "5aea479",
-      "title": "🐛 为云同步上传补充 modifiedDate （写入 S3 自定义元数据） (#1408)",
-      "author": "cyfung1031",
-      "date": "2026-05-10T03:29:13Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/5aea47946677004041af42637339e6709a7c6009"
-    },
-    {
-      "sha": "ea5a1a47f27cadfef20e7060e44e28b924e99bbf",
-      "shortSha": "ea5a1a4",
-      "title": "🐛 修复GM xhr不正确处理异常 onloadend 的问题 (#1412)",
-      "author": "cyfung1031",
-      "date": "2026-05-10T03:15:22Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/ea5a1a47f27cadfef20e7060e44e28b924e99bbf"
-    },
-    {
-      "sha": "e548e41eb98a0b1c3131022593c5114798641686",
-      "shortSha": "e548e41",
-      "title": "🐛 重构 encoding.ts 以整合并改进检测机制 (#1426)",
-      "author": "cyfung1031",
-      "date": "2026-05-10T03:13:04Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/e548e41eb98a0b1c3131022593c5114798641686"
-    },
-    {
-      "sha": "fdb19065af35e80611e36c2a5fd50bb36e9cb0d8",
-      "shortSha": "fdb1906",
-      "title": "🐛 加 Tooltip 否则看不到菜单 (#1429)",
-      "author": "cyfung1031",
-      "date": "2026-05-09T10:23:10Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/fdb19065af35e80611e36c2a5fd50bb36e9cb0d8"
     }
   ],
   "betaCommits": [
@@ -3466,7 +3466,13 @@
     "9b03df46ec2e745cff732eeb2b3f725061d0cfaa",
     "21a7cda10d74a6078e5696e5d770ba8751dcac70",
     "222e4e2f2440a86b141d284215141f882bc492b1",
-    "61164f6920e736fd3a03b269fb907e7aa7975432"
+    "61164f6920e736fd3a03b269fb907e7aa7975432",
+    "afe97d81fc33fdb979fff3d3044c54886b70ce6f",
+    "8d6f7eb7319601d0c76a58595803dcbf37b24c12",
+    "eae267eac11cfca94dea65c2eaaf076bf468501a",
+    "58391fbe016e83b4015e4845166688892c39f50f",
+    "999d2cd8a84975868f29d968ec035d6a9bb9d2a0",
+    "b75124c0c450d73a90347f0ac555f66238d5b1af"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
