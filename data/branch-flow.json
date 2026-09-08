@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T23:32:07.859Z",
+  "generatedAt": "2026-09-08T04:43:07.706Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "a466b22ef78fa983348f298b1737a4ad24cec196",
+      "shortSha": "a466b22",
+      "title": "📄 为项目命令补充条件式环境恢复指引 (#1683)",
+      "author": "cyfung1031",
+      "date": "2026-09-08T01:54:53Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/a466b22ef78fa983348f298b1737a4ad24cec196"
+    },
+    {
+      "sha": "0f70a99ebf3cbd27902fffd5ab1724114b250bb6",
+      "shortSha": "0f70a99",
+      "title": "🐛 更新页不再倒计时自动关闭，记录失效改为自动重查续做 (#1720)",
+      "author": "wangyizhi",
+      "date": "2026-09-08T01:54:16Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/0f70a99ebf3cbd27902fffd5ab1724114b250bb6"
+    },
     {
       "sha": "b75124c0c450d73a90347f0ac555f66238d5b1af",
       "shortSha": "b75124c",
@@ -1273,22 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-10T08:53:42Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/6a8c166f5aebe61c17f324b1bc68c0162c992984"
-    },
-    {
-      "sha": "68beedb56a089b91ff434883fdc0b6e372606c6d",
-      "shortSha": "68beedb",
-      "title": "⚡️ 优化 pushValue 处理 (#1403)",
-      "author": "cyfung1031",
-      "date": "2026-05-10T03:58:26Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/68beedb56a089b91ff434883fdc0b6e372606c6d"
-    },
-    {
-      "sha": "c884abfa91b6a93ab2579a79ef9042145a53e65f",
-      "shortSha": "c884abf",
-      "title": "🐛 ScriptEditor 列表动态更新 及 显示修正 (#1414)",
-      "author": "cyfung1031",
-      "date": "2026-05-10T03:47:57Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/c884abfa91b6a93ab2579a79ef9042145a53e65f"
     }
   ],
   "betaCommits": [
@@ -3472,7 +3472,9 @@
     "eae267eac11cfca94dea65c2eaaf076bf468501a",
     "58391fbe016e83b4015e4845166688892c39f50f",
     "999d2cd8a84975868f29d968ec035d6a9bb9d2a0",
-    "b75124c0c450d73a90347f0ac555f66238d5b1af"
+    "b75124c0c450d73a90347f0ac555f66238d5b1af",
+    "0f70a99ebf3cbd27902fffd5ab1724114b250bb6",
+    "a466b22ef78fa983348f298b1737a4ad24cec196"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
