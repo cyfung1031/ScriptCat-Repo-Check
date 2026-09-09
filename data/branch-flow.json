@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T00:17:58.057Z",
+  "generatedAt": "2026-09-09T06:01:12.003Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,30 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "12fa384e3c108b19dd5944965498d9e9b8958221",
+      "shortSha": "12fa384",
+      "title": "✨ 安装页更新时按差异呈现权限，并移除安全警示条 (#1732)",
+      "author": "wangyizhi",
+      "date": "2026-09-09T05:49:49Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/12fa384e3c108b19dd5944965498d9e9b8958221"
+    },
+    {
+      "sha": "44095fee253f03d9d3e480c011c190071cc3640b",
+      "shortSha": "44095fe",
+      "title": "🐛 修复带路径前缀的 S3 端点（如 Supabase）同步失败 (#1729)",
+      "author": "wangyizhi",
+      "date": "2026-09-09T03:42:30Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/44095fee253f03d9d3e480c011c190071cc3640b"
+    },
+    {
+      "sha": "fe4f26b4e83b2795277ebca61dac1b17a68700e7",
+      "shortSha": "fe4f26b",
+      "title": "⚡️ 降低网络规则跨页测试成本并固化测试约束 (#1734)",
+      "author": "cyfung1031",
+      "date": "2026-09-09T03:41:20Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/fe4f26b4e83b2795277ebca61dac1b17a68700e7"
+    },
     {
       "sha": "a466b22ef78fa983348f298b1737a4ad24cec196",
       "shortSha": "a466b22",
@@ -1265,30 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-11T01:49:06Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/3f42d0d3a95bff2093918ec4a9f8fe8cda720073"
-    },
-    {
-      "sha": "457ff27c23e6825f62b5770776ef4a7f38530565",
-      "shortSha": "457ff27",
-      "title": "✨ Ctrl+Shift+F 格式化 (#1415)",
-      "author": "cyfung1031",
-      "date": "2026-05-10T10:11:57Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/457ff27c23e6825f62b5770776ef4a7f38530565"
-    },
-    {
-      "sha": "d5662a8487576f0f4a4617d2f6385b126a10566e",
-      "shortSha": "d5662a8",
-      "title": "♻️ 安装资源 转移至 `chrome.storage.local` 的 tempStorage. 代码部份放在 `OPFS/temp_install_codes` (#1318)",
-      "author": "cyfung1031",
-      "date": "2026-05-10T10:08:46Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/d5662a8487576f0f4a4617d2f6385b126a10566e"
-    },
-    {
-      "sha": "6a8c166f5aebe61c17f324b1bc68c0162c992984",
-      "shortSha": "6a8c166",
-      "title": "🐛 `GM_xmlhttpRequest` msgConn 的 null 处理缺失 (#1433)",
-      "author": "cyfung1031",
-      "date": "2026-05-10T08:53:42Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/6a8c166f5aebe61c17f324b1bc68c0162c992984"
     }
   ],
   "betaCommits": [
@@ -3474,7 +3474,10 @@
     "999d2cd8a84975868f29d968ec035d6a9bb9d2a0",
     "b75124c0c450d73a90347f0ac555f66238d5b1af",
     "0f70a99ebf3cbd27902fffd5ab1724114b250bb6",
-    "a466b22ef78fa983348f298b1737a4ad24cec196"
+    "a466b22ef78fa983348f298b1737a4ad24cec196",
+    "fe4f26b4e83b2795277ebca61dac1b17a68700e7",
+    "44095fee253f03d9d3e480c011c190071cc3640b",
+    "12fa384e3c108b19dd5944965498d9e9b8958221"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
