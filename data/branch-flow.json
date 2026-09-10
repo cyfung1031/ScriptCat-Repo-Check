@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T06:00:57.472Z",
+  "generatedAt": "2026-09-10T11:25:15.526Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "dd280349617c8cd5b29710a2c016ce8194dc4280",
+      "shortSha": "dd28034",
+      "title": "🐛 修正脚本资源分类与页面资源权限边界 (#1686)",
+      "author": "cyfung1031",
+      "date": "2026-09-10T07:27:20Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/dd280349617c8cd5b29710a2c016ce8194dc4280"
+    },
+    {
+      "sha": "b6815129036b0273958f259e708bb05cc6ba1996",
+      "shortSha": "b681512",
+      "title": "✨ 新建脚本模板可自定义 (#1731)",
+      "author": "wangyizhi",
+      "date": "2026-09-10T06:59:59Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/b6815129036b0273958f259e708bb05cc6ba1996"
+    },
     {
       "sha": "43b36ae6f29a8d7ccda90a65895f4c85dc452cee",
       "shortSha": "43b36ae",
@@ -1273,22 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-15T05:52:40Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/e012e9e30406a112f7f3863490869034d750961a"
-    },
-    {
-      "sha": "59c135e9cc85ba3176e7d55d670c10023f37c577",
-      "shortSha": "59c135e",
-      "title": "🐛 WebDAV verify 移除写探针，避免坚果云等根目录不可写服务被误杀 (#1445)",
-      "author": "wangyizhi",
-      "date": "2026-05-15T05:37:33Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/59c135e9cc85ba3176e7d55d670c10023f37c577"
-    },
-    {
-      "sha": "faad224359bae7cc0bb7cff9d28e845928bdb9b1",
-      "shortSha": "faad224",
-      "title": "🌐 Improve Japanese UI translations / 优化日语界面翻译 (#1419)",
-      "author": "Hikari",
-      "date": "2026-05-11T01:49:46Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/faad224359bae7cc0bb7cff9d28e845928bdb9b1"
     }
   ],
   "betaCommits": [
@@ -3478,7 +3478,9 @@
     "fe4f26b4e83b2795277ebca61dac1b17a68700e7",
     "44095fee253f03d9d3e480c011c190071cc3640b",
     "12fa384e3c108b19dd5944965498d9e9b8958221",
-    "43b36ae6f29a8d7ccda90a65895f4c85dc452cee"
+    "43b36ae6f29a8d7ccda90a65895f4c85dc452cee",
+    "b6815129036b0273958f259e708bb05cc6ba1996",
+    "dd280349617c8cd5b29710a2c016ce8194dc4280"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
