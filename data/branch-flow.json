@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T01:07:01.723Z",
+  "generatedAt": "2026-09-10T06:00:57.472Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "43b36ae6f29a8d7ccda90a65895f4c85dc452cee",
+      "shortSha": "43b36ae",
+      "title": "⚡️ 压缩用户网络规则的 DNR 编译输出 (#1733)",
+      "author": "cyfung1031",
+      "date": "2026-09-10T01:46:46Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/43b36ae6f29a8d7ccda90a65895f4c85dc452cee"
+    },
     {
       "sha": "12fa384e3c108b19dd5944965498d9e9b8958221",
       "shortSha": "12fa384",
@@ -1281,14 +1289,6 @@
       "author": "Hikari",
       "date": "2026-05-11T01:49:46Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/faad224359bae7cc0bb7cff9d28e845928bdb9b1"
-    },
-    {
-      "sha": "3f42d0d3a95bff2093918ec4a9f8fe8cda720073",
-      "shortSha": "3f42d0d",
-      "title": "🐛 根据 PR#1419 改善其他语言的翻译 (#1421)",
-      "author": "cyfung1031",
-      "date": "2026-05-11T01:49:06Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/3f42d0d3a95bff2093918ec4a9f8fe8cda720073"
     }
   ],
   "betaCommits": [
@@ -3477,7 +3477,8 @@
     "a466b22ef78fa983348f298b1737a4ad24cec196",
     "fe4f26b4e83b2795277ebca61dac1b17a68700e7",
     "44095fee253f03d9d3e480c011c190071cc3640b",
-    "12fa384e3c108b19dd5944965498d9e9b8958221"
+    "12fa384e3c108b19dd5944965498d9e9b8958221",
+    "43b36ae6f29a8d7ccda90a65895f4c85dc452cee"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
