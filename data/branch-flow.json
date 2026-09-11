@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T01:08:36.435Z",
+  "generatedAt": "2026-09-11T06:03:35.687Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "2dbee34e4065cbbd6e60412862b69625bc9b252e",
+      "shortSha": "2dbee34",
+      "title": "🐛 修正 Firefox USER_SCRIPT 的分離 realm 沙盒相容性 (#1706)",
+      "author": "cyfung1031",
+      "date": "2026-09-11T04:09:39Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/2dbee34e4065cbbd6e60412862b69625bc9b252e"
+    },
+    {
+      "sha": "ac97e75c7a710e0ac85e7b742e4bef764311ecb1",
+      "shortSha": "ac97e75",
+      "title": "🐛 修正脚本 MIME 类型兼容性 (#1736)",
+      "author": "cyfung1031",
+      "date": "2026-09-11T03:22:19Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/ac97e75c7a710e0ac85e7b742e4bef764311ecb1"
+    },
     {
       "sha": "dd280349617c8cd5b29710a2c016ce8194dc4280",
       "shortSha": "dd28034",
@@ -1273,22 +1289,6 @@
       "author": "tomaioo",
       "date": "2026-05-15T06:02:24Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/1c10827b3203da71a363b2a1e4112d57b6d3a1f5"
-    },
-    {
-      "sha": "ee5b80de3549605bbd4fbdd0a711795cd24e7164",
-      "shortSha": "ee5b80d",
-      "title": "🐛 dedupe concurrent initial auth requests (#1437)",
-      "author": "cyfung1031",
-      "date": "2026-05-15T06:01:06Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/ee5b80de3549605bbd4fbdd0a711795cd24e7164"
-    },
-    {
-      "sha": "e012e9e30406a112f7f3863490869034d750961a",
-      "shortSha": "e012e9e",
-      "title": "✨ add back `@run-at context-menu` (#1442)",
-      "author": "cyfung1031",
-      "date": "2026-05-15T05:52:40Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/e012e9e30406a112f7f3863490869034d750961a"
     }
   ],
   "betaCommits": [
@@ -3480,7 +3480,9 @@
     "12fa384e3c108b19dd5944965498d9e9b8958221",
     "43b36ae6f29a8d7ccda90a65895f4c85dc452cee",
     "b6815129036b0273958f259e708bb05cc6ba1996",
-    "dd280349617c8cd5b29710a2c016ce8194dc4280"
+    "dd280349617c8cd5b29710a2c016ce8194dc4280",
+    "ac97e75c7a710e0ac85e7b742e4bef764311ecb1",
+    "2dbee34e4065cbbd6e60412862b69625bc9b252e"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
