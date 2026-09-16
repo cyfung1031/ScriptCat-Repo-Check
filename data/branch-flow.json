@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T06:05:34.600Z",
+  "generatedAt": "2026-09-16T11:41:56.816Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "f2d0ed79eb5b86d1070ac684450d96b3f9750a0f",
+      "shortSha": "f2d0ed7",
+      "title": "fix wrong `overflow-hidden` css (#1746)",
+      "author": "cyfung1031",
+      "date": "2026-09-16T09:44:56Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/f2d0ed79eb5b86d1070ac684450d96b3f9750a0f"
+    },
+    {
+      "sha": "be26c33a35ae39569e6a05d762f42c6de750a308",
+      "shortSha": "be26c33",
+      "title": "✨ 增加安装代码全屏预览 (#1743)",
+      "author": "cyfung1031",
+      "date": "2026-09-16T09:24:32Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/be26c33a35ae39569e6a05d762f42c6de750a308"
+    },
     {
       "sha": "2dbee34e4065cbbd6e60412862b69625bc9b252e",
       "shortSha": "2dbee34",
@@ -1273,22 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-17T02:26:51Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/6ff70eb9fe97c630e62c735a29ea958c89d5e5fd"
-    },
-    {
-      "sha": "f578269ecdbe18858d3cdf42413e4464bff896c1",
-      "shortSha": "f578269",
-      "title": "🐛 修复 ScriptEditor toolbar 中编辑相关操作的交互问题 (#1417)",
-      "author": "cyfung1031",
-      "date": "2026-05-15T06:29:47Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/f578269ecdbe18858d3cdf42413e4464bff896c1"
-    },
-    {
-      "sha": "1c10827b3203da71a363b2a1e4112d57b6d3a1f5",
-      "shortSha": "1c10827",
-      "title": "♻️ Path joining logic creates double slashes (#1432)",
-      "author": "tomaioo",
-      "date": "2026-05-15T06:02:24Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/1c10827b3203da71a363b2a1e4112d57b6d3a1f5"
     }
   ],
   "betaCommits": [
@@ -3482,7 +3482,9 @@
     "b6815129036b0273958f259e708bb05cc6ba1996",
     "dd280349617c8cd5b29710a2c016ce8194dc4280",
     "ac97e75c7a710e0ac85e7b742e4bef764311ecb1",
-    "2dbee34e4065cbbd6e60412862b69625bc9b252e"
+    "2dbee34e4065cbbd6e60412862b69625bc9b252e",
+    "be26c33a35ae39569e6a05d762f42c6de750a308",
+    "f2d0ed79eb5b86d1070ac684450d96b3f9750a0f"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
