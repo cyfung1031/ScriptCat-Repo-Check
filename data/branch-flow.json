@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T01:28:31.806Z",
+  "generatedAt": "2026-09-17T07:43:51.951Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "aef405a982d4adc0d56f56b59981b59671b76870",
+      "shortSha": "aef405a",
+      "title": "⚡️ 降低测试固定等待与渲染开销 (#1737)",
+      "author": "cyfung1031",
+      "date": "2026-09-17T05:49:24Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/aef405a982d4adc0d56f56b59981b59671b76870"
+    },
     {
       "sha": "f2d0ed79eb5b86d1070ac684450d96b3f9750a0f",
       "shortSha": "f2d0ed7",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-17T02:28:34Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/b214ca7c552e94f63d56d85065a164b702f4e215"
-    },
-    {
-      "sha": "6ff70eb9fe97c630e62c735a29ea958c89d5e5fd",
-      "shortSha": "6ff70eb",
-      "title": "🐛 修正 `src/pages/install/App.tsx` closeWindow 代码 (#1435)",
-      "author": "cyfung1031",
-      "date": "2026-05-17T02:26:51Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/6ff70eb9fe97c630e62c735a29ea958c89d5e5fd"
     }
   ],
   "betaCommits": [
@@ -3484,7 +3484,8 @@
     "ac97e75c7a710e0ac85e7b742e4bef764311ecb1",
     "2dbee34e4065cbbd6e60412862b69625bc9b252e",
     "be26c33a35ae39569e6a05d762f42c6de750a308",
-    "f2d0ed79eb5b86d1070ac684450d96b3f9750a0f"
+    "f2d0ed79eb5b86d1070ac684450d96b3f9750a0f",
+    "aef405a982d4adc0d56f56b59981b59671b76870"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
