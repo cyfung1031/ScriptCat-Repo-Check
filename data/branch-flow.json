@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T07:43:51.951Z",
+  "generatedAt": "2026-09-17T13:31:37.299Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "0eeeb5d12a1c87b94aa9b31a94e035422f497ad1",
+      "shortSha": "0eeeb5d",
+      "title": "✨ 安装页标出不生效的指令与 GM 能力 (#1742)",
+      "author": "wangyizhi",
+      "date": "2026-09-17T09:59:42Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/0eeeb5d12a1c87b94aa9b31a94e035422f497ad1"
+    },
     {
       "sha": "aef405a982d4adc0d56f56b59981b59671b76870",
       "shortSha": "aef405a",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-17T02:29:47Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/bbbc751e751320009fd8d3701390a35028ac2b06"
-    },
-    {
-      "sha": "b214ca7c552e94f63d56d85065a164b702f4e215",
-      "shortSha": "b214ca7",
-      "title": "🐛 browser API `chrome.downloads.download` 代码及Mock修正 (#1410)",
-      "author": "cyfung1031",
-      "date": "2026-05-17T02:28:34Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b214ca7c552e94f63d56d85065a164b702f4e215"
     }
   ],
   "betaCommits": [
@@ -3485,7 +3485,8 @@
     "2dbee34e4065cbbd6e60412862b69625bc9b252e",
     "be26c33a35ae39569e6a05d762f42c6de750a308",
     "f2d0ed79eb5b86d1070ac684450d96b3f9750a0f",
-    "aef405a982d4adc0d56f56b59981b59671b76870"
+    "aef405a982d4adc0d56f56b59981b59671b76870",
+    "0eeeb5d12a1c87b94aa9b31a94e035422f497ad1"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
