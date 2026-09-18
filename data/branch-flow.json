@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T00:24:59.290Z",
+  "generatedAt": "2026-09-18T05:58:04.739Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "5cb899a28153562036d8ba33620077c1fd5e2029",
+      "shortSha": "5cb899a",
+      "title": "🐛 修复大脚本与资源的消息大小限制 (#1745)",
+      "author": "cyfung1031",
+      "date": "2026-09-18T03:12:16Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/5cb899a28153562036d8ba33620077c1fd5e2029"
+    },
     {
       "sha": "0eeeb5d12a1c87b94aa9b31a94e035422f497ad1",
       "shortSha": "0eeeb5d",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-05-17T02:56:47Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/dc7ad1224bbd20177691c4393e9cfbe1a0b4ae42"
-    },
-    {
-      "sha": "bbbc751e751320009fd8d3701390a35028ac2b06",
-      "shortSha": "bbbc751",
-      "title": "🐛 在根布局建立滚轮事件边界，避免 ScriptCat 内部滚动触发浏览器 swipe 跳页 (#1431)",
-      "author": "cyfung1031",
-      "date": "2026-05-17T02:29:47Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/bbbc751e751320009fd8d3701390a35028ac2b06"
     }
   ],
   "betaCommits": [
@@ -3486,7 +3486,8 @@
     "be26c33a35ae39569e6a05d762f42c6de750a308",
     "f2d0ed79eb5b86d1070ac684450d96b3f9750a0f",
     "aef405a982d4adc0d56f56b59981b59671b76870",
-    "0eeeb5d12a1c87b94aa9b31a94e035422f497ad1"
+    "0eeeb5d12a1c87b94aa9b31a94e035422f497ad1",
+    "5cb899a28153562036d8ba33620077c1fd5e2029"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
