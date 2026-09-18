@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T05:58:04.739Z",
+  "generatedAt": "2026-09-18T11:21:31.214Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "249e2fc31896d6a00ce9425e0a31bcccdc475b2e",
+      "shortSha": "249e2fc",
+      "title": "🔖 release v1.5.0-beta.4",
+      "author": "王一之",
+      "date": "2026-09-18T09:02:26Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/249e2fc31896d6a00ce9425e0a31bcccdc475b2e"
+    },
     {
       "sha": "5cb899a28153562036d8ba33620077c1fd5e2029",
       "shortSha": "5cb899a",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-05-17T02:57:10Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/57b9472f80c466ad0bdd226e76c69076456506fe"
-    },
-    {
-      "sha": "dc7ad1224bbd20177691c4393e9cfbe1a0b4ae42",
-      "shortSha": "dc7ad12",
-      "title": "Merge branch 'main' into release/v1.4",
-      "author": "王一之",
-      "date": "2026-05-17T02:56:47Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/dc7ad1224bbd20177691c4393e9cfbe1a0b4ae42"
     }
   ],
   "betaCommits": [
@@ -3487,7 +3487,8 @@
     "f2d0ed79eb5b86d1070ac684450d96b3f9750a0f",
     "aef405a982d4adc0d56f56b59981b59671b76870",
     "0eeeb5d12a1c87b94aa9b31a94e035422f497ad1",
-    "5cb899a28153562036d8ba33620077c1fd5e2029"
+    "5cb899a28153562036d8ba33620077c1fd5e2029",
+    "249e2fc31896d6a00ce9425e0a31bcccdc475b2e"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
