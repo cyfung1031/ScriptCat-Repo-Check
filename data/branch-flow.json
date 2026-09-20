@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T01:13:11.175Z",
+  "generatedAt": "2026-09-20T06:22:17.445Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,38 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "61cc2481fe1bc32fbc174d4b1f016e7717b25a47",
+      "shortSha": "61cc248",
+      "title": "🐛 hide empty editor status bar (#1755)",
+      "author": "cyfung1031",
+      "date": "2026-09-20T03:56:37Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/61cc2481fe1bc32fbc174d4b1f016e7717b25a47"
+    },
+    {
+      "sha": "317fbc5b12166564b96bb4eaccd8da9154793c5e",
+      "shortSha": "317fbc5",
+      "title": "⚡️ 优化资源下载分块性能 (#1753)",
+      "author": "cyfung1031",
+      "date": "2026-09-20T03:46:05Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/317fbc5b12166564b96bb4eaccd8da9154793c5e"
+    },
+    {
+      "sha": "53826d2b4215362f6a70e2779dac8b2d4377c184",
+      "shortSha": "53826d2",
+      "title": "📄 修正 issue template 不一致的问题 (#1750)",
+      "author": "cyfung1031",
+      "date": "2026-09-20T02:48:06Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/53826d2b4215362f6a70e2779dac8b2d4377c184"
+    },
+    {
+      "sha": "cb897b12af864b6d4f0c5f35ee4e160569bf7b2c",
+      "shortSha": "cb897b1",
+      "title": "⚡️ 加速 GM_xhr E2E 测试 (#1749)",
+      "author": "cyfung1031",
+      "date": "2026-09-20T02:47:29Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/cb897b12af864b6d4f0c5f35ee4e160569bf7b2c"
+    },
     {
       "sha": "249e2fc31896d6a00ce9425e0a31bcccdc475b2e",
       "shortSha": "249e2fc",
@@ -1257,38 +1289,6 @@
       "author": "王一之",
       "date": "2026-05-19T07:05:19Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/4bc216eb06eabb7a3511075550c167182bc3c6ba"
-    },
-    {
-      "sha": "14fdf2b9691776d507a0965a9b2470e5d6d2eedc",
-      "shortSha": "14fdf2b",
-      "title": "test: stabilize e2e suite",
-      "author": "王一之",
-      "date": "2026-05-18T01:55:33Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/14fdf2b9691776d507a0965a9b2470e5d6d2eedc"
-    },
-    {
-      "sha": "5fdc8e3905a9c535a58854cbf758e41808908c9c",
-      "shortSha": "5fdc8e3",
-      "title": "🐛 修复 SkillScript 编译时缺失 isContextMenu 字段导致的类型错误",
-      "author": "王一之",
-      "date": "2026-05-17T03:34:25Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/5fdc8e3905a9c535a58854cbf758e41808908c9c"
-    },
-    {
-      "sha": "bc85f0b41e9b198a709f380f1fe55c3a9433cefa",
-      "shortSha": "bc85f0b",
-      "title": "Merge branch 'release/v1.4' into release/v1.4-agent",
-      "author": "王一之",
-      "date": "2026-05-17T03:19:07Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/bc85f0b41e9b198a709f380f1fe55c3a9433cefa"
-    },
-    {
-      "sha": "57b9472f80c466ad0bdd226e76c69076456506fe",
-      "shortSha": "57b9472",
-      "title": "🔥 删除重复的翻译key",
-      "author": "王一之",
-      "date": "2026-05-17T02:57:10Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/57b9472f80c466ad0bdd226e76c69076456506fe"
     }
   ],
   "betaCommits": [
@@ -3488,7 +3488,11 @@
     "aef405a982d4adc0d56f56b59981b59671b76870",
     "0eeeb5d12a1c87b94aa9b31a94e035422f497ad1",
     "5cb899a28153562036d8ba33620077c1fd5e2029",
-    "249e2fc31896d6a00ce9425e0a31bcccdc475b2e"
+    "249e2fc31896d6a00ce9425e0a31bcccdc475b2e",
+    "cb897b12af864b6d4f0c5f35ee4e160569bf7b2c",
+    "53826d2b4215362f6a70e2779dac8b2d4377c184",
+    "317fbc5b12166564b96bb4eaccd8da9154793c5e",
+    "61cc2481fe1bc32fbc174d4b1f016e7717b25a47"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
