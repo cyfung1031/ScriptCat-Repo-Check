@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T05:03:23.102Z",
+  "generatedAt": "2026-09-22T10:02:11.356Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "d6cc48ba99f8a8ac7d4ad236f2d294fad99e0c79",
+      "shortSha": "d6cc48b",
+      "title": "🐛 修复 SCTest 复制报告缺少用例耗时 (#1757)",
+      "author": "cyfung1031",
+      "date": "2026-09-22T07:48:52Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/d6cc48ba99f8a8ac7d4ad236f2d294fad99e0c79"
+    },
+    {
+      "sha": "39cd40c146c0f9e5912b899f904652fe62e30405",
+      "shortSha": "39cd40c",
+      "title": "✨ 编辑器标出脚本猫不支持的 @grant (#1763)",
+      "author": "cyfung1031",
+      "date": "2026-09-22T07:45:29Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/39cd40c146c0f9e5912b899f904652fe62e30405"
+    },
     {
       "sha": "61cc2481fe1bc32fbc174d4b1f016e7717b25a47",
       "shortSha": "61cc248",
@@ -1273,22 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-05-24T04:22:01Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/c8503ffb31c95166a3f8a7881c5bf7ec0c929271"
-    },
-    {
-      "sha": "90d138faa36afea9c58ccee152f8f9dc5855aa2b",
-      "shortSha": "90d138f",
-      "title": "🐛 修正 Editor 的 CSS 布局 (#1460)",
-      "author": "cyfung1031",
-      "date": "2026-05-24T04:00:39Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/90d138faa36afea9c58ccee152f8f9dc5855aa2b"
-    },
-    {
-      "sha": "4bc216eb06eabb7a3511075550c167182bc3c6ba",
-      "shortSha": "4bc216e",
-      "title": "🔖 Release v1.4.0-beta.3",
-      "author": "王一之",
-      "date": "2026-05-19T07:05:19Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/4bc216eb06eabb7a3511075550c167182bc3c6ba"
     }
   ],
   "betaCommits": [
@@ -3492,7 +3492,9 @@
     "cb897b12af864b6d4f0c5f35ee4e160569bf7b2c",
     "53826d2b4215362f6a70e2779dac8b2d4377c184",
     "317fbc5b12166564b96bb4eaccd8da9154793c5e",
-    "61cc2481fe1bc32fbc174d4b1f016e7717b25a47"
+    "61cc2481fe1bc32fbc174d4b1f016e7717b25a47",
+    "39cd40c146c0f9e5912b899f904652fe62e30405",
+    "d6cc48ba99f8a8ac7d4ad236f2d294fad99e0c79"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
