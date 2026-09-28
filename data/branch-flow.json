@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T06:59:25.256Z",
+  "generatedAt": "2026-09-28T15:33:05.626Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,62 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "120039b91b0347d7aee5e24007b55c6cab876f8a",
+      "shortSha": "120039b",
+      "title": "⚡️ 优化 ESLint harness 性能并统一诊断断言 (Linter.verify and ruleIdsAt) (#1759)",
+      "author": "cyfung1031",
+      "date": "2026-09-28T08:59:02Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/120039b91b0347d7aee5e24007b55c6cab876f8a"
+    },
+    {
+      "sha": "56ec5d3fab90cef69884d70dc4ed16da9655072a",
+      "shortSha": "56ec5d3",
+      "title": "✨ Improve Script Editor resource browsing and previews (UI/UX improvement) (#1758)",
+      "author": "cyfung1031",
+      "date": "2026-09-28T08:58:19Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/56ec5d3fab90cef69884d70dc4ed16da9655072a"
+    },
+    {
+      "sha": "b6e37ccb869005e90f2bf9eb550f7b5426a17a59",
+      "shortSha": "b6e37cc",
+      "title": "🔧 限制本地测试为单 worker (#1767)",
+      "author": "cyfung1031",
+      "date": "2026-09-28T08:12:08Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/b6e37ccb869005e90f2bf9eb550f7b5426a17a59"
+    },
+    {
+      "sha": "a14b8b9c9d29cfb602ee8ac589cb3a3d7d14017d",
+      "shortSha": "a14b8b9",
+      "title": "💄 排序激活时明确提示排序状态，拖拽手柄改为锁定并给出切回默认顺序的入口 (#1768)",
+      "author": "wangyizhi",
+      "date": "2026-09-28T08:10:17Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/a14b8b9c9d29cfb602ee8ac589cb3a3d7d14017d"
+    },
+    {
+      "sha": "3612b8deb0e239687c25ef8f577c97b04faa193e",
+      "shortSha": "3612b8d",
+      "title": "✨ warn on duplicate @resource names in Monaco editor (#1762)",
+      "author": "cyfung1031",
+      "date": "2026-09-28T07:52:43Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3612b8deb0e239687c25ef8f577c97b04faa193e"
+    },
+    {
+      "sha": "11c5095f9ecbefbb17034c05226b5293b7472e89",
+      "shortSha": "11c5095",
+      "title": "🐛 修复云同步推送时脚本列表与编辑页长时间空白 (#1765)",
+      "author": "wangyizhi",
+      "date": "2026-09-28T07:48:07Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/11c5095f9ecbefbb17034c05226b5293b7472e89"
+    },
+    {
+      "sha": "dc4f1dd3b840675b79df280393676c96704d2943",
+      "shortSha": "dc4f1dd",
+      "title": "🐛 修复移动端脚本拖拽与左滑漏色，调整桌面拖拽指针 (#1756)",
+      "author": "wangyizhi",
+      "date": "2026-09-28T07:44:56Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/dc4f1dd3b840675b79df280393676c96704d2943"
+    },
     {
       "sha": "d6cc48ba99f8a8ac7d4ad236f2d294fad99e0c79",
       "shortSha": "d6cc48b",
@@ -1233,62 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-06-01T03:08:11Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/502290287cbfffb26f3401b11bbbc74e4736c8c4"
-    },
-    {
-      "sha": "7e428e97d9958f0b487cd62dd8a57bf226ae33b8",
-      "shortSha": "7e428e9",
-      "title": "兼容 Firefox MV3 规格 - pack.js (#1480)",
-      "author": "cyfung1031",
-      "date": "2026-05-29T13:46:30Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/7e428e97d9958f0b487cd62dd8a57bf226ae33b8"
-    },
-    {
-      "sha": "f8d832a54da961e25c7c751fe9b2c3a1e04117e5",
-      "shortSha": "f8d832a",
-      "title": "Merge branch 'main' into release/v1.4",
-      "author": "王一之",
-      "date": "2026-05-28T10:15:29Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/f8d832a54da961e25c7c751fe9b2c3a1e04117e5"
-    },
-    {
-      "sha": "72fb47dc72d306824098437a1669ac54e9b5b608",
-      "shortSha": "72fb47d",
-      "title": "🐛 修正没有 search 造成的template 不匹配 (#1466)",
-      "author": "cyfung1031",
-      "date": "2026-05-25T01:51:44Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/72fb47dc72d306824098437a1669ac54e9b5b608"
-    },
-    {
-      "sha": "dd6791662cd7498ea43c52f9e5df7bbe6b3f720d",
-      "shortSha": "dd67916",
-      "title": "兼容 Firefox MV3 规格 (#1457)",
-      "author": "cyfung1031",
-      "date": "2026-05-24T04:50:12Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/dd6791662cd7498ea43c52f9e5df7bbe6b3f720d"
-    },
-    {
-      "sha": "33d0c0665cba8e1f6ca22df14f4bbe0bfb3939b3",
-      "shortSha": "33d0c06",
-      "title": "⚡️ 优化 E2E 测试执行效率，修复 `navigator.clipboard` 权限失败 (#1459)",
-      "author": "cyfung1031",
-      "date": "2026-05-24T04:32:27Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/33d0c0665cba8e1f6ca22df14f4bbe0bfb3939b3"
-    },
-    {
-      "sha": "763fe2c0c76c243382fd76ee93c28f9335a149a0",
-      "shortSha": "763fe2c",
-      "title": "🐛 新增 `protoBaseDescs` 修正TM半沙盒的祖先类别继承 (#1463)",
-      "author": "cyfung1031",
-      "date": "2026-05-24T04:31:28Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/763fe2c0c76c243382fd76ee93c28f9335a149a0"
-    },
-    {
-      "sha": "c8503ffb31c95166a3f8a7881c5bf7ec0c929271",
-      "shortSha": "c8503ff",
-      "title": "🐛 add missing sandbox test (#1464)",
-      "author": "cyfung1031",
-      "date": "2026-05-24T04:22:01Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/c8503ffb31c95166a3f8a7881c5bf7ec0c929271"
     }
   ],
   "betaCommits": [
@@ -3494,7 +3494,14 @@
     "317fbc5b12166564b96bb4eaccd8da9154793c5e",
     "61cc2481fe1bc32fbc174d4b1f016e7717b25a47",
     "39cd40c146c0f9e5912b899f904652fe62e30405",
-    "d6cc48ba99f8a8ac7d4ad236f2d294fad99e0c79"
+    "d6cc48ba99f8a8ac7d4ad236f2d294fad99e0c79",
+    "dc4f1dd3b840675b79df280393676c96704d2943",
+    "11c5095f9ecbefbb17034c05226b5293b7472e89",
+    "3612b8deb0e239687c25ef8f577c97b04faa193e",
+    "a14b8b9c9d29cfb602ee8ac589cb3a3d7d14017d",
+    "b6e37ccb869005e90f2bf9eb550f7b5426a17a59",
+    "56ec5d3fab90cef69884d70dc4ed16da9655072a",
+    "120039b91b0347d7aee5e24007b55c6cab876f8a"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
