@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T02:00:59.961Z",
+  "generatedAt": "2026-09-29T08:36:26.707Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,30 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "80854540dd1759e55ce79f541fcf582ba9c0a499",
+      "shortSha": "8085454",
+      "title": "🐛 跨浏览器过滤 userScripts 不支持的 @match scheme (#1772)",
+      "author": "cyfung1031",
+      "date": "2026-09-29T04:13:22Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/80854540dd1759e55ce79f541fcf582ba9c0a499"
+    },
+    {
+      "sha": "1be6aa8ba2518a4ec5b33574713ddc5ac181d943",
+      "shortSha": "1be6aa8",
+      "title": "🐛 补齐 Firefox userAgentData 并对齐 Tampermonkey 版本粒度与字段顺序 (脚本兼容) (#1754)",
+      "author": "cyfung1031",
+      "date": "2026-09-29T03:25:01Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/1be6aa8ba2518a4ec5b33574713ddc5ac181d943"
+    },
+    {
+      "sha": "e436ff5f3714c7d0b28156d3fb1f2eb302c62ca3",
+      "shortSha": "e436ff5",
+      "title": "🐛 修复订阅手动检查更新无效，并同步刷新订阅列表 (#1781)",
+      "author": "wangyizhi",
+      "date": "2026-09-29T03:24:00Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/e436ff5f3714c7d0b28156d3fb1f2eb302c62ca3"
+    },
     {
       "sha": "120039b91b0347d7aee5e24007b55c6cab876f8a",
       "shortSha": "120039b",
@@ -1265,30 +1289,6 @@
       "author": "王一之",
       "date": "2026-06-04T09:30:52Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/d9f57063d80c4baf97faba4d6f4fed9f7bd89164"
-    },
-    {
-      "sha": "3d1cb79d70012db1a93cfd694e249720443dd498",
-      "shortSha": "3d1cb79",
-      "title": "📝 新增 AGENTS.md AI 编码代理指南及配套文档体系 (#1488)",
-      "author": "wangyizhi",
-      "date": "2026-06-03T15:23:11Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/3d1cb79d70012db1a93cfd694e249720443dd498"
-    },
-    {
-      "sha": "b43823a1f55c0fd5e6f8675faac36b33776468ae",
-      "shortSha": "b43823a",
-      "title": "🐛 terminology / AI translation guardrails (#1468)",
-      "author": "cyfung1031",
-      "date": "2026-06-02T15:30:02Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b43823a1f55c0fd5e6f8675faac36b33776468ae"
-    },
-    {
-      "sha": "502290287cbfffb26f3401b11bbbc74e4736c8c4",
-      "shortSha": "5022902",
-      "title": "🐛 fix connection cleanup (#1474)",
-      "author": "cyfung1031",
-      "date": "2026-06-01T03:08:11Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/502290287cbfffb26f3401b11bbbc74e4736c8c4"
     }
   ],
   "betaCommits": [
@@ -3501,7 +3501,10 @@
     "a14b8b9c9d29cfb602ee8ac589cb3a3d7d14017d",
     "b6e37ccb869005e90f2bf9eb550f7b5426a17a59",
     "56ec5d3fab90cef69884d70dc4ed16da9655072a",
-    "120039b91b0347d7aee5e24007b55c6cab876f8a"
+    "120039b91b0347d7aee5e24007b55c6cab876f8a",
+    "e436ff5f3714c7d0b28156d3fb1f2eb302c62ca3",
+    "1be6aa8ba2518a4ec5b33574713ddc5ac181d943",
+    "80854540dd1759e55ce79f541fcf582ba9c0a499"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
