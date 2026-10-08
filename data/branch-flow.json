@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T01:59:25.174Z",
+  "generatedAt": "2026-10-08T09:03:16.895Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,30 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "549992601ad35c80def52352c2c24f5a1d2edab7",
+      "shortSha": "5499926",
+      "title": "🔒 修复 pnpm audit 全部安全警告 (20260921) (#1760)",
+      "author": "cyfung1031",
+      "date": "2026-10-08T05:47:27Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/549992601ad35c80def52352c2c24f5a1d2edab7"
+    },
+    {
+      "sha": "7e48d5ec9bac2aeebb08db7c1baa63982ef0a004",
+      "shortSha": "7e48d5e",
+      "title": "🐛 页面不属于任何标签页时不再记入后台脚本列表 (#1783)",
+      "author": "wangyizhi",
+      "date": "2026-10-08T03:06:44Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/7e48d5ec9bac2aeebb08db7c1baa63982ef0a004"
+    },
+    {
+      "sha": "e586719dc6bc2eda1a4b10912d5410150ef7e477",
+      "shortSha": "e586719",
+      "title": "🐛 点击扩展更新通知时激活已自动打开的更新日志页 (#1769) (#1782)",
+      "author": "Zequn Yang",
+      "date": "2026-10-08T02:43:11Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/e586719dc6bc2eda1a4b10912d5410150ef7e477"
+    },
     {
       "sha": "80854540dd1759e55ce79f541fcf582ba9c0a499",
       "shortSha": "8085454",
@@ -1265,30 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-06-05T07:07:57Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/fdee1ceecc187cd14b1dd198fc9891792fc3f759"
-    },
-    {
-      "sha": "e24163613e735956359fcb2e8fa3ad78d6d870b1",
-      "shortSha": "e241636",
-      "title": "✅ 修复 GM API e2e 外部请求依赖 (#1489)",
-      "author": "cyfung1031",
-      "date": "2026-06-05T03:50:33Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/e24163613e735956359fcb2e8fa3ad78d6d870b1"
-    },
-    {
-      "sha": "2951bd66876d7e69cea942829dd4cede8a906155",
-      "shortSha": "2951bd6",
-      "title": "Merge branch 'release/v1.4' into release/v1.4-agent",
-      "author": "王一之",
-      "date": "2026-06-04T10:05:36Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/2951bd66876d7e69cea942829dd4cede8a906155"
-    },
-    {
-      "sha": "d9f57063d80c4baf97faba4d6f4fed9f7bd89164",
-      "shortSha": "d9f5706",
-      "title": "Merge branch 'main' into release/v1.4",
-      "author": "王一之",
-      "date": "2026-06-04T09:30:52Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/d9f57063d80c4baf97faba4d6f4fed9f7bd89164"
     }
   ],
   "betaCommits": [
@@ -3504,7 +3504,10 @@
     "120039b91b0347d7aee5e24007b55c6cab876f8a",
     "e436ff5f3714c7d0b28156d3fb1f2eb302c62ca3",
     "1be6aa8ba2518a4ec5b33574713ddc5ac181d943",
-    "80854540dd1759e55ce79f541fcf582ba9c0a499"
+    "80854540dd1759e55ce79f541fcf582ba9c0a499",
+    "e586719dc6bc2eda1a4b10912d5410150ef7e477",
+    "7e48d5ec9bac2aeebb08db7c1baa63982ef0a004",
+    "549992601ad35c80def52352c2c24f5a1d2edab7"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
