@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T02:13:30.549Z",
+  "generatedAt": "2026-10-09T09:12:29.253Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "d8c1d79d2044e7a5acf6f1fd9e06263cfe1b31f8",
+      "shortSha": "d8c1d79",
+      "title": "🐛 网页链接安装入口启用改名脚本识别，避免上游改名后重复安装 (#1785) (#1786)",
+      "author": "wangyizhi",
+      "date": "2026-10-09T07:03:55Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/d8c1d79d2044e7a5acf6f1fd9e06263cfe1b31f8"
+    },
+    {
+      "sha": "a2701691676d6a18f5ce9283373d3e82e59db48f",
+      "shortSha": "a270169",
+      "title": "✅ 加固消息与 pageLoad 回归护栏，精简 runtime guard (#1766)",
+      "author": "cyfung1031",
+      "date": "2026-10-09T07:02:45Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/a2701691676d6a18f5ce9283373d3e82e59db48f"
+    },
     {
       "sha": "549992601ad35c80def52352c2c24f5a1d2edab7",
       "shortSha": "5499926",
@@ -1273,22 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-06-08T12:04:47Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/a3dcafc9c59e1b3bd4f0e4c70e2202eb51243c0d"
-    },
-    {
-      "sha": "21944d7cc6e032acbf9d9e8c1df17eebb6dc0db2",
-      "shortSha": "21944d7",
-      "title": "✅ stabilize GM API CSP e2e",
-      "author": "王一之",
-      "date": "2026-06-05T07:27:24Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/21944d7cc6e032acbf9d9e8c1df17eebb6dc0db2"
-    },
-    {
-      "sha": "fdee1ceecc187cd14b1dd198fc9891792fc3f759",
-      "shortSha": "fdee1ce",
-      "title": "🐛 修复缺少站点访问权限时跨域请求异常的问题 (#1477)",
-      "author": "cyfung1031",
-      "date": "2026-06-05T07:07:57Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/fdee1ceecc187cd14b1dd198fc9891792fc3f759"
     }
   ],
   "betaCommits": [
@@ -3507,7 +3507,9 @@
     "80854540dd1759e55ce79f541fcf582ba9c0a499",
     "e586719dc6bc2eda1a4b10912d5410150ef7e477",
     "7e48d5ec9bac2aeebb08db7c1baa63982ef0a004",
-    "549992601ad35c80def52352c2c24f5a1d2edab7"
+    "549992601ad35c80def52352c2c24f5a1d2edab7",
+    "a2701691676d6a18f5ce9283373d3e82e59db48f",
+    "d8c1d79d2044e7a5acf6f1fd9e06263cfe1b31f8"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
