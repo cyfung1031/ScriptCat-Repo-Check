@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T01:15:19.254Z",
+  "generatedAt": "2026-10-14T06:13:35.481Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "615ed118b3f8687184f70b2e08a7627408a466fd",
+      "shortSha": "615ed11",
+      "title": "💄 批量更新页按当前站点分段，修正相似度显示，并优化窄屏与移动端布局 (#1788)",
+      "author": "wangyizhi",
+      "date": "2026-10-14T03:36:44Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/615ed118b3f8687184f70b2e08a7627408a466fd"
+    },
     {
       "sha": "d8c1d79d2044e7a5acf6f1fd9e06263cfe1b31f8",
       "shortSha": "d8c1d79",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-06-10T07:19:12Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/85b01b88e46a93ec47f07eee1ac8c05de03518a8"
-    },
-    {
-      "sha": "a3dcafc9c59e1b3bd4f0e4c70e2202eb51243c0d",
-      "shortSha": "a3dcafc",
-      "title": "update pnpm to 10.34.1 (#1493)",
-      "author": "cyfung1031",
-      "date": "2026-06-08T12:04:47Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/a3dcafc9c59e1b3bd4f0e4c70e2202eb51243c0d"
     }
   ],
   "betaCommits": [
@@ -3509,7 +3509,8 @@
     "7e48d5ec9bac2aeebb08db7c1baa63982ef0a004",
     "549992601ad35c80def52352c2c24f5a1d2edab7",
     "a2701691676d6a18f5ce9283373d3e82e59db48f",
-    "d8c1d79d2044e7a5acf6f1fd9e06263cfe1b31f8"
+    "d8c1d79d2044e7a5acf6f1fd9e06263cfe1b31f8",
+    "615ed118b3f8687184f70b2e08a7627408a466fd"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
