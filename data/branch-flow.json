@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T04:47:02.162Z",
+  "generatedAt": "2026-10-15T09:59:45.664Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "58309d5e7406f7f71a26b2e20a63fa3a4a8e1abc",
+      "shortSha": "58309d5",
+      "title": "🔖 release v1.5.0-beta.5",
+      "author": "王一之",
+      "date": "2026-10-15T09:30:03Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/58309d5e7406f7f71a26b2e20a63fa3a4a8e1abc"
+    },
     {
       "sha": "615ed118b3f8687184f70b2e08a7627408a466fd",
       "shortSha": "615ed11",
@@ -1281,14 +1289,6 @@
       "author": "Quang Do",
       "date": "2026-06-10T08:35:58Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/04fe8823a85d3078d02aa7e79df9735915393ce7"
-    },
-    {
-      "sha": "85b01b88e46a93ec47f07eee1ac8c05de03518a8",
-      "shortSha": "85b01b8",
-      "title": "🐛 Avoid White Background during initial load (#1498)",
-      "author": "cyfung1031",
-      "date": "2026-06-10T07:19:12Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/85b01b88e46a93ec47f07eee1ac8c05de03518a8"
     }
   ],
   "betaCommits": [
@@ -3510,7 +3510,8 @@
     "549992601ad35c80def52352c2c24f5a1d2edab7",
     "a2701691676d6a18f5ce9283373d3e82e59db48f",
     "d8c1d79d2044e7a5acf6f1fd9e06263cfe1b31f8",
-    "615ed118b3f8687184f70b2e08a7627408a466fd"
+    "615ed118b3f8687184f70b2e08a7627408a466fd",
+    "58309d5e7406f7f71a26b2e20a63fa3a4a8e1abc"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
