@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T13:51:08.451Z",
+  "generatedAt": "2026-10-21T18:41:00.720Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "c99b1efcf0e9b3d12129d6de3ad799385c896587",
+      "shortSha": "c99b1ef",
+      "title": "🐛 修复 popup 宽度塌缩成细条、页眉页脚被挤出可视区 (#1800) (#1801)",
+      "author": "wangyizhi",
+      "date": "2026-10-21T15:33:11Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/c99b1efcf0e9b3d12129d6de3ad799385c896587"
+    },
     {
       "sha": "72f95cd8d99688138e29f5edc7268d844993ca09",
       "shortSha": "72f95cd",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-06-11T13:35:59Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/0baf39cd5f556bb895cf0e4e3033bc536456d85a"
-    },
-    {
-      "sha": "9076794f41f7669938531d4f8b6eab89070259f9",
-      "shortSha": "9076794",
-      "title": "♻️ 脚本资源更新逻辑重构 ( updateResource 相关代码 ) 与 并发控制优化 (资源更新同步机制) 重构 (#1193)",
-      "author": "cyfung1031",
-      "date": "2026-06-11T07:07:18Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/9076794f41f7669938531d4f8b6eab89070259f9"
     }
   ],
   "betaCommits": [
@@ -3516,7 +3516,8 @@
     "ae4dd93cecb5f913e7508d4291657b96c13fec2c",
     "035b22e462986dd481ee35684dfeb295851a8cff",
     "be7d8f52f2106720e6d6f0d3d132ecb463ec6105",
-    "72f95cd8d99688138e29f5edc7268d844993ca09"
+    "72f95cd8d99688138e29f5edc7268d844993ca09",
+    "c99b1efcf0e9b3d12129d6de3ad799385c896587"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
