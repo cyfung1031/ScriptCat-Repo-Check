@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T01:38:13.459Z",
+  "generatedAt": "2026-10-21T07:43:08.582Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "ae4dd93cecb5f913e7508d4291657b96c13fec2c",
+      "shortSha": "ae4dd93",
+      "title": "🐛 修复 native GM_download 下载 data: URI 时误弹跨域权限确认 (#1635) (#1797)",
+      "author": "wangyizhi",
+      "date": "2026-10-21T02:10:45Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/ae4dd93cecb5f913e7508d4291657b96c13fec2c"
+    },
+    {
+      "sha": "3f6b52c57f3f976d669a32a89aa1772735891a02",
+      "shortSha": "3f6b52c",
+      "title": "✨ GM_info 新增 userLanguage，暴露脚本猫当前界面语言 (#1018) (#1799)",
+      "author": "wangyizhi",
+      "date": "2026-10-21T02:08:45Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3f6b52c57f3f976d669a32a89aa1772735891a02"
+    },
     {
       "sha": "58309d5e7406f7f71a26b2e20a63fa3a4a8e1abc",
       "shortSha": "58309d5",
@@ -1273,22 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-06-10T09:37:05Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/809bf89d47ced7c039ab840afe3a440d09bd9dee"
-    },
-    {
-      "sha": "e1fa7cae12c7eee12c59a5be86d9caff4dbe6623",
-      "shortSha": "e1fa7ca",
-      "title": "♻️ 使用 JSZipp 替换 jszip 处理 ZIP 文件 (#1479)",
-      "author": "cyfung1031",
-      "date": "2026-06-10T09:06:17Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/e1fa7cae12c7eee12c59a5be86d9caff4dbe6623"
-    },
-    {
-      "sha": "04fe8823a85d3078d02aa7e79df9735915393ce7",
-      "shortSha": "04fe882",
-      "title": "Security: Prototype pollution via untrusted YAML user-config keys (#1494)",
-      "author": "Quang Do",
-      "date": "2026-06-10T08:35:58Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/04fe8823a85d3078d02aa7e79df9735915393ce7"
     }
   ],
   "betaCommits": [
@@ -3511,7 +3511,9 @@
     "a2701691676d6a18f5ce9283373d3e82e59db48f",
     "d8c1d79d2044e7a5acf6f1fd9e06263cfe1b31f8",
     "615ed118b3f8687184f70b2e08a7627408a466fd",
-    "58309d5e7406f7f71a26b2e20a63fa3a4a8e1abc"
+    "58309d5e7406f7f71a26b2e20a63fa3a4a8e1abc",
+    "3f6b52c57f3f976d669a32a89aa1772735891a02",
+    "ae4dd93cecb5f913e7508d4291657b96c13fec2c"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
