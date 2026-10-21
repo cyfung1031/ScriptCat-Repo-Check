@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T07:43:08.582Z",
+  "generatedAt": "2026-10-21T13:51:08.451Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,30 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "72f95cd8d99688138e29f5edc7268d844993ca09",
+      "shortSha": "72f95cd",
+      "title": "✨ 支持 @exclude-match 元数据 (#1798)",
+      "author": "wangyizhi",
+      "date": "2026-10-21T13:48:00Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/72f95cd8d99688138e29f5edc7268d844993ca09"
+    },
+    {
+      "sha": "be7d8f52f2106720e6d6f0d3d132ecb463ec6105",
+      "shortSha": "be7d8f5",
+      "title": "🐛 修复标签页被丢弃后 GM_getTab 读不到 GM_saveTab 数据 (#1791) (#1796)",
+      "author": "wangyizhi",
+      "date": "2026-10-21T13:46:22Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/be7d8f52f2106720e6d6f0d3d132ecb463ec6105"
+    },
+    {
+      "sha": "035b22e462986dd481ee35684dfeb295851a8cff",
+      "shortSha": "035b22e",
+      "title": "🐛 修复脚本设置页更新 URL 回显 meta.js 导致下载地址被改写 (#1793) (#1795)",
+      "author": "wangyizhi",
+      "date": "2026-10-21T13:45:59Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/035b22e462986dd481ee35684dfeb295851a8cff"
+    },
     {
       "sha": "ae4dd93cecb5f913e7508d4291657b96c13fec2c",
       "shortSha": "ae4dd93",
@@ -1265,30 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-06-11T07:07:18Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/9076794f41f7669938531d4f8b6eab89070259f9"
-    },
-    {
-      "sha": "3dead664c7d987927b765167c9c244a048d6c8a4",
-      "shortSha": "3dead66",
-      "title": "♻️ 移除未使用 jszip 依赖",
-      "author": "王一之",
-      "date": "2026-06-10T11:09:59Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/3dead664c7d987927b765167c9c244a048d6c8a4"
-    },
-    {
-      "sha": "46a05c5d2cd4e24ae3443067ab37da21602f4ecd",
-      "shortSha": "46a05c5",
-      "title": "🔀 Merge branch 'main' into release/v1.4",
-      "author": "王一之",
-      "date": "2026-06-10T11:06:23Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/46a05c5d2cd4e24ae3443067ab37da21602f4ecd"
-    },
-    {
-      "sha": "809bf89d47ced7c039ab840afe3a440d09bd9dee",
-      "shortSha": "809bf89",
-      "title": "✨ 优化 Monaco quick fix 与用户脚本元数据提示 (#1461)",
-      "author": "cyfung1031",
-      "date": "2026-06-10T09:37:05Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/809bf89d47ced7c039ab840afe3a440d09bd9dee"
     }
   ],
   "betaCommits": [
@@ -3513,7 +3513,10 @@
     "615ed118b3f8687184f70b2e08a7627408a466fd",
     "58309d5e7406f7f71a26b2e20a63fa3a4a8e1abc",
     "3f6b52c57f3f976d669a32a89aa1772735891a02",
-    "ae4dd93cecb5f913e7508d4291657b96c13fec2c"
+    "ae4dd93cecb5f913e7508d4291657b96c13fec2c",
+    "035b22e462986dd481ee35684dfeb295851a8cff",
+    "be7d8f52f2106720e6d6f0d3d132ecb463ec6105",
+    "72f95cd8d99688138e29f5edc7268d844993ca09"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
