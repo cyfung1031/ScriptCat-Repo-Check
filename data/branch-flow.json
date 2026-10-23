@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T01:33:56.917Z",
+  "generatedAt": "2026-10-23T07:36:09.457Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "9d639dfc50970415858d29b8d3e53f87261ca118",
+      "shortSha": "9d639df",
+      "title": "🔖 release v1.5.0",
+      "author": "王一之",
+      "date": "2026-10-23T03:30:58Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/9d639dfc50970415858d29b8d3e53f87261ca118"
+    },
     {
       "sha": "9d8e8ca55c45a0da613f4cbccb90f4514f67d495",
       "shortSha": "9d8e8ca",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-06-12T02:43:53Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/547816895ad162b94d731a69b8cbaee1f762a10a"
-    },
-    {
-      "sha": "313e464e464928deec6029bcb5860195fb88fd46",
-      "shortSha": "313e464",
-      "title": "♻️ restore resource cache compatibility",
-      "author": "王一之",
-      "date": "2026-06-11T14:33:15Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/313e464e464928deec6029bcb5860195fb88fd46"
     }
   ],
   "betaCommits": [
@@ -3518,7 +3518,8 @@
     "be7d8f52f2106720e6d6f0d3d132ecb463ec6105",
     "72f95cd8d99688138e29f5edc7268d844993ca09",
     "c99b1efcf0e9b3d12129d6de3ad799385c896587",
-    "9d8e8ca55c45a0da613f4cbccb90f4514f67d495"
+    "9d8e8ca55c45a0da613f4cbccb90f4514f67d495",
+    "9d639dfc50970415858d29b8d3e53f87261ca118"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
