@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T23:39:04.643Z",
+  "generatedAt": "2026-11-02T06:15:02.068Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,38 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "79f2a99fda7247348a13b07f82d791f932c4ded5",
+      "shortSha": "79f2a99",
+      "title": "💄 安装页桌面端主操作移入身份卡，滚出后吸底；本会话允许收进下拉 (#1817)",
+      "author": "wangyizhi",
+      "date": "2026-11-02T05:46:09Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/79f2a99fda7247348a13b07f82d791f932c4ded5"
+    },
+    {
+      "sha": "e88d0eb65e5e9bd00e973e5b37df4e776de074ff",
+      "shortSha": "e88d0eb",
+      "title": "⬆️ 升级 @playwright/test 到 1.64.1，支持 ubuntu 26.04 的 CI runner (#1815)",
+      "author": "wangyizhi",
+      "date": "2026-11-02T03:47:59Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/e88d0eb65e5e9bd00e973e5b37df4e776de074ff"
+    },
+    {
+      "sha": "eecd34a2fc2b9a6a5505da824b38f3ed89ca3b44",
+      "shortSha": "eecd34a",
+      "title": "✨ 日志页支持复制日志行与导出日志 (#1813)",
+      "author": "wangyizhi",
+      "date": "2026-11-02T02:02:08Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/eecd34a2fc2b9a6a5505da824b38f3ed89ca3b44"
+    },
+    {
+      "sha": "1b1ab6e1384e7942f998d04622910e7e39b9e693",
+      "shortSha": "1b1ab6e",
+      "title": "🐛 修复 0.16 升级到 1.x 时 IndexedDB 数据不迁移导致脚本丢失 (#1804)",
+      "author": "wangyizhi",
+      "date": "2026-11-02T02:01:54Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/1b1ab6e1384e7942f998d04622910e7e39b9e693"
+    },
     {
       "sha": "9d639dfc50970415858d29b8d3e53f87261ca118",
       "shortSha": "9d639df",
@@ -1257,38 +1289,6 @@
       "author": "王一之",
       "date": "2026-06-13T14:20:10Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/9f6faf1b1a10ed52eb3138c79654abd9f6eeb817"
-    },
-    {
-      "sha": "13c5a69d640695d7b90b3c0ec0d4ed13b3beec4f",
-      "shortSha": "13c5a69",
-      "title": "Merge branch 'main' into release/v1.4",
-      "author": "王一之",
-      "date": "2026-06-13T14:19:58Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/13c5a69d640695d7b90b3c0ec0d4ed13b3beec4f"
-    },
-    {
-      "sha": "fa024d06c35a4e74e5e27785ba164f4fea60b1bf",
-      "shortSha": "fa024d0",
-      "title": "🐛 修复 Edge Android 移动端 popup 适配问题 (#686) (#1507)",
-      "author": "wangyizhi",
-      "date": "2026-06-13T14:19:31Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/fa024d06c35a4e74e5e27785ba164f4fea60b1bf"
-    },
-    {
-      "sha": "238062ab1d16a013300b038e2b279164cb7b25c4",
-      "shortSha": "238062a",
-      "title": "✅ 新增 v1.4 关键改动的 E2E 覆盖",
-      "author": "王一之",
-      "date": "2026-06-12T13:03:12Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/238062ab1d16a013300b038e2b279164cb7b25c4"
-    },
-    {
-      "sha": "547816895ad162b94d731a69b8cbaee1f762a10a",
-      "shortSha": "5478168",
-      "title": "📄 update readme.md",
-      "author": "王一之",
-      "date": "2026-06-12T02:43:53Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/547816895ad162b94d731a69b8cbaee1f762a10a"
     }
   ],
   "betaCommits": [
@@ -3519,7 +3519,11 @@
     "72f95cd8d99688138e29f5edc7268d844993ca09",
     "c99b1efcf0e9b3d12129d6de3ad799385c896587",
     "9d8e8ca55c45a0da613f4cbccb90f4514f67d495",
-    "9d639dfc50970415858d29b8d3e53f87261ca118"
+    "9d639dfc50970415858d29b8d3e53f87261ca118",
+    "1b1ab6e1384e7942f998d04622910e7e39b9e693",
+    "eecd34a2fc2b9a6a5505da824b38f3ed89ca3b44",
+    "e88d0eb65e5e9bd00e973e5b37df4e776de074ff",
+    "79f2a99fda7247348a13b07f82d791f932c4ded5"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
