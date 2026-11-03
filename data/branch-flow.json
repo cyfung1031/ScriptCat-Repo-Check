@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T23:36:58.957Z",
+  "generatedAt": "2026-11-03T06:53:53.275Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "acec65cbfb6211d46d860196c5b381ea8591f2a1",
+      "shortSha": "acec65c",
+      "title": "🐛 外部接入：隐身（split）进程不再连接 sctl，避免与普通进程每 2 秒互相顶替 (#1819)",
+      "author": "wangyizhi",
+      "date": "2026-11-03T03:56:23Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/acec65cbfb6211d46d860196c5b381ea8591f2a1"
+    },
+    {
+      "sha": "d993ae5054b7f413e7f3e3693ae68c9916491357",
+      "shortSha": "d993ae5",
+      "title": "🔧 同步 sctl 协议：ScriptCat 多实例握手上下文与 SCRIPTCAT_* 错误码 (#1820)",
+      "author": "wangyizhi",
+      "date": "2026-11-03T03:55:45Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/d993ae5054b7f413e7f3e3693ae68c9916491357"
+    },
     {
       "sha": "79f2a99fda7247348a13b07f82d791f932c4ded5",
       "shortSha": "79f2a99",
@@ -1273,22 +1289,6 @@
       "author": "王一之",
       "date": "2026-06-24T02:47:21Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/6ab648c1cfffbc20114bcc8571c7c31ce8bb52bd"
-    },
-    {
-      "sha": "68c3717ac5b6f68fcc03a08785eab268b7ea5454",
-      "shortSha": "68c3717",
-      "title": "✅ 修复 backup-zip E2E 因开发者模式引导页竞态导致的偶发失败",
-      "author": "王一之",
-      "date": "2026-06-13T14:39:30Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/68c3717ac5b6f68fcc03a08785eab268b7ea5454"
-    },
-    {
-      "sha": "9f6faf1b1a10ed52eb3138c79654abd9f6eeb817",
-      "shortSha": "9f6faf1",
-      "title": "Merge branch 'release/v1.4' into release/v1.4-agent",
-      "author": "王一之",
-      "date": "2026-06-13T14:20:10Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/9f6faf1b1a10ed52eb3138c79654abd9f6eeb817"
     }
   ],
   "betaCommits": [
@@ -3523,7 +3523,9 @@
     "1b1ab6e1384e7942f998d04622910e7e39b9e693",
     "eecd34a2fc2b9a6a5505da824b38f3ed89ca3b44",
     "e88d0eb65e5e9bd00e973e5b37df4e776de074ff",
-    "79f2a99fda7247348a13b07f82d791f932c4ded5"
+    "79f2a99fda7247348a13b07f82d791f932c4ded5",
+    "d993ae5054b7f413e7f3e3693ae68c9916491357",
+    "acec65cbfb6211d46d860196c5b381ea8591f2a1"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
