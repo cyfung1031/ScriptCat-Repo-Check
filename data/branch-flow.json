@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T06:53:53.275Z",
+  "generatedAt": "2026-11-03T15:13:59.586Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,22 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "6c0459b8dd425add7931f56190ef8c94ed81ba02",
+      "shortSha": "6c0459b",
+      "title": "🐛 修复 360 X 从网页新开标签安装脚本时安装页加载失败 #1816 (#1818)",
+      "author": "wangyizhi",
+      "date": "2026-11-03T09:12:40Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/6c0459b8dd425add7931f56190ef8c94ed81ba02"
+    },
+    {
+      "sha": "1e5d41d68e5791eaaceaa1d4358b16035ad7ef83",
+      "shortSha": "1e5d41d",
+      "title": "✨ 外部接入：以独立实例身份连接 sctl，被拒绝时停止重连并说明原因，支持命名与改名 (#1821)",
+      "author": "wangyizhi",
+      "date": "2026-11-03T09:02:35Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/1e5d41d68e5791eaaceaa1d4358b16035ad7ef83"
+    },
     {
       "sha": "acec65cbfb6211d46d860196c5b381ea8591f2a1",
       "shortSha": "acec65c",
@@ -1273,22 +1289,6 @@
       "author": "wangyizhi",
       "date": "2026-06-26T02:50:30Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/fd222ac8dfb14dfcea426dfc1fe593c0b24165ee"
-    },
-    {
-      "sha": "b114a196561ac1ea5f0591bcd986ffab3d96db6b",
-      "shortSha": "b114a19",
-      "title": "Merge branch 'release/v1.4-agent'",
-      "author": "王一之",
-      "date": "2026-06-24T06:36:01Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b114a196561ac1ea5f0591bcd986ffab3d96db6b"
-    },
-    {
-      "sha": "6ab648c1cfffbc20114bcc8571c7c31ce8bb52bd",
-      "shortSha": "6ab648c",
-      "title": "📄 update readme.md",
-      "author": "王一之",
-      "date": "2026-06-24T02:47:21Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/6ab648c1cfffbc20114bcc8571c7c31ce8bb52bd"
     }
   ],
   "betaCommits": [
@@ -3525,7 +3525,9 @@
     "e88d0eb65e5e9bd00e973e5b37df4e776de074ff",
     "79f2a99fda7247348a13b07f82d791f932c4ded5",
     "d993ae5054b7f413e7f3e3693ae68c9916491357",
-    "acec65cbfb6211d46d860196c5b381ea8591f2a1"
+    "acec65cbfb6211d46d860196c5b381ea8591f2a1",
+    "1e5d41d68e5791eaaceaa1d4358b16035ad7ef83",
+    "6c0459b8dd425add7931f56190ef8c94ed81ba02"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
