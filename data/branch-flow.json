@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T06:54:39.322Z",
+  "generatedAt": "2026-11-05T15:31:34.779Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "73e2e825bae6e00b4238411c6d0079236055897b",
+      "shortSha": "73e2e82",
+      "title": "📝 scriptcat-userscript Skill 改为通过 npx skills 安装，更新 Agent Skill 仓库链接 (#1827)",
+      "author": "wangyizhi",
+      "date": "2026-11-05T08:33:04Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/73e2e825bae6e00b4238411c6d0079236055897b"
+    },
     {
       "sha": "4c3c1f10b6de0c0fb2a057705e1d846cf01d30c9",
       "shortSha": "4c3c1f1",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-07-02T02:29:54Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/4da711257322ee577bf93bdda30511e7a521c525"
-    },
-    {
-      "sha": "dd7bd25f11bfa8331764e12cc293bab2a8ee07eb",
-      "shortSha": "dd7bd25",
-      "title": "📄 update readme.md/document",
-      "author": "王一之",
-      "date": "2026-07-02T02:10:33Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/dd7bd25f11bfa8331764e12cc293bab2a8ee07eb"
     }
   ],
   "betaCommits": [
@@ -3529,7 +3529,8 @@
     "1e5d41d68e5791eaaceaa1d4358b16035ad7ef83",
     "6c0459b8dd425add7931f56190ef8c94ed81ba02",
     "e829ff75108b14c06bc4841f460fe5b9588545f2",
-    "4c3c1f10b6de0c0fb2a057705e1d846cf01d30c9"
+    "4c3c1f10b6de0c0fb2a057705e1d846cf01d30c9",
+    "73e2e825bae6e00b4238411c6d0079236055897b"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
