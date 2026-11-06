@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T02:30:55.363Z",
+  "generatedAt": "2026-11-06T10:59:18.404Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "4bc187aaeababf6daa38bb66c67047147464484d",
+      "shortSha": "4bc187a",
+      "title": "🐛 修复 popup 展开分组再收起后底部留下大块空白 (#1829)",
+      "author": "wangyizhi",
+      "date": "2026-11-06T02:50:32Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/4bc187aaeababf6daa38bb66c67047147464484d"
+    },
     {
       "sha": "73e2e825bae6e00b4238411c6d0079236055897b",
       "shortSha": "73e2e82",
@@ -1281,14 +1289,6 @@
       "author": "wangyizhi",
       "date": "2026-07-03T02:02:41Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/0206e4a82169b46eb9a127a51b6cbff257b5a35b"
-    },
-    {
-      "sha": "4da711257322ee577bf93bdda30511e7a521c525",
-      "shortSha": "4da7112",
-      "title": "📝 优化 Issue 模板并添加 YAML 校验 (#1524)",
-      "author": "cyfung1031",
-      "date": "2026-07-02T02:29:54Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/4da711257322ee577bf93bdda30511e7a521c525"
     }
   ],
   "betaCommits": [
@@ -3530,7 +3530,8 @@
     "6c0459b8dd425add7931f56190ef8c94ed81ba02",
     "e829ff75108b14c06bc4841f460fe5b9588545f2",
     "4c3c1f10b6de0c0fb2a057705e1d846cf01d30c9",
-    "73e2e825bae6e00b4238411c6d0079236055897b"
+    "73e2e825bae6e00b4238411c6d0079236055897b",
+    "4bc187aaeababf6daa38bb66c67047147464484d"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
