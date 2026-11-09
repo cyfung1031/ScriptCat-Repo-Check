@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T00:57:10.789Z",
+  "generatedAt": "2026-11-09T08:01:35.211Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,30 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "4b5a584ccbef14590b0a4441a252779c05dd337b",
+      "shortSha": "4b5a584",
+      "title": "🐛 修复 popup 不显示仅匹配 iframe 的未启用脚本 (#1808) (#1837)",
+      "author": "wangyizhi",
+      "date": "2026-11-09T03:32:59Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/4b5a584ccbef14590b0a4441a252779c05dd337b"
+    },
+    {
+      "sha": "8a1b6d12f93e2e31619137ebf26dc3abfa7a7d6c",
+      "shortSha": "8a1b6d1",
+      "title": "✨ 兼容 @support 元数据，脚本列表新增独立的「反馈问题」入口 (#1830)",
+      "author": "wangyizhi",
+      "date": "2026-11-09T02:08:03Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/8a1b6d12f93e2e31619137ebf26dc3abfa7a7d6c"
+    },
+    {
+      "sha": "4fc101aa28e71b425995461e3721fc2dbe022930",
+      "shortSha": "4fc101a",
+      "title": "💄 优化选项页 UI/UX：搜索框清除按钮、toast 样式、空状态、回收站删除免确认等 (#1831)",
+      "author": "wangyizhi",
+      "date": "2026-11-09T01:49:45Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/4fc101aa28e71b425995461e3721fc2dbe022930"
+    },
     {
       "sha": "4bc187aaeababf6daa38bb66c67047147464484d",
       "shortSha": "4bc187a",
@@ -1265,30 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-07-05T03:25:57Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/97ab6aa2156388c9cb1e1cbbaed10e8bbf662a1b"
-    },
-    {
-      "sha": "ab2fc51c7371683e9ccc3d76df2e0f96d7e18a76",
-      "shortSha": "ab2fc51",
-      "title": "✨ 扩展消息启用 structured_clone 序列化（Chromium 148+） (#1534)",
-      "author": "cyfung1031",
-      "date": "2026-07-05T03:07:39Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/ab2fc51c7371683e9ccc3d76df2e0f96d7e18a76"
-    },
-    {
-      "sha": "b20489efdcc2767fb428932732a83a0dce187b78",
-      "shortSha": "b20489e",
-      "title": "🌐 Turkish Language",
-      "author": "azizaktas",
-      "date": "2026-07-03T02:25:38Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b20489efdcc2767fb428932732a83a0dce187b78"
-    },
-    {
-      "sha": "0206e4a82169b46eb9a127a51b6cbff257b5a35b",
-      "shortSha": "0206e4a",
-      "title": "♻️ 新 UI 重写:shadcn/ui + Tailwind v4 + React 19 全面重构表现层 (#1514)",
-      "author": "wangyizhi",
-      "date": "2026-07-03T02:02:41Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/0206e4a82169b46eb9a127a51b6cbff257b5a35b"
     }
   ],
   "betaCommits": [
@@ -3531,7 +3531,10 @@
     "e829ff75108b14c06bc4841f460fe5b9588545f2",
     "4c3c1f10b6de0c0fb2a057705e1d846cf01d30c9",
     "73e2e825bae6e00b4238411c6d0079236055897b",
-    "4bc187aaeababf6daa38bb66c67047147464484d"
+    "4bc187aaeababf6daa38bb66c67047147464484d",
+    "4fc101aa28e71b425995461e3721fc2dbe022930",
+    "8a1b6d12f93e2e31619137ebf26dc3abfa7a7d6c",
+    "4b5a584ccbef14590b0a4441a252779c05dd337b"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
