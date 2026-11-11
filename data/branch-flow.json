@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T23:26:52.217Z",
+  "generatedAt": "2026-11-11T06:33:37.471Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "5f44a7e970b6d3cd2fd647ff2e0a6c0d4b56a720",
+      "shortSha": "5f44a7e",
+      "title": "🐛 修复 popup 通知读过后红点又重新出现 (#1853)",
+      "author": "wangyizhi",
+      "date": "2026-11-11T05:58:09Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/5f44a7e970b6d3cd2fd647ff2e0a6c0d4b56a720"
+    },
     {
       "sha": "598cab8e78f113c4e5fb7a6a8b289bc1ef9947b6",
       "shortSha": "598cab8",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-07-05T03:27:46Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/2954d397a8908136fa2f8f2edc234ddb772e1097"
-    },
-    {
-      "sha": "da498632f5d32a9a082f1c6c761962cae49af4bc",
-      "shortSha": "da49863",
-      "title": "⚡️ 优化 TSX 单元测试执行性能 (#1532)",
-      "author": "cyfung1031",
-      "date": "2026-07-05T03:26:59Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/da498632f5d32a9a082f1c6c761962cae49af4bc"
     }
   ],
   "betaCommits": [
@@ -3535,7 +3535,8 @@
     "4fc101aa28e71b425995461e3721fc2dbe022930",
     "8a1b6d12f93e2e31619137ebf26dc3abfa7a7d6c",
     "4b5a584ccbef14590b0a4441a252779c05dd337b",
-    "598cab8e78f113c4e5fb7a6a8b289bc1ef9947b6"
+    "598cab8e78f113c4e5fb7a6a8b289bc1ef9947b6",
+    "5f44a7e970b6d3cd2fd647ff2e0a6c0d4b56a720"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
