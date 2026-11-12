@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T03:50:35.006Z",
+  "generatedAt": "2026-11-12T12:48:26.103Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,46 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "a4ac67ddf764cce91010118db3915e7ad3481cb8",
+      "shortSha": "a4ac67d",
+      "title": "💄 优化更新页权限变化的展示，修复安装页底部回弹空白 (#1847)",
+      "author": "wangyizhi",
+      "date": "2026-11-12T09:23:22Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/a4ac67ddf764cce91010118db3915e7ad3481cb8"
+    },
+    {
+      "sha": "fd740e0d8b64e3a188790f0cb6225ef07d08902f",
+      "shortSha": "fd740e0",
+      "title": "💄 优化安装页、日志页、批量更新等 8 处窄屏布局与提示文案 (#1844)",
+      "author": "wangyizhi",
+      "date": "2026-11-12T08:45:26Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/fd740e0d8b64e3a188790f0cb6225ef07d08902f"
+    },
+    {
+      "sha": "de91558af738f2dfe6fcd821ce390b9089b2cbb9",
+      "shortSha": "de91558",
+      "title": "🐛 修复 Firefox 下筛选菜单点不开，批量操作栏补充可点击观感与检查更新反馈 (#1839) (#1843)",
+      "author": "wangyizhi",
+      "date": "2026-11-12T08:45:06Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/de91558af738f2dfe6fcd821ce390b9089b2cbb9"
+    },
+    {
+      "sha": "919ea1ff6bd7c2ff3952194853bb3631cfa33092",
+      "shortSha": "919ea1f",
+      "title": "🐛 修复推算的 meta.js 不存在时检查更新误报已是最新 (#1840) (#1845)",
+      "author": "wangyizhi",
+      "date": "2026-11-12T08:44:31Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/919ea1ff6bd7c2ff3952194853bb3631cfa33092"
+    },
+    {
+      "sha": "0037a1ca54fadc49c5c03f448739312a7de66c69",
+      "shortSha": "0037a1c",
+      "title": "✨ 链接导入支持脚本站与 GitHub / Gist 页面链接自动转换为安装链接 (#1851)",
+      "author": "wangyizhi",
+      "date": "2026-11-12T07:55:46Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/0037a1ca54fadc49c5c03f448739312a7de66c69"
+    },
     {
       "sha": "5f44a7e970b6d3cd2fd647ff2e0a6c0d4b56a720",
       "shortSha": "5f44a7e",
@@ -1249,46 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-07-08T02:59:50Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/42bf5183c2b94e66ee3a63e417dab37acd9a9302"
-    },
-    {
-      "sha": "3439021996e363698f7a0d70b2a742e18a29d27e",
-      "shortSha": "3439021",
-      "title": "📝 重构文档，大文档拆分子目录 + 渐进式加载 (#1537)",
-      "author": "wangyizhi",
-      "date": "2026-07-08T02:58:07Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/3439021996e363698f7a0d70b2a742e18a29d27e"
-    },
-    {
-      "sha": "62759840dec034d4596f05acc4fd6229d83f5b79",
-      "shortSha": "6275984",
-      "title": "✨ 为本地备份添加手动下载链接 (#1543)",
-      "author": "cyfung1031",
-      "date": "2026-07-06T07:42:13Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/62759840dec034d4596f05acc4fd6229d83f5b79"
-    },
-    {
-      "sha": "5f0ecb05546ff1e9b6f6aa3ac1dbef539bdc1860",
-      "shortSha": "5f0ecb0",
-      "title": "📄 更新翻译术语文档并补充土耳其语规范 (#1536)",
-      "author": "cyfung1031",
-      "date": "2026-07-06T06:45:41Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/5f0ecb05546ff1e9b6f6aa3ac1dbef539bdc1860"
-    },
-    {
-      "sha": "d7b3687433dbde225fd7343fd7fe6584707e6612",
-      "shortSha": "d7b3687",
-      "title": "✨ 编辑器标签栏「＋」支持选择新建脚本类型 (#1544)",
-      "author": "cyfung1031",
-      "date": "2026-07-06T06:20:30Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/d7b3687433dbde225fd7343fd7fe6584707e6612"
-    },
-    {
-      "sha": "2954d397a8908136fa2f8f2edc234ddb772e1097",
-      "shortSha": "2954d39",
-      "title": "♻️ 调整 `eslint-plugin-userscripts` 规则 (#1510)",
-      "author": "cyfung1031",
-      "date": "2026-07-05T03:27:46Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/2954d397a8908136fa2f8f2edc234ddb772e1097"
     }
   ],
   "betaCommits": [
@@ -3536,7 +3536,12 @@
     "8a1b6d12f93e2e31619137ebf26dc3abfa7a7d6c",
     "4b5a584ccbef14590b0a4441a252779c05dd337b",
     "598cab8e78f113c4e5fb7a6a8b289bc1ef9947b6",
-    "5f44a7e970b6d3cd2fd647ff2e0a6c0d4b56a720"
+    "5f44a7e970b6d3cd2fd647ff2e0a6c0d4b56a720",
+    "0037a1ca54fadc49c5c03f448739312a7de66c69",
+    "919ea1ff6bd7c2ff3952194853bb3631cfa33092",
+    "de91558af738f2dfe6fcd821ce390b9089b2cbb9",
+    "fd740e0d8b64e3a188790f0cb6225ef07d08902f",
+    "a4ac67ddf764cce91010118db3915e7ad3481cb8"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
