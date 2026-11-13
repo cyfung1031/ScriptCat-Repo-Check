@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T01:52:26.195Z",
+  "generatedAt": "2026-11-13T09:36:49.501Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "3a5841256c6144034a2798d153712a7da664ba63",
+      "shortSha": "3a58412",
+      "title": "🐛 修复 Firefox 上 GM_xmlhttpRequest 请求 http 地址直接 onerror (#1855)",
+      "author": "wangyizhi",
+      "date": "2026-11-13T02:52:15Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/3a5841256c6144034a2798d153712a7da664ba63"
+    },
     {
       "sha": "a4ac67ddf764cce91010118db3915e7ad3481cb8",
       "shortSha": "a4ac67d",
@@ -1281,14 +1289,6 @@
       "author": "cyfung1031",
       "date": "2026-07-08T03:05:03Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/58e75e9bbe11834f677a5a2a5e9e05c6edf1e4cf"
-    },
-    {
-      "sha": "42bf5183c2b94e66ee3a63e417dab37acd9a9302",
-      "shortSha": "42bf518",
-      "title": "🐛 replace unavailable crontab demo API (#1542)",
-      "author": "cyfung1031",
-      "date": "2026-07-08T02:59:50Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/42bf5183c2b94e66ee3a63e417dab37acd9a9302"
     }
   ],
   "betaCommits": [
@@ -3541,7 +3541,8 @@
     "919ea1ff6bd7c2ff3952194853bb3631cfa33092",
     "de91558af738f2dfe6fcd821ce390b9089b2cbb9",
     "fd740e0d8b64e3a188790f0cb6225ef07d08902f",
-    "a4ac67ddf764cce91010118db3915e7ad3481cb8"
+    "a4ac67ddf764cce91010118db3915e7ad3481cb8",
+    "3a5841256c6144034a2798d153712a7da664ba63"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
