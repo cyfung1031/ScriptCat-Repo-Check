@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T23:37:26.465Z",
+  "generatedAt": "2026-11-14T06:32:42.593Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "6ea7a89b3175d84be9ba6d4086b04b675a3cd2fb",
+      "shortSha": "6ea7a89",
+      "title": "🐛 修复 Firefox popup 宽度只有 304px (#1849) (#1850)",
+      "author": "Potato",
+      "date": "2026-11-14T02:54:21Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/6ea7a89b3175d84be9ba6d4086b04b675a3cd2fb"
+    },
     {
       "sha": "3a5841256c6144034a2798d153712a7da664ba63",
       "shortSha": "3a58412",
@@ -1281,14 +1289,6 @@
       "author": "DudeAint",
       "date": "2026-07-08T03:40:27Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/ca6bd5984809aed8d0369bf763b4a00902782e39"
-    },
-    {
-      "sha": "58e75e9bbe11834f677a5a2a5e9e05c6edf1e4cf",
-      "shortSha": "58e75e9",
-      "title": "⚡️ 优化脚本加载缓存并修复 Popup 菜单残留 (#1511)",
-      "author": "cyfung1031",
-      "date": "2026-07-08T03:05:03Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/58e75e9bbe11834f677a5a2a5e9e05c6edf1e4cf"
     }
   ],
   "betaCommits": [
@@ -3542,7 +3542,8 @@
     "de91558af738f2dfe6fcd821ce390b9089b2cbb9",
     "fd740e0d8b64e3a188790f0cb6225ef07d08902f",
     "a4ac67ddf764cce91010118db3915e7ad3481cb8",
-    "3a5841256c6144034a2798d153712a7da664ba63"
+    "3a5841256c6144034a2798d153712a7da664ba63",
+    "6ea7a89b3175d84be9ba6d4086b04b675a3cd2fb"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
