@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T22:53:17.451Z",
+  "generatedAt": "2026-11-16T02:47:21.730Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "c8e6811113de1ff714f033d2ea5cc6228f105d0d",
+      "shortSha": "c8e6811",
+      "title": "🐛 修复导入页超长版本号溢出 (#1859)",
+      "author": "wangyizhi",
+      "date": "2026-11-16T02:04:19Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/c8e6811113de1ff714f033d2ea5cc6228f105d0d"
+    },
     {
       "sha": "6ea7a89b3175d84be9ba6d4086b04b675a3cd2fb",
       "shortSha": "6ea7a89",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-07-08T06:54:38Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/01d0457fb4ec8e2a1bf0c1cceb7d0a896803a90f"
-    },
-    {
-      "sha": "ca6bd5984809aed8d0369bf763b4a00902782e39",
-      "shortSha": "ca6bd59",
-      "title": "🐛 Make native GM_download honor @connect, like GM_xmlhttpRequest (#1506)",
-      "author": "DudeAint",
-      "date": "2026-07-08T03:40:27Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/ca6bd5984809aed8d0369bf763b4a00902782e39"
     }
   ],
   "betaCommits": [
@@ -3543,7 +3543,8 @@
     "fd740e0d8b64e3a188790f0cb6225ef07d08902f",
     "a4ac67ddf764cce91010118db3915e7ad3481cb8",
     "3a5841256c6144034a2798d153712a7da664ba63",
-    "6ea7a89b3175d84be9ba6d4086b04b675a3cd2fb"
+    "6ea7a89b3175d84be9ba6d4086b04b675a3cd2fb",
+    "c8e6811113de1ff714f033d2ea5cc6228f105d0d"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
