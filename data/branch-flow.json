@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T02:47:21.730Z",
+  "generatedAt": "2026-11-16T11:31:44.987Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "45ab315afe43e9e4042b762829763cc4c6cb703e",
+      "shortSha": "45ab315",
+      "title": "🔖 release v1.5.2",
+      "author": "王一之",
+      "date": "2026-11-16T02:58:09Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/45ab315afe43e9e4042b762829763cc4c6cb703e"
+    },
     {
       "sha": "c8e6811113de1ff714f033d2ea5cc6228f105d0d",
       "shortSha": "c8e6811",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-07-08T07:01:36Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/868545c097078542ad092b887a6f410ef4dad112"
-    },
-    {
-      "sha": "01d0457fb4ec8e2a1bf0c1cceb7d0a896803a90f",
-      "shortSha": "01d0457",
-      "title": "🔧 将 .codex 加入 .gitignore",
-      "author": "王一之",
-      "date": "2026-07-08T06:54:38Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/01d0457fb4ec8e2a1bf0c1cceb7d0a896803a90f"
     }
   ],
   "betaCommits": [
@@ -3544,7 +3544,8 @@
     "a4ac67ddf764cce91010118db3915e7ad3481cb8",
     "3a5841256c6144034a2798d153712a7da664ba63",
     "6ea7a89b3175d84be9ba6d4086b04b675a3cd2fb",
-    "c8e6811113de1ff714f033d2ea5cc6228f105d0d"
+    "c8e6811113de1ff714f033d2ea5cc6228f105d0d",
+    "45ab315afe43e9e4042b762829763cc4c6cb703e"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
