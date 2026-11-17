@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T22:11:12.549Z",
+  "generatedAt": "2026-11-17T04:32:41.790Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "b4148ec86eb9e2287ceb8952f399ec222bb739a9",
+      "shortSha": "b4148ec",
+      "title": "🌐 add Italian (it-IT) translation (#1861)",
+      "author": "Hanamichi27",
+      "date": "2026-11-17T02:15:55Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/b4148ec86eb9e2287ceb8952f399ec222bb739a9"
+    },
     {
       "sha": "45ab315afe43e9e4042b762829763cc4c6cb703e",
       "shortSha": "45ab315",
@@ -1281,14 +1289,6 @@
       "author": "wangyizhi",
       "date": "2026-07-09T01:50:40Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/b5fc2adb6a20b08d7e8cd955456fbc29faf63b35"
-    },
-    {
-      "sha": "868545c097078542ad092b887a6f410ef4dad112",
-      "shortSha": "868545c",
-      "title": "✨ 预发布(beta)版本更新后也自动打开更新日志页",
-      "author": "王一之",
-      "date": "2026-07-08T07:01:36Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/868545c097078542ad092b887a6f410ef4dad112"
     }
   ],
   "betaCommits": [
@@ -3545,7 +3545,8 @@
     "3a5841256c6144034a2798d153712a7da664ba63",
     "6ea7a89b3175d84be9ba6d4086b04b675a3cd2fb",
     "c8e6811113de1ff714f033d2ea5cc6228f105d0d",
-    "45ab315afe43e9e4042b762829763cc4c6cb703e"
+    "45ab315afe43e9e4042b762829763cc4c6cb703e",
+    "b4148ec86eb9e2287ceb8952f399ec222bb739a9"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
