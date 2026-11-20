@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T03:23:51.165Z",
+  "generatedAt": "2026-11-20T12:59:20.550Z",
   "source": {
     "repo": "scriptscat/scriptcat",
     "mainBranch": "main",
@@ -10,6 +10,14 @@
     "previousContextLimit": 80
   },
   "mainCommits": [
+    {
+      "sha": "28d6b0d2e537a092698982b0a4e5529d2e6f0df5",
+      "shortSha": "28d6b0d",
+      "title": "🌐 it-IT: shorten popup section titles (#1864)",
+      "author": "Hanamichi27",
+      "date": "2026-11-20T07:01:07Z",
+      "url": "https://github.com/scriptscat/scriptcat/commit/28d6b0d2e537a092698982b0a4e5529d2e6f0df5"
+    },
     {
       "sha": "b4148ec86eb9e2287ceb8952f399ec222bb739a9",
       "shortSha": "b4148ec",
@@ -1281,14 +1289,6 @@
       "author": "王一之",
       "date": "2026-07-09T02:01:43Z",
       "url": "https://github.com/scriptscat/scriptcat/commit/9a65cd7343e63f42752cbe2cc422245b6adf74e9"
-    },
-    {
-      "sha": "b5fc2adb6a20b08d7e8cd955456fbc29faf63b35",
-      "shortSha": "b5fc2ad",
-      "title": "📝 优化商店描述与 README 标语提升「用户脚本」可发现性 (#1553)",
-      "author": "wangyizhi",
-      "date": "2026-07-09T01:50:40Z",
-      "url": "https://github.com/scriptscat/scriptcat/commit/b5fc2adb6a20b08d7e8cd955456fbc29faf63b35"
     }
   ],
   "betaCommits": [
@@ -3546,7 +3546,8 @@
     "6ea7a89b3175d84be9ba6d4086b04b675a3cd2fb",
     "c8e6811113de1ff714f033d2ea5cc6228f105d0d",
     "45ab315afe43e9e4042b762829763cc4c6cb703e",
-    "b4148ec86eb9e2287ceb8952f399ec222bb739a9"
+    "b4148ec86eb9e2287ceb8952f399ec222bb739a9",
+    "28d6b0d2e537a092698982b0a4e5529d2e6f0df5"
   ],
   "betaOnlyShas": [],
   "previousBetaShas": [
